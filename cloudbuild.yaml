@@ -12,7 +12,7 @@ steps:
         "-t",
         "europe-north1-docker.pkg.dev/playground-341718/movielist/node",
         "-f",
-        "Dockerfile-node",
+        "Dockerfile",
         ".",
       ]
   - name: "gcr.io/cloud-builders/docker"
@@ -24,7 +24,7 @@ steps:
       [
         "run",
         "deploy",
-        "react-demo-chat-node",
+        "movielist",
         "--image",
         "europe-north1-docker.pkg.dev/playground-341718/movielist/node",
         "--region",
