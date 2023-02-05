@@ -15,25 +15,14 @@ server.use((req, res, next) => {
 });
 server.use(cors());
 
-server.get("/message", (req, res) => {
-  console.log("/message");
+server.get("/data.json", (req, res) => {
+  console.log("/data.json");
   res.setHeader("Content-Type", "application/json");
   res.end(
-    JSON.stringify({
-      messageOfTheDay: "TBD...",
-    })
-  );
-});
-
-server.post("/detectIntent", (req, res) => {
-  console.log(JSON.stringify(req.body));
-  const messageText = req.body.text;
-  console.log(`/detectIntent ${messageText}`);
-  res.setHeader("Content-Type", "application/json");
-  res.end(
-    JSON.stringify({
-      fullfilment: `TBD: Dialogflow fullfilment of "${messageText}"`,
-    })
+    JSON.stringify([
+      { title: "Item 1", tags: ["tag1", "tag2"] },
+      { title: "Item 2", tags: ["tag2", "tag3"] },
+    ])
   );
 });
 
