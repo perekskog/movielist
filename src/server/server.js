@@ -18,12 +18,7 @@ server.use(cors());
 server.get("/data.json", (req, res) => {
   console.log("/data.json");
   res.setHeader("Content-Type", "application/json");
-  res.end(
-    JSON.stringify([
-      { title: "Item 1", tags: ["tag1", "tag2"] },
-      { title: "Item 2", tags: ["tag2", "tag3"] },
-    ])
-  );
+  res.sendFile(path.join(__approot + "/src/server/data.json"));
 });
 
 server.listen(8080, () =>
