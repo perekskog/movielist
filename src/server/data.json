@@ -1,4 +1,5 @@
 [
   { "title": "TNG", "category": ["ms"] },
-  { "title": "Home Alone", "category": ["swesub", "ms"] }
+  { "title": "Home Alone", "category": ["swesub", "ms"] },
+  { "title": "Home Alone 2", "category": ["swesub"] }
 ]
