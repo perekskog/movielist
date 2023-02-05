@@ -1,0 +1,33 @@
+.app {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.motd {
+  width: 20em;
+  margin: 0 auto;
+}
+
+.message-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.message-left {
+  margin-right: 30%;
+  text-align: left;
+  background-color: #f0f8f0;
+}
+
+.message-right {
+  margin-left: 30%;
+  text-align: right;
+  background-color: #eee;
+}
