@@ -19,7 +19,7 @@ const App = () => {
       data.filter(
         (item) =>
           item.title.toLowerCase().includes(filter.toLowerCase()) &&
-          (!selectedTag || item.tags.includes(selectedTag))
+          (!selectedTag || item.category.includes(selectedTag))
       )
     );
   }, [filter, selectedTag, data]);
@@ -39,7 +39,7 @@ const App = () => {
         <option value="">All</option>
         {[
           ...new Set(
-            data.reduce((allTags, item) => [...allTags, ...item.tags], [])
+            data.reduce((allTags, item) => [...allTags, ...item.category], [])
           ),
         ].map((tag) => (
           <option key={tag} value={tag}>
@@ -50,7 +50,7 @@ const App = () => {
       <ul>
         {filteredData.map((item) => (
           <li key={item.title}>
-            {item.title} - {item.tags.join(", ")}
+            {item.title} - {item.category.join(", ")}
           </li>
         ))}
       </ul>
