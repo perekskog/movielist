@@ -16,11 +16,10 @@ server.use((req, res, next) => {
 server.use(cors());
 
 server.get("/data.json", (req, res) => {
-  console.log("/data.json");
   res.setHeader("Content-Type", "application/json");
-  res.sendFile(path.join(__approot + "/src/server/data.json"));
+  res.sendFile(path.join(__approot + "/src/server/allmovies.json"));
 });
 
 server.listen(8080, () =>
-  console.log("react-demo-chat listening on port 8080@230127 13:16")
+  console.log("react-demo-chat listening on port 8080@230207 00:13")
 );
