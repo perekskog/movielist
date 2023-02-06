@@ -7,8 +7,13 @@ const App = () => {
   const [filter, setFilter] = useState("");
   const [selectedTag, setSelectedTag] = useState("");
 
+  // add field to array which is the index of the item in the array
+
   useEffect(() => {
     axios.get("data.json").then((res) => {
+      res.data.forEach((obj, index) => {
+        obj.index = index;
+      });
       setData(res.data);
       setFilteredData(res.data);
     });
@@ -49,7 +54,7 @@ const App = () => {
       </select>
       <ul>
         {filteredData.map((item) => (
-          <li key={item.title}>
+          <li key={item.index}>
             {item.title} - {item.category.join(", ")}
           </li>
         ))}
