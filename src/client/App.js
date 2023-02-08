@@ -68,7 +68,11 @@ const App = () => {
       <ul>
         {filteredData.map((item) => (
           <li key={item.index}>
-            {item.title} - {item.category.join(", ")}
+            {item.title}
+            {item.category.length > 0 && (
+              <> ({item.category.join(", ")}) </>
+            )} -> {item["media-location"]} [{item["media-type"]}/
+            {item["media-format"]}]
           </li>
         ))}
       </ul>
