@@ -11,6 +11,19 @@ const App = () => {
 
   useEffect(() => {
     axios.get("data.json").then((res) => {
+      res.data.sort(function (a, b) {
+        var titleA = a.title.toUpperCase();
+        var titleB = b.title.toUpperCase();
+        if (titleA < titleB) {
+          return -1;
+        }
+        if (titleA > titleB) {
+          return 1;
+        }
+
+        // titles must be equal
+        return 0;
+      });
       res.data.forEach((obj, index) => {
         obj.index = index;
       });
