@@ -69,8 +69,11 @@ const App = () => {
         {filteredData.map((item) => (
           <li key={item.index}>
             {item.title}
+            {item.subtitle.length > 0 && (
+                <> [text: {item.subtitle}] </>
+            )}
             {item.category.length > 0 && (
-              <> ({item.category.join(", ")}) </>
+              <> (kategori: {item.category.join(", ")}) </>
             )} -> {item["media-location"]} [{item["media-type"]}/
             {item["media-format"]}]
           </li>
