@@ -70,7 +70,7 @@ const App = () => {
           <li key={item.index}>
             {item.title}
             {item.subtitle.length > 0 && (
-                <> [{item.subtitle}] </>
+                <> [textad på {item.subtitle}] </>
             )}
             {item.category.length > 0 && (
               <> ({item.category.join(", ")}) </>
