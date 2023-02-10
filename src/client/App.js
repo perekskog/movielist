@@ -70,10 +70,10 @@ const App = () => {
           <li key={item.index}>
             {item.title}
             {item.subtitle.length > 0 && (
-                <> [textad på {item.subtitle}] </>
+                <> [text {item.subtitle}] </>
             )}
             {item.category.length > 0 && (
-              <> ({item.category.join(", ")}) </>
+              <> (kategori {item.category.join(", ")}) </>
             )} -> {item["media-location"]} [{item["media-type"]}/
             {item["media-format"]}]
           </li>
