@@ -10,14 +10,14 @@ steps:
       [
         "build",
         "-t",
-        "europe-north1-docker.pkg.dev/playground-341718/movielist/node",
+        "europe-north1-docker.pkg.dev/playground-341718/movielist-feature/node",
         "-f",
         "Dockerfile",
         ".",
       ]
   - name: "gcr.io/cloud-builders/docker"
     args:
-      ["push", "europe-north1-docker.pkg.dev/playground-341718/movielist/node"]
+      ["push", "europe-north1-docker.pkg.dev/playground-341718/movielist-feature/node"]
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
     entrypoint: gcloud
     args:
@@ -26,11 +26,11 @@ steps:
         "deploy",
         "movielist-feature",
         "--image",
-        "europe-north1-docker.pkg.dev/playground-341718/movielist/node",
+        "europe-north1-docker.pkg.dev/playground-341718/movielist-feature/node",
         "--region",
         "europe-north1",
         "--port",
         "8080",
       ]
 images:
-  - europe-north1-docker.pkg.dev/playground-341718/movielist/node
+  - europe-north1-docker.pkg.dev/playground-341718/movielist-feature/node
