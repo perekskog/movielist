@@ -1,6 +1,41 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+const getNationalFlagForLanguage = (language) => {
+  switch (language) {
+    case "se":
+      return "🇸🇪";
+    case "en":
+      return "🇬🇧";
+    default:
+      // return unknown flag
+      return "🏴";
+  }
+};
+
+const MovieItem = (item) => {
+  return (
+    <div className="movie-item" key={item.index}>
+      <h5 className="movie-title">
+        {item.title}
+        &nbsp;
+        {getNationalFlagForLanguage(item.subtitle)}
+      </h5>
+      <p className="movie-details">
+        {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
+        &nbsp;
+        {item.category.length > 0 && (
+          <> (kategori: {item.category.join(", ")}) </>
+        )}
+      </p>
+    </div>
+  );
+};
+
+const MovieList = (props) => {
+  return props.filteredData.map((item) => <MovieItem {...item} />);
+};
+
 const App = () => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
@@ -65,20 +100,7 @@ const App = () => {
           </option>
         ))}
       </select>
-      <ul>
-        {filteredData.map((item) => (
-          <li key={item.index}>
-            {item.title}
-            {item.subtitle.length > 0 && (
-                <> [text: {item.subtitle}] </>
-            )}
-            {item.category.length > 0 && (
-              <> (kategori: {item.category.join(", ")}) </>
-            )} -> {item["media-location"]} [{item["media-type"]}/
-            {item["media-format"]}]
-          </li>
-        ))}
-      </ul>
+      <MovieList filteredData={filteredData} />
     </div>
   );
 };

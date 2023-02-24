@@ -1,33 +1,23 @@
-.app {
-  margin-left: 10%;
-  margin-right: 10%;
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 30em;
 }
-
-.motd {
-  width: 20em;
-  margin: 0 auto;
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
-
-.message-list {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.movie-title {
+  margin-bottom: 0;
 }
-
-.message {
-  border: 1px solid #aaa;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.message-left {
-  margin-right: 30%;
-  text-align: left;
-  background-color: #f0f8f0;
-}
-
-.message-right {
-  margin-left: 30%;
-  text-align: right;
-  background-color: #eee;
+.movie-details {
+  margin-bottom: 0px;
 }
