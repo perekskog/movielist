@@ -1,6 +1,24 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+const MovieItem = (item) => {
+  return (
+    <div key={item.index}>
+      {item.title}
+      {item.subtitle.length > 0 && <> [text: {item.subtitle}] </>}
+      {item.category.length > 0 && (
+        <> (kategori: {item.category.join(", ")}) </>
+      )}{" "}
+      --&gt; {item["media-location"]} [{item["media-type"]}/
+      {item["media-format"]}]
+    </div>
+  );
+};
+
+const MovieList = (props) => {
+  return props.filteredData.map((item) => <MovieItem {...item} />);
+};
+
 const App = () => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
@@ -65,20 +83,7 @@ const App = () => {
           </option>
         ))}
       </select>
-      <ul>
-        {filteredData.map((item) => (
-          <li key={item.index}>
-            {item.title}
-            {item.subtitle.length > 0 && (
-                <> [text: {item.subtitle}] </>
-            )}
-            {item.category.length > 0 && (
-              <> (kategori: {item.category.join(", ")}) </>
-            )} -> {item["media-location"]} [{item["media-type"]}/
-            {item["media-format"]}]
-          </li>
-        ))}
-      </ul>
+      <MovieList filteredData={filteredData} />
     </div>
   );
 };
