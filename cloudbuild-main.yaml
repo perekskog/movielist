@@ -1,0 +1,36 @@
+steps:
+  - name: node
+    entrypoint: npm
+    args: ["install"]
+  # - name: node
+  #   entrypoint: npm
+  #   args: ["test"]
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "europe-north1-docker.pkg.dev/playground-341718/movielist/main",
+        "-f",
+        "Dockerfile",
+        ".",
+      ]
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      ["push", "europe-north1-docker.pkg.dev/playground-341718/movielist/main"]
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    entrypoint: gcloud
+    args:
+      [
+        "run",
+        "deploy",
+        "movielist",
+        "--image",
+        "europe-north1-docker.pkg.dev/playground-341718/movielist/main",
+        "--region",
+        "europe-north1",
+        "--port",
+        "8080",
+      ]
+images:
+  - europe-north1-docker.pkg.dev/playground-341718/movielist/main
