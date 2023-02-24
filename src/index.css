@@ -1,5 +1,23 @@
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 30em;
+}
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
 .movie-title {
   margin-bottom: 0;
 }
 .movie-details {
+  margin-bottom: 0px;
 }

@@ -15,7 +15,7 @@ const getNationalFlagForLanguage = (language) => {
 
 const MovieItem = (item) => {
   return (
-    <div key={item.index}>
+    <div className="movie-item" key={item.index}>
       <h5 className="movie-title">
         {item.title}
         &nbsp;
