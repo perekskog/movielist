@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { MyBug } from "./bug.js";
 
 // Get a flag for a language.
 const getNationalFlagForLanguage = (language) => {
@@ -92,35 +93,30 @@ const App = () => {
     return [...new Set(c)];
   };
 
-  const optionValues = (data) => {
-    return data.map((tag) => {
-      <option key={tag} value={tag}>
-        {tag}
-      </option>;
-    });
-  };
-
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Filter by title"
-        value={filter}
-        onChange={(e) => setFilter(e.target.value)}
-      />
-      <select
-        value={selectedCategory}
-        onChange={(e) => setSelectedCategory(e.target.value)}
-      >
-        <option value="">All</option>
-        {uniqueCategories(data).map((tag) => (
-          <option key={tag} value={tag}>
-            {tag}
-          </option>
-        ))}
-      </select>
-      <MovieList filteredData={filteredData} />
-    </div>
+    <>
+      {/* <MyBug /> */}
+      <div>
+        <input
+          type="text"
+          placeholder="Filter by title"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        />
+        <select
+          value={selectedCategory}
+          onChange={(e) => setSelectedCategory(e.target.value)}
+        >
+          <option value="">All</option>
+          {uniqueCategories(data).map((tag) => (
+            <option key={tag} value={tag}>
+              {tag}
+            </option>
+          ))}
+        </select>
+        <MovieList filteredData={filteredData} />
+      </div>
+    </>
   );
 };
 
