@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+// Get a flag for a language.
 const getNationalFlagForLanguage = (language) => {
   switch (language) {
     case "se":
@@ -13,6 +14,7 @@ const getNationalFlagForLanguage = (language) => {
   }
 };
 
+// Display a single movie.
 const MovieItem = (item) => {
   return (
     <div className="movie-item" key={item.index}>
@@ -32,6 +34,7 @@ const MovieItem = (item) => {
   );
 };
 
+// Display a list of movies.
 const MovieList = (props) => {
   return props.filteredData.map((item) => <MovieItem {...item} />);
 };
@@ -42,8 +45,7 @@ const App = () => {
   const [filter, setFilter] = useState("");
   const [selectedTag, setSelectedTag] = useState("");
 
-  // add field to array which is the index of the item in the array
-
+  // Load movie data once when started.
   useEffect(() => {
     axios.get("data.json").then((res) => {
       res.data.sort(function (a, b) {
@@ -67,6 +69,7 @@ const App = () => {
     });
   }, []);
 
+  // Update filtered data when data, filter or selected tag changes.
   useEffect(() => {
     setFilteredData(
       data.filter(
