@@ -39,11 +39,13 @@ const MovieList = (props) => {
   return props.filteredData.map((item) => <MovieItem {...item} />);
 };
 
+// create array from set
+
 const App = () => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [filter, setFilter] = useState("");
-  const [selectedTag, setSelectedTag] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
 
   // Load movie data once when started.
   useEffect(() => {
@@ -75,10 +77,26 @@ const App = () => {
       data.filter(
         (item) =>
           item.title.toLowerCase().includes(filter.toLowerCase()) &&
-          (!selectedTag || item.category.includes(selectedTag))
+          (!selectedCategory || item.category.includes(selectedCategory))
       )
     );
-  }, [filter, selectedTag, data]);
+  }, [filter, selectedCategory, data]);
+
+  const uniqueCategories = (data) => {
+    const c = data.reduce(
+      (allCategories, item) => [...allCategories, ...item.category],
+      []
+    );
+    return [...new Set(c)];
+  };
+
+  const optionValues = (data) => {
+    return data.map((tag) => {
+      <option key={tag} value={tag}>
+        {tag}
+      </option>;
+    });
+  };
 
   return (
     <div>
@@ -89,15 +107,11 @@ const App = () => {
         onChange={(e) => setFilter(e.target.value)}
       />
       <select
-        value={selectedTag}
-        onChange={(e) => setSelectedTag(e.target.value)}
+        value={selectedCategory}
+        onChange={(e) => setSelectedCategory(e.target.value)}
       >
         <option value="">All</option>
-        {[
-          ...new Set(
-            data.reduce((allTags, item) => [...allTags, ...item.category], [])
-          ),
-        ].map((tag) => (
+        {uniqueCategories(data).map((tag) => (
           <option key={tag} value={tag}>
             {tag}
           </option>
