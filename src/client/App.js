@@ -36,7 +36,9 @@ const MovieItem = (item) => {
 
 // Display a list of movies.
 const MovieList = (props) => {
-  return props.filteredData.map((item) => <MovieItem {...item} />);
+  return props.filteredData.map((item) => (
+    <MovieItem key={item.index} {...item} />
+  ));
 };
 
 // create array from set
