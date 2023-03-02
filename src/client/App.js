@@ -97,23 +97,27 @@ const App = () => {
     <>
       {/* <MyBug /> */}
       <div>
-        <input
-          type="text"
-          placeholder="Filter by title"
-          value={filter}
-          onChange={(e) => setFilter(e.target.value)}
-        />
-        <select
-          value={selectedCategory}
-          onChange={(e) => setSelectedCategory(e.target.value)}
-        >
-          <option value="">All</option>
-          {uniqueCategories(data).map((tag) => (
-            <option key={tag} value={tag}>
-              {tag}
-            </option>
-          ))}
-        </select>
+        <form>
+          <input
+            className="form-control"
+            type="text"
+            placeholder="Filter by title"
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+          />
+          <select
+            className="form-select"
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+          >
+            <option value="">All</option>
+            {uniqueCategories(data).map((tag) => (
+              <option key={tag} value={tag}>
+                {tag}
+              </option>
+            ))}
+          </select>
+        </form>
         <MovieList filteredData={filteredData} />
       </div>
     </>
