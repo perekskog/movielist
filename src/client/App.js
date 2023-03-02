@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { MyBug } from "./bug.js";
 
+// Get a flag for a language.
 const getNationalFlagForLanguage = (language) => {
   switch (language) {
     case "se":
@@ -13,6 +15,7 @@ const getNationalFlagForLanguage = (language) => {
   }
 };
 
+// Display a single movie.
 const MovieItem = (item) => {
   return (
     <div className="movie-item" key={item.index}>
@@ -32,18 +35,22 @@ const MovieItem = (item) => {
   );
 };
 
+// Display a list of movies.
 const MovieList = (props) => {
-  return props.filteredData.map((item) => <MovieItem {...item} />);
+  return props.filteredData.map((item) => (
+    <MovieItem key={item.index} {...item} />
+  ));
 };
+
+// create array from set
 
 const App = () => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [filter, setFilter] = useState("");
-  const [selectedTag, setSelectedTag] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
 
-  // add field to array which is the index of the item in the array
-
+  // Load movie data once when started.
   useEffect(() => {
     axios.get("data.json").then((res) => {
       res.data.sort(function (a, b) {
@@ -67,41 +74,49 @@ const App = () => {
     });
   }, []);
 
+  // Update filtered data when data, filter or selected tag changes.
   useEffect(() => {
     setFilteredData(
       data.filter(
         (item) =>
           item.title.toLowerCase().includes(filter.toLowerCase()) &&
-          (!selectedTag || item.category.includes(selectedTag))
+          (!selectedCategory || item.category.includes(selectedCategory))
       )
     );
-  }, [filter, selectedTag, data]);
+  }, [filter, selectedCategory, data]);
+
+  const uniqueCategories = (data) => {
+    const c = data.reduce(
+      (allCategories, item) => [...allCategories, ...item.category],
+      []
+    );
+    return [...new Set(c)];
+  };
 
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Filter by title"
-        value={filter}
-        onChange={(e) => setFilter(e.target.value)}
-      />
-      <select
-        value={selectedTag}
-        onChange={(e) => setSelectedTag(e.target.value)}
-      >
-        <option value="">All</option>
-        {[
-          ...new Set(
-            data.reduce((allTags, item) => [...allTags, ...item.category], [])
-          ),
-        ].map((tag) => (
-          <option key={tag} value={tag}>
-            {tag}
-          </option>
-        ))}
-      </select>
-      <MovieList filteredData={filteredData} />
-    </div>
+    <>
+      {/* <MyBug /> */}
+      <div>
+        <input
+          type="text"
+          placeholder="Filter by title"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        />
+        <select
+          value={selectedCategory}
+          onChange={(e) => setSelectedCategory(e.target.value)}
+        >
+          <option value="">All</option>
+          {uniqueCategories(data).map((tag) => (
+            <option key={tag} value={tag}>
+              {tag}
+            </option>
+          ))}
+        </select>
+        <MovieList filteredData={filteredData} />
+      </div>
+    </>
   );
 };
 
