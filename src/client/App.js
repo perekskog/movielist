@@ -44,7 +44,7 @@ const MovieList = (props) => {
 
 // create array from set
 
-const App = () => {
+const App = (props) => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [filter, setFilter] = useState("");
@@ -101,22 +101,24 @@ const App = () => {
           <input
             className="form-control"
             type="text"
-            placeholder="Filter by title"
+            placeholder="Filtrera på filmnamn"
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
           />
-          <select
-            className="form-select"
-            value={selectedCategory}
-            onChange={(e) => setSelectedCategory(e.target.value)}
-          >
-            <option value="">All</option>
-            {uniqueCategories(data).map((tag) => (
-              <option key={tag} value={tag}>
-                {tag}
-              </option>
-            ))}
-          </select>
+          {props.latest === "true" && (
+            <select
+              className="form-select"
+              value={selectedCategory}
+              onChange={(e) => setSelectedCategory(e.target.value)}
+            >
+              <option value="">Alla kategorier</option>
+              {uniqueCategories(data).map((tag) => (
+                <option key={tag} value={tag}>
+                  {tag}
+                </option>
+              ))}
+            </select>
+          )}
         </form>
         <MovieList filteredData={filteredData} />
       </div>
