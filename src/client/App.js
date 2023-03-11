@@ -3,13 +3,13 @@ import axios from "axios";
 import { MyBug } from "./bug.js";
 
 // Get a flag for a language.
-const getNationalFlagForLanguage = (language, subtitle) => {
-  if (language === "se" || subtitle === "en") return "🇸🇪";
-  if (language === "en") return "🇬🇧";
+const getNationalFlagForLanguage = (audio, subtitle) => {
+  console.log("getNationalFlagForLanguage", audio, subtitle);
 
-  // return image of french flag
+  if (audio === "se" || subtitle === "se") return "🇸🇪";
+  if (audio === "en") return "🇬🇧";
 
-  return "❔";
+  return "🏳️❓";
 };
 
 // Display a single movie.
@@ -19,7 +19,7 @@ const MovieItem = (item) => {
       <h5 className="movie-title">
         {item.title}
         &nbsp;
-        {getNationalFlagForLanguage(item.language, item.subtitle)}
+        {getNationalFlagForLanguage(item.audio, item.subtitle)}
       </h5>
       <p className="movie-details">
         {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
