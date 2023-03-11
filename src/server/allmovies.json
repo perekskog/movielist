@@ -1,16 +1,5 @@
 [
     {
-        "title": "---",
-        "media-location": "A1",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
         "title": "Ronin",
         "media-location": "A2",
         "media-type": "disc",
@@ -646,17 +635,6 @@
         "production-year": -1
     },
     {
-        "title": "---",
-        "media-location": "A48",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
         "title": "Ghostrider 1",
         "media-location": "A49",
         "media-type": "disc",
@@ -705,17 +683,6 @@
         "category": [
             "sverige"
         ],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "A53",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
         "comment": "",
         "production-year": -1
     },
@@ -2014,17 +1981,6 @@
         "production-year": -1
     },
     {
-        "title": "---",
-        "media-location": "B44",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
         "title": "Det nya landet 1/2",
         "media-location": "B45",
         "media-type": "disc",
@@ -2291,17 +2247,6 @@
         "media-format": "dvd",
         "audio": "en",
         "subtitle": "se",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "B62",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -5432,28 +5377,6 @@
         "production-year": -1
     },
     {
-        "title": "---",
-        "media-location": "C147",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "C148",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
         "title": "Maria Wern - Främmande fågel 1/4",
         "media-location": "C149",
         "media-type": "disc",
@@ -6525,39 +6448,6 @@
         "production-year": -1
     },
     {
-        "title": "---",
-        "media-location": "C226",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "C227",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "C228",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
         "title": "Hotell Rwanda",
         "media-location": "C229",
         "media-type": "disc",
@@ -6959,17 +6849,6 @@
         "media-format": "dvd",
         "audio": "en",
         "subtitle": "se",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "C262",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -8195,28 +8074,6 @@
         "media-format": "dvd",
         "audio": "se",
         "subtitle": "?",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "C373",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "---",
-        "media-location": "C374",
-        "media-type": "disc",
-        "media-format": "",
-        "audio": "",
-        "subtitle": "",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -18649,6 +18506,17 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 2010,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Thirteenth floor",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1999,
         "category": [],
         "comments": ""
     }
