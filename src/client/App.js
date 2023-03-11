@@ -9,7 +9,7 @@ const getNationalFlagForLanguage = (audio, subtitle) => {
   if (audio === "se" || subtitle === "se") return "🇸🇪";
   if (audio === "en") return "🇬🇧";
 
-  return "🏳️❓";
+  return "🏳️❔";
 };
 
 // Display a single movie.
