@@ -13,12 +13,12 @@
         "production-year": -1
     },
     {
-        "title": "Schoolgirl Zombies",
+        "title": "Attack Of The Schoolgirl Zombies",
         "media-location": "A3",
         "media-type": "disc",
         "media-format": "xvid",
         "audio": "jp",
-        "subtitle": "?",
+        "subtitle": "se",
         "category": [
             "japan",
             "zoombie"
@@ -10340,8 +10340,8 @@
         "media-location": "Hsorterat",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "category": [
             "krig"
         ],
@@ -12812,17 +12812,6 @@
         "comments": ""
     },
     {
-        "title": "Ebola Syndrome",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "ensub",
-        "subtitle": "",
-        "production-year": 1996,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Shaun of the dead",
         "media-location": "ms",
         "media-type": "file",
@@ -12999,17 +12988,6 @@
         "comments": ""
     },
     {
-        "title": "Blues Brothers 2000",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1998,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Coyote Ugly",
         "media-location": "ms",
         "media-type": "file",
@@ -13094,28 +13072,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 2011,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Avatar",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "se",
-        "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bladerunner v2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1982,
         "category": [],
         "comments": ""
     },
@@ -13252,17 +13208,6 @@
         "comments": ""
     },
     {
-        "title": "Basic Instinct",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1992,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Inside - version 1",
         "media-location": "ms",
         "media-type": "file",
@@ -13340,17 +13285,6 @@
         "comments": ""
     },
     {
-        "title": "Apollo 13",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1995,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Ensam Hemma 2",
         "media-location": "ms",
         "media-type": "file",
@@ -13369,17 +13303,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 1981,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bladerunner",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1982,
         "category": [],
         "comments": ""
     },
@@ -13527,17 +13450,6 @@
         "comments": ""
     },
     {
-        "title": "Blues Brothers",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1980,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Gremlins 1 2:2",
         "media-location": "ms",
         "media-type": "file",
@@ -13589,17 +13501,6 @@
         "audio": "en",
         "subtitle": "",
         "production-year": 2004,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "30 Days of Night",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2007,
         "category": [],
         "comments": ""
     },
@@ -13666,17 +13567,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1987,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Black Rain",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en:swesub",
-        "subtitle": "",
-        "production-year": 1989,
         "category": [],
         "comments": ""
     },
@@ -14326,17 +14216,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Apocalypse Now Redux",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
         "category": [],
         "comments": ""
     },
@@ -15133,17 +15012,6 @@
         "comments": ""
     },
     {
-        "title": "A Clockwork Orange",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "se",
-        "production-year": 1971,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Döda poeter 1-2",
         "media-location": "ms",
         "media-type": "file",
@@ -15239,17 +15107,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Battleship",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2012,
         "category": [],
         "comments": ""
     },
@@ -15980,6 +15837,149 @@
         "comments": ""
     },
     {
+        "title": "Ebola Syndrome",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "en",
+        "production-year": 1996,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "30 Days of Night",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2007,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "A Clockwork Orange",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1971,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Apocalypse Now Redux",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "",
+        "subtitle": "se",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Apollo 13",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1995,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Avatar",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2009,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Basic Instinct",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1992,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Battleship",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2012,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Black Rain",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en:se",
+        "subtitle": "",
+        "production-year": 1989,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bladerunner",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1982,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bladerunner v2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1982,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Blues Brothers",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1980,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Blues Brothers 2000",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1998,
+        "category": [],
+        "comments": ""
+    },
+    {
         "title": "Underworld 1",
         "media-location": "ms",
         "media-type": "file",
@@ -16497,17 +16497,6 @@
         "comments": ""
     },
     {
-        "title": "Beck 01 - Lockpojken",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Beck 30 - Sjukhusmorden",
         "media-location": "ms",
         "media-type": "file",
@@ -16702,6 +16691,17 @@
         "audio": "se",
         "subtitle": "",
         "production-year": 2020,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 01 - Lockpojken",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
         "category": [],
         "comments": ""
     },
