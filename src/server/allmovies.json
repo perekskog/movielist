@@ -12691,39 +12691,6 @@
         "comments": ""
     },
     {
-        "title": "I am Legend",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Creepshow 1",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1982,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "City of Ember",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2008,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Citizane Kane",
         "media-location": "ms",
         "media-type": "file",
@@ -12757,17 +12724,6 @@
         "comments": ""
     },
     {
-        "title": "Rain Man 1-2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1988,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Deliverance 2:2",
         "media-location": "ms",
         "media-type": "file",
@@ -12775,17 +12731,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1972,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Jobs",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2013,
         "category": [],
         "comments": ""
     },
@@ -12878,17 +12823,6 @@
         "comments": ""
     },
     {
-        "title": "Pojken i randig pyjamas 2:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2008,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "War Horse 2:2",
         "media-location": "ms",
         "media-type": "file",
@@ -12955,17 +12889,6 @@
         "comments": ""
     },
     {
-        "title": "Lost HighWay",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Blåsningen",
         "media-location": "ms",
         "media-type": "file",
@@ -12984,17 +12907,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Coyote Ugly",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2000,
         "category": [],
         "comments": ""
     },
@@ -13028,50 +12940,6 @@
         "audio": "en",
         "subtitle": "",
         "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Fisher King",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1991,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Tron",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1982,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Rec 1",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "En oväntad vänskap 1:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2011,
         "category": [],
         "comments": ""
     },
@@ -13120,39 +12988,6 @@
         "comments": ""
     },
     {
-        "title": "Rain Man 2-2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1988,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Pretty Woman",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Das Boot",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1981,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Dead Zone",
         "media-location": "ms",
         "media-type": "file",
@@ -13160,17 +12995,6 @@
         "audio": "en",
         "subtitle": "",
         "production-year": 1983,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Robin Hood - Prince of Thieves",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1991,
         "category": [],
         "comments": ""
     },
@@ -13226,17 +13050,6 @@
         "audio": "iran:se",
         "subtitle": "",
         "production-year": 2017,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Fish Tank",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2009,
         "category": [],
         "comments": ""
     },
@@ -13395,32 +13208,10 @@
         "comments": ""
     },
     {
-        "title": "Wall Street",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1987,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "28 Days Later",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2002,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Solaris",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
         "audio": "",
         "subtitle": "",
         "production-year": 2002,
@@ -13435,17 +13226,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1978,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Scarface",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1983,
         "category": [],
         "comments": ""
     },
@@ -13472,17 +13252,6 @@
         "comments": ""
     },
     {
-        "title": "Girls just want to have fun",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1985,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "The Theory of Everything",
         "media-location": "ms",
         "media-type": "file",
@@ -13501,17 +13270,6 @@
         "audio": "en",
         "subtitle": "",
         "production-year": 2004,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Rec 2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2009,
         "category": [],
         "comments": ""
     },
@@ -13571,17 +13329,6 @@
         "comments": ""
     },
     {
-        "title": "Total Recall",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "",
-        "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Rooftop Christmas Tree",
         "media-location": "ms",
         "media-type": "file",
@@ -13600,17 +13347,6 @@
         "audio": "",
         "subtitle": "se",
         "production-year": 2010,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Döda poeter 2-2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1989,
         "category": [],
         "comments": ""
     },
@@ -13655,17 +13391,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1993,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Jakten på Röd Oktober",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1990,
         "category": [],
         "comments": ""
     },
@@ -13736,28 +13461,6 @@
         "comments": ""
     },
     {
-        "title": "Buried",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2010,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Prometheus",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2012,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Truman Show",
         "media-location": "ms",
         "media-type": "file",
@@ -13780,28 +13483,6 @@
         "comments": ""
     },
     {
-        "title": "Tron Legacy",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2010,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Sista natten med gänget",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1973,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Borta med vinden 3:4",
         "media-location": "ms",
         "media-type": "file",
@@ -13809,17 +13490,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 1939,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Nymphomaniac - Förkortad version 1:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "se",
-        "production-year": 2013,
         "category": [],
         "comments": ""
     },
@@ -13945,17 +13615,6 @@
         "comments": ""
     },
     {
-        "title": "Wall, The",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1982,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "28 Days Later",
         "media-location": "ms",
         "media-type": "file",
@@ -14022,17 +13681,6 @@
         "comments": ""
     },
     {
-        "title": "Imse Vimse Spindel p1",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Mammut",
         "media-location": "ms",
         "media-type": "file",
@@ -14088,17 +13736,6 @@
         "comments": ""
     },
     {
-        "title": "Gula Divisionen 2:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1954,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Borg",
         "media-location": "ms",
         "media-type": "file",
@@ -14110,28 +13747,6 @@
         "comments": ""
     },
     {
-        "title": "Nymphomaniac - Förkortad version 2:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "se",
-        "production-year": 2013,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Social Network",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2010,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "War of the Worlds",
         "media-location": "ms",
         "media-type": "file",
@@ -14139,17 +13754,6 @@
         "audio": "",
         "subtitle": "se",
         "production-year": 2005,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Gula Divisionen 1:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1954,
         "category": [],
         "comments": ""
     },
@@ -14209,17 +13813,6 @@
         "comments": ""
     },
     {
-        "title": "Tetsuo 3 - The Bullet Man",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "War Horse 1:2",
         "media-location": "ms",
         "media-type": "file",
@@ -14271,28 +13864,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 1986,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Oblivion",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2013,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Mamma Mia",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2008,
         "category": [],
         "comments": ""
     },
@@ -14374,17 +13945,6 @@
         "comments": ""
     },
     {
-        "title": "Gravity",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "ensub",
-        "subtitle": "",
-        "production-year": 2013,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Fifty shades of grey",
         "media-location": "ms",
         "media-type": "file",
@@ -14414,28 +13974,6 @@
         "audio": "fi",
         "subtitle": "se",
         "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Zombieland",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Creepshow 2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1987,
         "category": [],
         "comments": ""
     },
@@ -14550,28 +14088,6 @@
         "comments": ""
     },
     {
-        "title": "Starship Troopers",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Studio 54",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1998,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Scrooged",
         "media-location": "ms",
         "media-type": "file",
@@ -14605,17 +14121,6 @@
         "comments": ""
     },
     {
-        "title": "En oväntad vänskap 2:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2011,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Borta med vinden 4:4",
         "media-location": "ms",
         "media-type": "file",
@@ -14623,17 +14128,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 1939,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Pojken i randig pyjamas 1:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2008,
         "category": [],
         "comments": ""
     },
@@ -14660,17 +14154,6 @@
         "comments": ""
     },
     {
-        "title": "Hajen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "LOL",
         "media-location": "ms",
         "media-type": "file",
@@ -14678,17 +14161,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 2012,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Imse Vimse Spindel p2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1990,
         "category": [],
         "comments": ""
     },
@@ -14704,17 +14176,6 @@
         "comments": ""
     },
     {
-        "title": "Jurassic Park III",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Pulp Fiction",
         "media-location": "ms",
         "media-type": "file",
@@ -14722,39 +14183,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1994,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Chocolat",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "se",
-        "production-year": 2000,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Point Break",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1991,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Starman",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1984,
         "category": [],
         "comments": ""
     },
@@ -14788,17 +14216,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Fucking Åmål",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1998,
         "category": [],
         "comments": ""
     },
@@ -14924,28 +14341,6 @@
         "comments": ""
     },
     {
-        "title": "Independance Day",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1996,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Falling in Love",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1984,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Deliverance 1:2",
         "media-location": "ms",
         "media-type": "file",
@@ -15008,17 +14403,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Döda poeter 1-2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1989,
         "category": [],
         "comments": ""
     },
@@ -15118,17 +14502,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 2012,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Hellraiser UNCUT",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "ensub",
-        "subtitle": "",
-        "production-year": 1987,
         "category": [],
         "comments": ""
     },
@@ -15771,17 +15144,6 @@
         "comments": ""
     },
     {
-        "title": "Dansar med varger 1-2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Dansar med vargar 2-2",
         "media-location": "ms",
         "media-type": "file",
@@ -15976,6 +15338,567 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1998,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Buried",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2010,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "City of Ember",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2008,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Coyote Ugly",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2000,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Creepshow 1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1982,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Creepshow 2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1987,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Dansar med vargar 1-2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Das Boot",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "ty",
+        "subtitle": "se",
+        "production-year": 1981,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Döda poeter 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1989,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Döda poeter 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1989,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "En oväntad vänskap 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "fr",
+        "subtitle": "se",
+        "production-year": 2011,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "En oväntad vänskap 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "fr",
+        "subtitle": "se",
+        "production-year": 2011,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Falling in Love",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "",
+        "production-year": 1984,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Fish Tank",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2009,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Fisher King",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1991,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Fucking Åmål",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1998,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Girls just want to have fun",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1985,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Gravity",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "en",
+        "production-year": 2013,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Gula Divisionen 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1954,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Gula Divisionen 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1954,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Hajen 1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1975,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Hellraiser UNCUT",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "en",
+        "production-year": 1987,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "I am Legend",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2007,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Imse Vimse Spindel 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Imse Vimse Spindel 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Independance Day",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1996,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Jakten på Röd Oktober",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Mamma Mia",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2008,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Oblivion",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "",
+        "production-year": 2013,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Point Break",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1991,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Pojken i randig pyjamas 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "",
+        "subtitle": "se",
+        "production-year": 2008,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Pojken i randig pyjamas 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "",
+        "subtitle": "se",
+        "production-year": 2008,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Pretty Woman",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Rain Man 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1988,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Rain Man 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1988,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Rec 1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "sp",
+        "subtitle": "se",
+        "production-year": 2007,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Rec 2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "sp",
+        "subtitle": "se",
+        "production-year": 2009,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Robin Hood - Prince of Thieves",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1991,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Scarface",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1983,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Sista natten med gänget",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1973,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Social Network",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2010,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Solaris",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2002,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Starman",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "",
+        "production-year": 1984,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Starship Troopers",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Studio 54",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1998,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Tetsuo 3 - The Bullet Man",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "jp:en",
+        "subtitle": "",
+        "production-year": 2009,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Total Recall BR",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Tron",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1982,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Tron Legacy",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2010,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Wall, The",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1982,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Wall Street",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "",
+        "production-year": 1987,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Zombieland",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2009,
         "category": [],
         "comments": ""
     },
@@ -16706,12 +16629,23 @@
         "comments": ""
     },
     {
+        "title": "Rocky 1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1976,
+        "category": [],
+        "comments": ""
+    },
+    {
         "title": "Rocky 2",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1979,
         "category": [],
         "comments": ""
@@ -16721,8 +16655,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1982,
         "category": [],
         "comments": ""
@@ -16732,8 +16666,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1985,
         "category": [],
         "comments": ""
@@ -16743,20 +16677,9 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Rocky 1",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1976,
         "category": [],
         "comments": ""
     },
@@ -16765,9 +16688,20 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Tillbaka till framtiden 1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1985,
         "category": [],
         "comments": ""
     },
@@ -16776,8 +16710,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1989,
         "category": [],
         "comments": ""
@@ -16787,20 +16721,9 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Tillbaka till framtiden 1",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1985,
         "category": [],
         "comments": ""
     },
@@ -16897,8 +16820,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 2003,
         "category": [],
         "comments": ""
@@ -16908,8 +16831,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 2006,
         "category": [],
         "comments": ""
@@ -16919,9 +16842,20 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 2007,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Scream 1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1996,
         "category": [],
         "comments": ""
     },
@@ -16930,8 +16864,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1997,
         "category": [],
         "comments": ""
@@ -16941,8 +16875,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 2000,
         "category": [],
         "comments": ""
@@ -16952,31 +16886,9 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 2011,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Scream 1",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1996,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Sällskapsresan 4 - Den ofrivillige golfaren",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
         "category": [],
         "comments": ""
     },
@@ -16985,9 +16897,9 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
-        "production-year": 0,
+        "production-year": 1985,
         "category": [],
         "comments": ""
     },
@@ -16996,20 +16908,9 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Sällskapsresan 5 - Hälsoresan",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
+        "production-year": 1980,
         "category": [],
         "comments": ""
     },
@@ -17018,9 +16919,31 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
-        "production-year": 0,
+        "production-year": 1988,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Sällskapsresan 4 - Den ofrivillige golfaren",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1991,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Sällskapsresan 5 - Hälsoresan",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1999,
         "category": [],
         "comments": ""
     },
@@ -17157,39 +17080,6 @@
         "comments": ""
     },
     {
-        "title": "Bond 16 Licence to kill",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1989,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 01 Dr No",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1962,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 20 Die Another Day",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2002,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Bond 23 - Skyfall 2:2",
         "media-location": "ms",
         "media-type": "file",
@@ -17197,28 +17087,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 2012,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 11 Moonraker",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1979,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 05 You only live twice",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1967,
         "category": [],
         "comments": ""
     },
@@ -17245,50 +17113,6 @@
         "comments": ""
     },
     {
-        "title": "Bond 19 The World is not enough",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1999,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 04 Thunderball",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1965,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 15 The Living Daylights",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1987,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 08 Live and let die",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1973,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Bond 23 - Skyfall 1:2",
         "media-location": "ms",
         "media-type": "file",
@@ -17296,17 +17120,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 2012,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 09 The man with the golden gun",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1974,
         "category": [],
         "comments": ""
     },
@@ -17322,17 +17135,6 @@
         "comments": ""
     },
     {
-        "title": "Bond 10 Älskade spion",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1977,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Bond 06 I hennes majestäts hemliga tjänst",
         "media-location": "ms",
         "media-type": "file",
@@ -17340,17 +17142,6 @@
         "audio": "",
         "subtitle": "",
         "production-year": 1969,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond 18 Tomorrow Never Dies",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
         "category": [],
         "comments": ""
     },
@@ -17366,12 +17157,34 @@
         "comments": ""
     },
     {
+        "title": "Bond -- Never say never again",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1983,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 01 Dr No",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1962,
+        "category": [],
+        "comments": ""
+    },
+    {
         "title": "Bond 02 From Russia with love",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1963,
         "category": [],
         "comments": ""
@@ -17381,20 +17194,75 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1964,
         "category": [],
         "comments": ""
     },
     {
-        "title": "Bond 14 A view to a kill",
+        "title": "Bond 04 Thunderball",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1985,
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1965,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 05 You only live twice",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1967,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 08 Live and let die",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1973,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 09 The man with the golden gun",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1974,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 10 Älskade spion",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1977,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 11 Moonraker",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1979,
         "category": [],
         "comments": ""
     },
@@ -17403,20 +17271,9 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1981,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Bond -- Never say never again",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1983,
         "category": [],
         "comments": ""
     },
@@ -17425,9 +17282,75 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 1983,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 14 A view to a kill",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1985,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 15 The Living Daylights",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1987,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 16 Licence to kill",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1989,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 18 Tomorrow Never Dies",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 19 The World is not enough",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1999,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bond 20 Die Another Day",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2002,
         "category": [],
         "comments": ""
     },
@@ -17542,6 +17465,28 @@
         "comments": ""
     },
     {
+        "title": "Jurassic Park 3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "srt",
+        "audio": "en",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Jurassic Park 3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
         "title": "Spiderman 3",
         "media-location": "ms",
         "media-type": "file",
@@ -17586,17 +17531,6 @@
         "comments": ""
     },
     {
-        "title": "Friday 13th 9 - Jason goes to Hell",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Friday 13th 3",
         "media-location": "ms",
         "media-type": "file",
@@ -17619,17 +17553,6 @@
         "comments": ""
     },
     {
-        "title": "Friday 13th 1",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Friday 13th 2",
         "media-location": "ms",
         "media-type": "file",
@@ -17647,6 +17570,28 @@
         "media-format": "mp4",
         "audio": "",
         "subtitle": "se",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Friday 13th 1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "en",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Friday 13th 9 - Jason goes to Hell",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "en",
         "production-year": 0,
         "category": [],
         "comments": ""
@@ -17883,6 +17828,28 @@
         "comments": ""
     },
     {
+        "title": "Nymphomaniac - Förkortad version 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "",
+        "subtitle": "se",
+        "production-year": 2013,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Nymphomaniac - Förkortad version 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "",
+        "subtitle": "se",
+        "production-year": 2013,
+        "category": [],
+        "comments": ""
+    },
+    {
         "title": "Titanic 1:3",
         "media-location": "ms",
         "media-type": "file",
@@ -18063,8 +18030,8 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
+        "audio": "jp",
+        "subtitle": "en",
         "production-year": 1975,
         "category": [],
         "comments": ""
@@ -18092,23 +18059,12 @@
         "comments": ""
     },
     {
-        "title": "Twilight Saga 3 - Eclipse",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2010,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Twilight Saga 1 - Twilight",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 0,
         "category": [],
         "comments": ""
@@ -18118,9 +18074,20 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
+        "audio": "en",
+        "subtitle": "se",
         "production-year": 2009,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Twilight Saga 3 - Eclipse",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2010,
         "category": [],
         "comments": ""
     },
@@ -18136,17 +18103,6 @@
         "comments": ""
     },
     {
-        "title": "Resident Evil - Damnation",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2012,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Resident Evil 1",
         "media-location": "ms",
         "media-type": "file",
@@ -18154,28 +18110,6 @@
         "audio": "en",
         "subtitle": "",
         "production-year": 2002,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Resident Evil - Degeneration",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2008,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Resident Evil 3 Extinction",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "en",
-        "subtitle": "",
-        "production-year": 2007,
         "category": [],
         "comments": ""
     },
@@ -18202,24 +18136,35 @@
         "comments": ""
     },
     {
-        "title": "Utvandrarna",
+        "title": "Resident Evil - Damnation",
         "media-location": "ms",
         "media-type": "file",
-        "media-format": "srt",
-        "audio": "",
+        "media-format": "mp4",
+        "audio": "en",
         "subtitle": "",
-        "production-year": 0,
+        "production-year": 2012,
         "category": [],
         "comments": ""
     },
     {
-        "title": "Utvandrarna",
+        "title": "Resident Evil - Degeneration",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2008,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Resident Evil 3 Extinction",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2007,
         "category": [],
         "comments": ""
     },
@@ -18228,9 +18173,9 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
+        "audio": "se",
+        "subtitle": "en",
+        "production-year": 1971,
         "category": [],
         "comments": ""
     },
@@ -18239,9 +18184,31 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "srt",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
+        "audio": "se",
+        "subtitle": "en",
+        "production-year": 1971,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Utvandrarna",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "se",
+        "subtitle": "en",
+        "production-year": 1971,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Utvandrarna",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "srt",
+        "audio": "se",
+        "subtitle": "en",
+        "production-year": 1971,
         "category": [],
         "comments": ""
     },
@@ -18510,6 +18477,17 @@
         "comments": ""
     },
     {
+        "title": "Lost Highway",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "",
+        "subtitle": "",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
         "title": "Thirteenth floor",
         "media-location": "ms",
         "media-type": "file",
@@ -18517,6 +18495,83 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1999,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Systrar i jeans",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2005,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Ronja Rövardotter",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1984,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bröderna Lejonhjärta",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "se",
+        "production-year": 1977,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Att göra en pudel",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Vi hade i alla fall tur med vädret",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1980,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Maffiabröder 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Maffiabröder 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
         "category": [],
         "comments": ""
     }
