@@ -702,7 +702,7 @@
         "media-location": "A55",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "se",
+        "audio": "en",
         "subtitle": "?",
         "category": [],
         "comment": "",
@@ -713,7 +713,7 @@
         "media-location": "A56",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "se",
+        "audio": "en",
         "subtitle": "?",
         "category": [],
         "comment": "",
@@ -2956,7 +2956,7 @@
         "media-location": "B121",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -2969,7 +2969,7 @@
         "media-location": "B122",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3112,7 +3112,7 @@
         "media-location": "B133",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3125,7 +3125,7 @@
         "media-location": "B134",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3208,7 +3208,7 @@
         "media-location": "B141",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3221,7 +3221,7 @@
         "media-location": "B142",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3234,7 +3234,7 @@
         "media-location": "B143",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3247,7 +3247,7 @@
         "media-location": "B144",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3260,7 +3260,7 @@
         "media-location": "B145",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3273,7 +3273,7 @@
         "media-location": "B146",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3286,7 +3286,7 @@
         "media-location": "B147",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3299,7 +3299,7 @@
         "media-location": "B148",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3312,7 +3312,7 @@
         "media-location": "B149",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3325,7 +3325,7 @@
         "media-location": "B150",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3338,7 +3338,7 @@
         "media-location": "B151",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3351,7 +3351,7 @@
         "media-location": "B152",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3364,7 +3364,7 @@
         "media-location": "B153",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3377,7 +3377,7 @@
         "media-location": "B154",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3390,7 +3390,7 @@
         "media-location": "B155",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3403,7 +3403,7 @@
         "media-location": "B156",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3416,7 +3416,7 @@
         "media-location": "B157",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3714,7 +3714,7 @@
         "media-location": "C20",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [
             "sf"
@@ -3727,7 +3727,7 @@
         "media-location": "C21",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3740,7 +3740,7 @@
         "media-location": "C22",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3753,7 +3753,7 @@
         "media-location": "C23",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3766,7 +3766,7 @@
         "media-location": "C24",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3790,7 +3790,7 @@
         "media-location": "C26",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [],
         "comment": "",
@@ -3801,7 +3801,7 @@
         "media-location": "C27",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "en",
         "subtitle": "",
         "category": [],
         "comment": "",
@@ -3812,7 +3812,7 @@
         "media-location": "C28",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "jul",
@@ -3958,7 +3958,7 @@
         "media-location": "C41",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3971,7 +3971,7 @@
         "media-location": "C42",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3984,7 +3984,7 @@
         "media-location": "C43",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -3997,7 +3997,7 @@
         "media-location": "C44",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4032,7 +4032,7 @@
         "media-location": "C47",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "jul?",
@@ -4073,7 +4073,7 @@
         "media-location": "C50",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4097,7 +4097,7 @@
         "media-location": "C52",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4167,7 +4167,7 @@
         "media-location": "C58",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4191,7 +4191,7 @@
         "media-location": "C60",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4226,7 +4226,7 @@
         "media-location": "C63",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4239,7 +4239,7 @@
         "media-location": "C64",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4439,7 +4439,7 @@
         "media-location": "C80",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4465,7 +4465,7 @@
         "media-location": "C82",
         "media-type": "disc",
         "media-format": "?",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [],
         "comment": "",
@@ -4476,7 +4476,7 @@
         "media-location": "C83",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "dokumentär",
@@ -4547,7 +4547,7 @@
         "media-location": "C89",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4560,7 +4560,7 @@
         "media-location": "C90",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4621,7 +4621,7 @@
         "media-location": "C95",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4778,7 +4778,7 @@
         "media-location": "C104",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4826,10 +4826,9 @@
         "media-location": "C107",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
-            "sverige",
             "sverige"
         ],
         "comment": "",
@@ -4862,7 +4861,7 @@
         "media-location": "C109",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -4886,7 +4885,7 @@
         "media-location": "C109",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5355,7 +5354,7 @@
         "media-location": "C145",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5381,7 +5380,7 @@
         "media-location": "C149",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5394,7 +5393,7 @@
         "media-location": "C150",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5407,7 +5406,7 @@
         "media-location": "C151",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5420,7 +5419,7 @@
         "media-location": "C152",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5433,7 +5432,7 @@
         "media-location": "C153",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5446,7 +5445,7 @@
         "media-location": "C154",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5481,7 +5480,7 @@
         "media-location": "C157",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5494,7 +5493,7 @@
         "media-location": "C157",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5654,7 +5653,7 @@
         "media-location": "C168",
         "media-type": "disc",
         "media-format": "",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "sverige"
@@ -5883,7 +5882,7 @@
         "media-location": "C183",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "jul",
@@ -5897,7 +5896,7 @@
         "media-location": "C183",
         "media-type": "disc",
         "media-format": "xvid",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "jul",
@@ -8461,7 +8460,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8474,7 +8473,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8487,7 +8486,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8500,7 +8499,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8513,7 +8512,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8526,7 +8525,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8539,7 +8538,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8552,7 +8551,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8565,7 +8564,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8578,7 +8577,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8591,7 +8590,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8604,7 +8603,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8617,7 +8616,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8630,7 +8629,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8643,7 +8642,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8656,7 +8655,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8669,7 +8668,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8682,7 +8681,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8695,7 +8694,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8708,7 +8707,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8721,7 +8720,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8734,7 +8733,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8747,7 +8746,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8760,7 +8759,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8773,7 +8772,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8786,7 +8785,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8799,7 +8798,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8812,7 +8811,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8825,7 +8824,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8838,7 +8837,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8851,7 +8850,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8864,7 +8863,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8877,7 +8876,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8890,7 +8889,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8903,7 +8902,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8929,7 +8928,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8942,7 +8941,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -8955,7 +8954,7 @@
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "",
+        "audio": "se",
         "subtitle": "",
         "category": [
             "beck"
@@ -10463,8 +10462,8 @@
         "media-location": "Hsorterat",
         "media-type": "disc",
         "media-format": "dvd",
-        "audio": "?",
-        "subtitle": "?",
+        "audio": "se",
+        "subtitle": "",
         "category": [
             "animerat"
         ],
@@ -10897,8 +10896,8 @@
         "title": "En man som heter Ove",
         "media-location": "Hsorterat",
         "media-type": "disc",
-        "media-format": "AttributeError",
-        "audio": "",
+        "media-format": "",
+        "audio": "se",
         "subtitle": "",
         "category": [],
         "comment": "",
@@ -12713,17 +12712,6 @@
         "comments": ""
     },
     {
-        "title": "The Girl with the Dragoon Tatoo 2_2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2011,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Deliverance 2:2",
         "media-location": "ms",
         "media-type": "file",
@@ -13050,17 +13038,6 @@
         "audio": "iran:se",
         "subtitle": "",
         "production-year": 2017,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Tillsammans",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2000,
         "category": [],
         "comments": ""
     },
@@ -14029,17 +14006,6 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1983,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "The Girl with the Dragoon Tatoo 1_2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2011,
         "category": [],
         "comments": ""
     },
@@ -15903,6 +15869,39 @@
         "comments": ""
     },
     {
+        "title": "The Girl with the Dragoon Tatoo 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2011,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "The Girl with the Dragoon Tatoo 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2011,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Tillsammans",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2000,
+        "category": [],
+        "comments": ""
+    },
+    {
         "title": "Underworld 1",
         "media-location": "ms",
         "media-type": "file",
@@ -16200,380 +16199,6 @@
         "comments": ""
     },
     {
-        "title": "Beck 21 - Den Japanska shungamålningen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2006,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 02 - Mannen med ikonerna",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 20 - Advokaten",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2006,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 09 - Hämndens pris",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 28",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 12 - Enslingen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 29",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 27 - Rum 302",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2014,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 17 - Skarpt Läge",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2006,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 08 - Spår i mörkret",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 18 - Flickan i jordkällaren",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2006,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 34",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 14 - Annonsmannen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 11 - Kartellen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 15 - Pojken i glaskulan",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 04 - Öga för öga",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 26 - Levande begravd",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2010,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 22 - Den svaga länken",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 33",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 03 - Vita nätter",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 30 - Sjukhusmorden",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 10 - Mannen utan ansikte",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 05 - Pensionat Pärlan",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 23 - Det tysta skriket",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2006,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 16 - Sista vittnet",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 31",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 01 - xxx",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 07 - The money man",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 19 - Gamen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2006,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 06 - Monstret",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 1997,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 25 - I stormens öga",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 13 - Okänd avsändare",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 32",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Beck 24 - I guds namn",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "",
-        "subtitle": "",
-        "production-year": 2006,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Beck - Undercover",
         "media-location": "ms",
         "media-type": "file",
@@ -16625,6 +16250,380 @@
         "audio": "se",
         "subtitle": "",
         "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 01 - xxx",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 02 - Mannen med ikonerna",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 03 - Vita nätter",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 04 - Öga för öga",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 05 - Pensionat Pärlan",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 06 - Monstret",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 07 - The money man",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 08 - Spår i mörkret",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 1997,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 09 - Hämndens pris",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 10 - Mannen utan ansikte",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 11 - Kartellen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 12 - Enslingen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 13 - Okänd avsändare",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 14 - Annonsmannen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 15 - Pojken i glaskulan",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 16 - Sista vittnet",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 17 - Skarpt Läge",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 18 - Flickan i jordkällaren",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 19 - Gamen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 20 - Advokaten",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 21 - Den Japanska shungamålningen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 22 - Den svaga länken",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2007,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 23 - Det tysta skriket",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 24 - I guds namn",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 25 - I stormens öga",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2009,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 26 - Levande begravd",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2010,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 27 - Rum 302",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 2014,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 28",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 29",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 30 - Sjukhusmorden",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 31",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 32",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 33",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Beck 34",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "",
+        "production-year": 0,
         "category": [],
         "comments": ""
     },
