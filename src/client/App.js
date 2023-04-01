@@ -1,13 +1,23 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { MyBug } from "./bug.js";
+import "./App.css";
+
+function LanguageBadge(props) {
+  return (
+    <div className="swedish-flag">
+      <span className="cross">{props.badge}</span>
+      <span className="flag">{props.flag}</span>
+    </div>
+  );
+}
 
 const accessability = (target, flag, audio, subtitle) => {
   if (audio === target || subtitle === target) return flag;
   if (audio !== target && subtitle === "?") return "?" + flag;
   if (audio === "?" && subtitle !== target) return "?" + flag;
   // Here we know that audio and subtitle are not target and not "?"
-  if (audio !== target && subtitle !== target) return "X" + flag;
+  if (audio !== target && subtitle !== target) return "🚫" + flag;
 };
 
 // Get a flag for a language.
@@ -23,6 +33,29 @@ const getNationalFlagForLanguage = (audio, subtitle) => {
   return flags;
 };
 
+const badge = (target, audio, subtitle) => {
+  if (audio === target || subtitle === target) return "";
+  if (audio !== target && subtitle === "?") return "?";
+  if (audio === "?" && subtitle !== target) return "?";
+  // Here we know that audio and subtitle are not target and not "?"
+  if (audio !== target && subtitle !== target) return "X";
+};
+
+const LanguageBadges = (props) => {
+  return (
+    <>
+      <LanguageBadge
+        flag="🇸🇪"
+        badge={badge("se", props.audio, props.subtitle)}
+      />
+      <LanguageBadge
+        flag="🇬🇧"
+        badge={badge("en", props.audio, props.subtitle)}
+      />
+    </>
+  );
+};
+
 // Display a single movie.
 const MovieItem = (item) => {
   return (
@@ -31,6 +64,8 @@ const MovieItem = (item) => {
         {item.title}
         &nbsp;
         {getNationalFlagForLanguage(item.audio, item.subtitle)}
+        &nbsp;
+        <LanguageBadges audio={item.audio} subtitle={item.subtitle} />
       </h5>
       <p className="movie-details">
         {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
