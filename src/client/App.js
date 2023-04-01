@@ -2,14 +2,25 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { MyBug } from "./bug.js";
 
+const accessability = (target, flag, audio, subtitle) => {
+  if (audio === target || subtitle === target) return flag;
+  if (audio !== target && subtitle === "?") return "?" + flag;
+  if (audio === "?" && subtitle !== target) return "?" + flag;
+  // Here we know that audio and subtitle are not target and not "?"
+  if (audio !== target && subtitle !== target) return "X" + flag;
+};
+
 // Get a flag for a language.
 const getNationalFlagForLanguage = (audio, subtitle) => {
   console.log("getNationalFlagForLanguage", audio, subtitle);
 
-  if (audio === "se" || subtitle === "se") return "🇸🇪";
-  if (audio === "en") return "🇬🇧";
+  let flags =
+    " " +
+    accessability("se", "🇸🇪", audio, subtitle) +
+    " " +
+    accessability("en", "🇬🇧", audio, subtitle);
 
-  return "🏳️❔";
+  return flags;
 };
 
 // Display a single movie.
