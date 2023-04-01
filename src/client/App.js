@@ -38,6 +38,13 @@ const MovieItem = (item) => {
         {item.category.length > 0 && (
           <> (kategori: {item.category.join(", ")}) </>
         )}
+        &nbsp;
+        {item.latest === "true" && (
+          <>
+            {" "}
+            {item.audio} {item.subtitle}
+          </>
+        )}
       </p>
     </div>
   );
@@ -46,7 +53,7 @@ const MovieItem = (item) => {
 // Display a list of movies.
 const MovieList = (props) => {
   return props.filteredData.map((item) => (
-    <MovieItem key={item.index} {...item} />
+    <MovieItem latest={props.latest} key={item.index} {...item} />
   ));
 };
 
@@ -132,7 +139,7 @@ const App = (props) => {
             </select>
           )}
         </form>
-        <MovieList filteredData={filteredData} />
+        <MovieList filteredData={filteredData} latest={props.latest} />
       </div>
     </>
   );
