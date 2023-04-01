@@ -12,27 +12,6 @@ function LanguageBadge(props) {
   );
 }
 
-const accessability = (target, flag, audio, subtitle) => {
-  if (audio === target || subtitle === target) return flag;
-  if (audio !== target && subtitle === "?") return "?" + flag;
-  if (audio === "?" && subtitle !== target) return "?" + flag;
-  // Here we know that audio and subtitle are not target and not "?"
-  if (audio !== target && subtitle !== target) return "🚫" + flag;
-};
-
-// Get a flag for a language.
-const getNationalFlagForLanguage = (audio, subtitle) => {
-  console.log("getNationalFlagForLanguage", audio, subtitle);
-
-  let flags =
-    " " +
-    accessability("se", "🇸🇪", audio, subtitle) +
-    " " +
-    accessability("en", "🇬🇧", audio, subtitle);
-
-  return flags;
-};
-
 const badge = (target, audio, subtitle) => {
   if (audio === target || subtitle === target) return "";
   if (audio !== target && subtitle === "?") return "?";
@@ -62,8 +41,6 @@ const MovieItem = (item) => {
     <div className="movie-item" key={item.index}>
       <h5 className="movie-title">
         {item.title}
-        &nbsp;
-        {getNationalFlagForLanguage(item.audio, item.subtitle)}
         &nbsp;
         <LanguageBadges audio={item.audio} subtitle={item.subtitle} />
       </h5>
