@@ -90,11 +90,15 @@ const App = (props) => {
     return [...new Set(c)];
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <>
       {/* <MyBug /> */}
       <div>
-        <form>
+        <form onSubmit={handleSubmit}>
           <input
             className="form-control"
             type="text"
