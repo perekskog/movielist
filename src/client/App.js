@@ -1,15 +1,38 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { MyBug } from "./bug.js";
+import "./App.css";
 
-// Get a flag for a language.
-const getNationalFlagForLanguage = (audio, subtitle) => {
-  console.log("getNationalFlagForLanguage", audio, subtitle);
+function LanguageBadge(props) {
+  return (
+    <div className="swedish-flag">
+      <span className="cross">{props.badge}</span>
+      <span className="flag">{props.flag}</span>
+    </div>
+  );
+}
 
-  if (audio === "se" || subtitle === "se") return "🇸🇪";
-  if (audio === "en") return "🇬🇧";
+const badge = (target, audio, subtitle) => {
+  if (audio === target || subtitle === target) return "";
+  if (audio !== target && subtitle === "?") return "?";
+  if (audio === "?" && subtitle !== target) return "?";
+  // Here we know that audio and subtitle are not target and not "?"
+  if (audio !== target && subtitle !== target) return "X";
+};
 
-  return "🏳️❔";
+const LanguageBadges = (props) => {
+  return (
+    <>
+      <LanguageBadge
+        flag="🇸🇪"
+        badge={badge("se", props.audio, props.subtitle)}
+      />
+      <LanguageBadge
+        flag="🇬🇧"
+        badge={badge("en", props.audio, props.subtitle)}
+      />
+    </>
+  );
 };
 
 // Display a single movie.
@@ -19,13 +42,20 @@ const MovieItem = (item) => {
       <h5 className="movie-title">
         {item.title}
         &nbsp;
-        {getNationalFlagForLanguage(item.audio, item.subtitle)}
+        <LanguageBadges audio={item.audio} subtitle={item.subtitle} />
       </h5>
       <p className="movie-details">
         {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
         &nbsp;
         {item.category.length > 0 && (
           <> (kategori: {item.category.join(", ")}) </>
+        )}
+        &nbsp;
+        {item.latest === "true" && (
+          <>
+            {" "}
+            {item.audio} {item.subtitle}
+          </>
         )}
       </p>
     </div>
@@ -35,7 +65,7 @@ const MovieItem = (item) => {
 // Display a list of movies.
 const MovieList = (props) => {
   return props.filteredData.map((item) => (
-    <MovieItem key={item.index} {...item} />
+    <MovieItem latest={props.latest} key={item.index} {...item} />
   ));
 };
 
@@ -121,7 +151,7 @@ const App = (props) => {
             </select>
           )}
         </form>
-        <MovieList filteredData={filteredData} />
+        <MovieList filteredData={filteredData} latest={props.latest} />
       </div>
     </>
   );
