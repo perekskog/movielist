@@ -3827,7 +3827,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3838,7 +3838,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3849,7 +3849,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3860,7 +3860,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3871,7 +3871,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3882,7 +3882,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3893,7 +3893,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3904,7 +3904,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -3915,7 +3915,7 @@
         "media-type": "disc",
         "media-format": "",
         "audio": "en",
-        "subtitle": "",
+        "subtitle": "se",
         "category": [],
         "comment": "",
         "production-year": "2006"
@@ -7001,7 +7001,7 @@
         "media-type": "disc",
         "media-format": "dvd",
         "audio": "en",
-        "subtitle": "se",
+        "subtitle": "",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -7133,7 +7133,7 @@
         "media-type": "disc",
         "media-format": "dvd",
         "audio": "en",
-        "subtitle": "se",
+        "subtitle": "",
         "category": [],
         "comment": "",
         "production-year": -1
@@ -9587,7 +9587,7 @@
         "production-year": -1
     },
     {
-        "title": "Hobbit - Femårsslaget",
+        "title": "Hobbit - Femhäraslaget",
         "media-location": "Hserie",
         "media-type": "disc",
         "media-format": "br",
@@ -12703,17 +12703,6 @@
         "comments": ""
     },
     {
-        "title": "Citizane Kane",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1941,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Kill List",
         "media-location": "ms",
         "media-type": "file",
@@ -12824,28 +12813,6 @@
         "comments": ""
     },
     {
-        "title": "War Horse 2:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "?",
-        "subtitle": "se",
-        "production-year": 2011,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "War of the Worlds",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "?",
-        "subtitle": "se",
-        "production-year": 1953,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Searching for Sugar Man",
         "media-location": "ms",
         "media-type": "file",
@@ -12875,17 +12842,6 @@
         "audio": "?",
         "subtitle": "se",
         "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Nightmare before Christmas",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "en",
-        "production-year": 1993,
         "category": [],
         "comments": ""
     },
@@ -13704,17 +13660,6 @@
         "comments": ""
     },
     {
-        "title": "War of the Worlds",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "?",
-        "subtitle": "se",
-        "production-year": 2005,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "När lammen tystnar",
         "media-location": "ms",
         "media-type": "file",
@@ -13770,17 +13715,6 @@
         "comments": ""
     },
     {
-        "title": "War Horse 1:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "?",
-        "subtitle": "se",
-        "production-year": 2011,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Mio Min Mio 1:2",
         "media-location": "ms",
         "media-type": "file",
@@ -13788,17 +13722,6 @@
         "audio": "?",
         "subtitle": "?",
         "production-year": 1987,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Top Gun",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "?",
-        "subtitle": "se",
-        "production-year": 1986,
         "category": [],
         "comments": ""
     },
@@ -15750,17 +15673,6 @@
         "comments": ""
     },
     {
-        "title": "Tetsuo 3 - The Bullet Man",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "jp:en",
-        "subtitle": "?",
-        "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Total Recall BR",
         "media-location": "ms",
         "media-type": "file",
@@ -15911,6 +15823,193 @@
         "audio": "en",
         "subtitle": "en",
         "production-year": 2007,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Tetsuo 3 - The Bullet Man",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "jp",
+        "subtitle": "en",
+        "production-year": 2009,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Att göra en pudel",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "?",
+        "production-year": 2006,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Bröderna Lejonhjärta",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "se",
+        "production-year": 1977,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Maffiabröder 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Maffiabröder 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Ronja Rövardotter",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "?",
+        "production-year": 1984,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Systrar i jeans",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2005,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Thirteenth floor",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1999,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Vi hade i alla fall tur med vädret",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "?",
+        "production-year": 1980,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "War Horse 1:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2011,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "War Horse 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2011,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "War of the Worlds",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1953,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "War of the Worlds",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2005,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Top Gun",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1986,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Citizen Kane",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1941,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Snömannen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "?",
+        "production-year": 2017,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Nightmare before Christmas",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "en",
+        "production-year": 1993,
         "category": [],
         "comments": ""
     },
@@ -18401,51 +18500,7 @@
         "comments": ""
     },
     {
-        "title": "Harry Potter - Dödsrelikerna del 2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2011,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Harry Potter - Halvblodsprinsen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2009,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Harry Potter - Fången från Azkaban",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2004,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Harry Potter - Fenixorden",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Harry Potter - Den flammande bägaren",
+        "title": "Harry Potter 4 - Den flammande bägaren",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
@@ -18456,35 +18511,79 @@
         "comments": ""
     },
     {
-        "title": "Harry Potter - De vises sten",
+        "title": "Harry Potter 6 - Halvblodsprinsen",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
         "audio": "en",
         "subtitle": "se",
-        "production-year": 1997,
+        "production-year": 2009,
         "category": [],
         "comments": ""
     },
     {
-        "title": "Harry Potter - Hemligheternas kammare",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Harry Potter - Dödsrelikerna del 1",
+        "title": "Harry Potter 7 - Dödsrelikerna del 1",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
         "audio": "en",
         "subtitle": "se",
         "production-year": 2010,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Harry Potter 8 - Dödsrelikerna del 2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2011,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Harry Potter 1 - De vises sten",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Harry Potter 2 - Hemligheternas kammare",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2002,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Harry Potter 3 - Fången från Azkaban",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2004,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Harry Potter 5 - Fenixorden",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2007,
         "category": [],
         "comments": ""
     },
@@ -18500,90 +18599,277 @@
         "comments": ""
     },
     {
-        "title": "Thirteenth floor",
+        "title": "MIAMI_VICE_D2_Title3",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1999,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Systrar i jeans",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2005,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Ronja Rövardotter",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "se",
+        "audio": "?",
         "subtitle": "?",
-        "production-year": 1984,
+        "production-year": 0,
         "category": [],
         "comments": ""
     },
     {
-        "title": "Bröderna Lejonhjärta",
+        "title": "MIAMI_VICE_D2_Title2",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "se",
-        "subtitle": "se",
-        "production-year": 1977,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Att göra en pudel",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "se",
+        "audio": "?",
         "subtitle": "?",
-        "production-year": 2006,
+        "production-year": 0,
         "category": [],
         "comments": ""
     },
     {
-        "title": "Vi hade i alla fall tur med vädret",
+        "title": "MIAMI_VICE_D2_Title1",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
-        "audio": "se",
+        "audio": "?",
         "subtitle": "?",
-        "production-year": 1980,
+        "production-year": 0,
         "category": [],
         "comments": ""
     },
     {
-        "title": "Maffiabröder 1:2",
+        "title": "MIAMCE_VICE_D1_Title3_1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMCE_VICE_D1_Title2_1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMCE_VICE_D1_Title1_1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D3_Title3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D3_Title2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D3_Title1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D4_Title3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D4_Title2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D4_Title1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D8_Title2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D8_Title1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D7_Title3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D7_Title2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D7_Title1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D6_Title3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D6_Title2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D6_Title1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D5_Title3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D5_Title2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "MIAMI_VICE_D5_Title1",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Den illustrerade mannen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "?",
+        "subtitle": "?",
+        "production-year": 0,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Poltergeist",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
         "audio": "en",
-        "subtitle": "se",
-        "production-year": 1990,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Maffiabröder 2:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1990,
+        "subtitle": "?",
+        "production-year": 1982,
         "category": [],
         "comments": ""
     }
