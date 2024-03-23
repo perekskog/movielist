@@ -8357,28 +8357,6 @@
         "production-year": -1
     },
     {
-        "title": "Nord och syd - Bok ett",
-        "media-location": "Hserie",
-        "media-type": "disc",
-        "media-format": "dvd",
-        "audio": "en",
-        "subtitle": "se",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Nord och syd - Bok två",
-        "media-location": "Hserie",
-        "media-type": "disc",
-        "media-format": "dvd",
-        "audio": "en",
-        "subtitle": "se",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
         "title": "Nord och syd - Bok 1-3",
         "media-location": "Hserie",
         "media-type": "disc",
@@ -11593,7 +11571,7 @@
         "production-year": -1
     },
     {
-        "title": "Monty Python - Meningen med livet ",
+        "title": "Monty Python - Meningen med livet",
         "media-location": "Hsorterat",
         "media-type": "disc",
         "media-format": "dvd",
@@ -12044,17 +12022,6 @@
         "title": "Snabba Cash II",
         "media-location": "Hsorterat",
         "media-type": "disc",
-        "media-format": "dvd",
-        "audio": "se",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Snabba Cash II",
-        "media-location": "Hsorterat",
-        "media-type": "disc",
         "media-format": "br",
         "audio": "se",
         "subtitle": "",
@@ -12450,127 +12417,6 @@
         "production-year": -1
     },
     {
-        "title": "Amped",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Forza Motorsport",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Halo",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Halo 2",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Mad Dash racing",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Moto GP",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Rallisport Challenge",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Rallisport Challenge 2",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Splinter cell",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Tiger Woods PGA tour 2004",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
-        "title": "Toejam Earl 3 - Mission to earth",
-        "media-location": "Hspel-xbox",
-        "media-type": "disc",
-        "media-format": "xbox",
-        "audio": "",
-        "subtitle": "",
-        "category": [],
-        "comment": "",
-        "production-year": -1
-    },
-    {
         "title": "Buzz!",
         "media-location": "Hspel-ps",
         "media-type": "disc",
@@ -12648,6 +12494,50 @@
         "production-year": -1
     },
     {
+        "title": "Sims 3 Pets",
+        "media-location": "Hspel-ps",
+        "media-type": "disc",
+        "media-format": "ps3",
+        "audio": "",
+        "subtitle": "",
+        "category": [],
+        "comment": "",
+        "production-year": -1
+    },
+    {
+        "title": "The Last of Us",
+        "media-location": "Hspel-ps",
+        "media-type": "disc",
+        "media-format": "ps3",
+        "audio": "",
+        "subtitle": "",
+        "category": [],
+        "comment": "",
+        "production-year": -1
+    },
+    {
+        "title": "Beyond: Two Souls",
+        "media-location": "Hspel-ps",
+        "media-type": "disc",
+        "media-format": "ps3",
+        "audio": "",
+        "subtitle": "",
+        "category": [],
+        "comment": "",
+        "production-year": -1
+    },
+    {
+        "title": "Lego Pirates of the Caribbean",
+        "media-location": "Hspel-ps",
+        "media-type": "disc",
+        "media-format": "ps3",
+        "audio": "",
+        "subtitle": "",
+        "category": [],
+        "comment": "",
+        "production-year": -1
+    },
+    {
         "title": "Harvest Moon DS",
         "media-location": "Hspel-nintendo",
         "media-type": "disc",
@@ -12660,6 +12550,17 @@
     },
     {
         "title": "Mariokart DS",
+        "media-location": "Hspel-nintendo",
+        "media-type": "disc",
+        "media-format": "nintendods",
+        "audio": "",
+        "subtitle": "",
+        "category": [],
+        "comment": "",
+        "production-year": -1
+    },
+    {
+        "title": "Sims",
         "media-location": "Hspel-nintendo",
         "media-type": "disc",
         "media-format": "nintendods",
@@ -16069,28 +15970,6 @@
         "comments": ""
     },
     {
-        "title": "Star Wars 2 - Attack of the Clones",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "?",
-        "subtitle": "se",
-        "production-year": 2002,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Star Wars 4 - A new hope",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "avi",
-        "audio": "?",
-        "subtitle": "se",
-        "production-year": 1977,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Star Wars 6 - The Return of the Jedi",
         "media-location": "ms",
         "media-type": "file",
@@ -16102,13 +15981,24 @@
         "comments": ""
     },
     {
-        "title": "Star Wars 1 - The Phantom Menace",
+        "title": "Star Wars 5 - The Empire Strikes Back",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "?",
+        "audio": "en",
+        "subtitle": "?",
+        "production-year": 1980,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Star Wars 2 - Attack of the Clones",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
         "subtitle": "se",
-        "production-year": 1999,
+        "production-year": 2002,
         "category": [],
         "comments": ""
     },
@@ -16117,20 +16007,31 @@
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "?",
+        "audio": "en",
         "subtitle": "se",
         "production-year": 2005,
         "category": [],
         "comments": ""
     },
     {
-        "title": "Star Wars 5 - The Empire Strikes Back",
+        "title": "Star Wars 4 - A new hope",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
         "audio": "en",
-        "subtitle": "?",
-        "production-year": 1980,
+        "subtitle": "se",
+        "production-year": 1977,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Star Wars 1 - The Phantom Menace",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "avi",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1999,
         "category": [],
         "comments": ""
     },
@@ -17543,18 +17444,7 @@
         "comments": ""
     },
     {
-        "title": "Jurassic Park 2 - The lost world 2:2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1985,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Jurassic Park 1",
+        "title": "JP 1",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
@@ -17565,7 +17455,7 @@
         "comments": ""
     },
     {
-        "title": "Jurassic Park 2 - The lost world 1:2",
+        "title": "JP 2 - The lost world 1:2",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
@@ -17576,7 +17466,29 @@
         "comments": ""
     },
     {
-        "title": "Jurassic Park 3",
+        "title": "JP 2 - The lost world 2:2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1985,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "JP 3",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2001,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "JP 3",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
@@ -17587,18 +17499,7 @@
         "comments": ""
     },
     {
-        "title": "Jurassic World Fallen Kingdom",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2018,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Jurassic Park 3",
+        "title": "JP 3",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "srt",
@@ -17609,13 +17510,13 @@
         "comments": ""
     },
     {
-        "title": "Jurassic Park 3",
+        "title": "JP 5 - Jurassic World Fallen Kingdom",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "mp4",
         "audio": "en",
         "subtitle": "se",
-        "production-year": 2001,
+        "production-year": 2018,
         "category": [],
         "comments": ""
     },
