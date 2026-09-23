@@ -2,12 +2,13 @@
   "name": "movielist",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
-    "test": "jest",
-    "dev:server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
-    "dev:serve": "webpack -w --mode=development",
-    "dev:build": "webpack --mode=development"
+    "dev": "vite",
+    "dev:server": "node --watch src/server/server.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
@@ -28,29 +29,14 @@
     "react-dom": "^19.2.6",
     "url": "^0.11.0"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.20.7",
-    "@babel/core": "^7.20.12",
-    "@babel/eslint-parser": "^7.19.1",
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.20.2",
-    "@babel/preset-react": "^7.18.6",
-    "babel-jest": "^30.4.1",
-    "babel-loader": "^10.1.1",
-    "css-loader": "^7.1.4",
-    "eslint": "^9.39.4",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "html-webpack-plugin": "^5.5.0",
-    "jest": "^30.4.2",
-    "mini-css-extract-plugin": "^2.7.2",
-    "nodemon": "^3.1.14",
-    "react-test-renderer": "^19.2.6",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^7.0.2"
-  },
   "type": "module",
-  "jest": {
-    "transform": {}
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^29.1.1",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
   }
 }

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { MyBug } from "./bug.js";
 import "./App.css";
 
 function LanguageBadge(props) {
@@ -126,7 +125,6 @@ const App = (props) => {
 
   return (
     <>
-      {/* <MyBug /> */}
       <div>
         <form onSubmit={handleSubmit}>
           <input
@@ -157,4 +155,4 @@ const App = (props) => {
   );
 };
 
-export { App };
+export { App, badge };
