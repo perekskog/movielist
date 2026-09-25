@@ -1,0 +1,1183 @@
+#
+# Akira, är det anime och japan?
+# Vad menar jag med /(*)? Jag hade skrivit * framför positionen tidigare.
+#		=> Skulle kunna vara att den är del av en "samling" (t ex Bond).
+#
+#kategori:§animerat
+#kategori:§astrid
+#kategori:§beck
+#kategori:§bond
+#kategori:§dokumentär
+#kategori:§eget
+#kategori:§fantasy
+#kategori:§fel
+#kategori:§halloween
+#kategori:§japan
+#kategori:§jul
+#kategori:§krig
+#kategori:§melbrooks
+#kategori:§sf
+#kategori:§stallone
+#kategori:§stephenking
+#kategori:§sverige
+#kategori:§wallander
+#kategori:§western
+#kategori:§zoombie
+#
+#kategori:§nintendods Konverterat till *nintendods
+#kategori:§ps3  Konverterat till *ps3
+#kategori:*xbox Konverterat till *xbox
+#
+#format:*xvid
+#format:*vcd
+#format:*scr
+#format:*dvd
+#
+#location: 
+#
+#language:#audio/subtitle (en, se, ???)
+#
+#destinaton:&ms (mediaserver)
+#
+Göta Kanal 3	    		§wanted
+Nikita				§wanted
+Starship Troopers II		§wanted
+Underworld - Evolution (har xvid)	§wanted
+Underworld - Rise of the Lycans	§wanted
+Underworld - Awakening	§wanted
+#
+#
+#A1	---
+A2	Ronin	*dvd, §?, #en/se
+A3	Attack Of The Schoolgirl Zombies	*xvid, §japan, §zoombie, #jp/se, &ms
+A3	Resident Evil 1	*xvid, §zoombie, #en/?, &ms
+A3	Resident Evil 2 - Apocalypse	*xvid, §zoombie, #en/?, &ms
+A3	Tetsuo 1	*xvid, §japan, #jp/?, &ms
+A3	Tetsuo 2	*xvid, §japan, #jp/?
+A3	Wallace and Grommit	*xvid	#en/?, &ms
+A4	Hide and seek	*dvd, #en/?
+A5	Wallander 01 - Innan frosten	*dvd, §wallander, #se/?
+A6	Hassel - Botgörarna	*dvd, #se/?, §sverige
+A7	A I	*dvd, #en/?, §sf?
+A8	Batman Begins	*dvd, #en/se
+A9	Tusenbröder S01D01	*dvd, #se/?, §sverige
+A10	Tusenbröder S01D02	*dvd, #se/?, §sverige
+A11	Tusenbröder S02D01	*dvd, #se/?, §sverige
+A12	Tusenbröder S02D02	*dvd, #se/?, §sverige
+A13	Sällskapsresan 1	*dvd, #se/?, §sverige, &ms
+A14	Sällskapsresan 2 - Snowroller	*dvd, #se/?, §sverige, &ms
+A15	Sällskapsresan 3 - S.O.S.	*dvd, #se/?, §sverige, &ms
+A16	Sällskapsresan 4 - Den ofrivillige golfaren	*dvd, #se/?, §sverige, &ms
+A17	Sällskapsresan 5 - Hälsoresan	*dvd, #se/?, §sverige, &ms
+A18	24-timmarsjakten	*dvd, #en/?, §sf
+A19	Besökarna	*dvd, #se/?, §sf, §sverige
+A20	Hitchhikers guide to the galaxy	*dvd, #en/?, §sf, /(*)
+A21	Rederiet 1-3	*dvd, #se/?, §sverige
+A22	Rederiet 4-5	*dvd, #se/?, §sverige
+A23	Rederiet 6-7	*dvd, #se/?, §sverige
+A24	Rederiet 8-9	*dvd, #se/?, §sverige
+A25	Rederiet 10-11	*dvd, #se/?, §sverige
+A26	Rederiet 12-13	*dvd, #se/?, §sverige
+A27	Rederiet 14-15	*dvd, #se/?, §sverige
+A28	Rederiet 16-17	*dvd, #se/?, §sverige
+A29	Rederiet 18	*dvd, #se/?, §sverige
+A30	Speed	*dvd, #en/?
+A31	Videos	*dvd, #?/?
+A32	Sin City 	*dvd, #en/?
+A33	Nalle Puh, Kalle Anka, Alladin	*dvd, §animerat, #?/?
+A34	Nalle Puh - Heffaklumpen	*dvd, #?/?
+A35	Nasses stora film	*dvd, #?/?
+A36	Tigers film	*dvd, #?/?
+A37	Adams Aebler	*dvd, #dk/?
+A38	Dark Water	*dvd, #en/?
+A39	Flightplan	*dvd, #en/?
+A40	Getaway in Stockholm 4	*dvd, #se/?, §sverige
+A41	Sandor slash Ida	*dvd, #se/?, §sverige
+A42	Som man bäddar	*dvd, #?/?
+A43	Braindead	*dvd, #en/?
+A44	Red Eye	*dvd, #en/?
+A45	Fem myror är fler än fyra elefanter I	*dvd, #se/?, §sverige
+A46	Fem myror är fler än fyra elefanter II	*dvd, #se/?, §sverige
+A47	Fem myror är fler än fyra elefanter III	*dvd, #se/?, §sverige
+#A48	---
+A49	Ghostrider 1	se, *dvd, #se/se, §sverige
+A50	Ghostrider 2	se, *dvd, #se/se, §sverige
+A51	Ghostrider 3	se, *dvd, #se/se, §sverige
+A52	Ghostrider 4	se, *dvd, #se/se, §sverige
+#A53	---
+A54	Bambi	*dvd, #?/?
+A55	Världarnas Krig (1953)	*dvd, #en/?
+A56	Världarnas Krig (2005)	*dvd, #en/?
+A57	Hitta Nemo	*dvd, #?/?
+A58	Mazurka på sängkanten	*dvd, #?/?
+A59	Grabben i graven bredvid	*dvd, #?/?
+A60	Motorsågsmassakern (2003)	*dvd, #en/?, &ms, /(*)
+A61	Föbojäntan	*dvd, #se/?, §sverige
+A62	Descent, The	*dvd, #en/?
+A63	Love potion #9	*dvd, #en/?
+A64	Dödlig drift	*dvd, #?/?
+A65	Beck 08 - Spår i mörker	§beck, *dvd, #se/?
+A66	Salo - 120 days of Sodom	*dvd, #?/?
+A67	Scooby Doo	*dvd, #?/?
+A68	Rambo 1 - First Blood	*dvd, #en/?, §stallone
+A69	Toxic Avenger, The	*dvd, #?/?
+A70	Såsom i himmelen	*dvd, #se/se, §sverige
+A71	Desperate Housewives S01 1/2	*xvid, #en/?
+A72	Desperate Housewives S01 2/2	*xvid, #en/?
+A73	Från A till Ö 1/4	*dvd, #se/?, §sverige
+A74	Från A till Ö 2/4	*dvd, #se/?, §sverige
+A75	Från A till Ö 3/4	*dvd, #se/?, §sverige
+A76	Från A till Ö 4/4	*dvd, #se/?, §sverige
+A77	Lost S01 1/2	*xvid, #en/?
+A78	Lost S01 2/2	*xvid, #en/?
+A79	Helen of Troy 1/2	*dvd, #en/se
+A80	Helen of Troy 2/2	*dvd, #en/se
+A81	Mumien	 *dvd, #en/se
+A82	Shrek	 *dvd, #en/se
+A83	Sprängaren 1/2	*dvd, #se/?, §sverige
+A84	Sprängaren 2/2	*dvd, #se/?, §sverige
+A85	Klassfesten	*dvd, #se/?, §sverige
+A86	Dirty Dancing	*dvd, #en/?
+A87	Hundhotellet	*dvd, §animerat, #?/?
+A88	Brazil	*dvd, #?/?, §sf
+A89	Ebba the movie	*dvd, #se/?, §sverige
+A90	G	*dvd, #se/?, §sverige
+A91	Scary Movie 1	*dvd, #en/se
+A92	Scary Movie 2	*dvd, #en/se
+A93	Miffo	*dvd, #se/?, §sverige
+A94	Eraserhead	*dvd, #en/?, &ms
+A95	Tetsuo 1 - The Iron Man	cd, *xvid, §japan, #jp/?, &ms
+A96	Tetsuo 2 - Body Hammer	cd, *xvid, §japan, #jp/?, &ms
+#
+B1	Lilja Forever	#se/se, §sverige
+B2	Pelle Svanslös	#?/?
+B3	Getaway in Stockholm 1	*xvid, #se/?, §sverige
+B3	Getaway in Stockholm 2	*xvid, #se/?, §sverige
+B4	Ghostrider 1	*xvid, #se/?, §sverige
+B4	Ghostrider 2	*xvid, #se/?, §sverige
+B4	Ghostrider 3	*xvid, #se/?, §sverige
+B5	Wallace and Grommit	#en/?
+B6	Brokeback Mountain	*xvid, #en/-
+B6	House of the dead 2	*xvid, §zoombie, #en/?
+B6	It's a wonderful life	*xvid, #en/?
+B6	Business, The	*xvid, #en/?
+B7	Big Mamas House	*xvid, #en/?
+B7	Fanny Valentine	*xvid, #en/?
+B7	Office Space	*xvid, #en/?
+B7	Soloerotica 7	*xvid, #en/?
+B8	Aristocats, The	*xvid, #?/?
+B8	Narnia	*xvid, #en/?, §fantasy
+B8	Motorsågsmassakern (1974)	*xvid, #en/?, &ms
+B9	In the Mix	*dvd, #en/?
+B10	Munich (2005)	*dvd, #en/?
+B11	Elizabethtown	*dvd, #en/?
+B12	Memento	*dvd, #en/?
+#
+#
+#-------------------
+#
+#
+B13	Matrix D01	*dvd, §sf, #en/se, &ms
+B14	Matrix D02	*dvd, §sf, #en/se
+B15	Matrix D03	*dvd, §sf, #en/se, &ms
+B16	Matrix D04	*dvd, §sf, #en/se
+B16	Matrix D05	*dvd, §sf, #en/se, &ms
+B17	Matrix D06	*dvd, §sf, #en/se
+B18	Matrix D07	*dvd, §sf, #en/se
+B19	Matrix D08	*dvd, §sf, #en/se
+B20	Matrix D09	*dvd, §sf, #en/se
+B21	Matrix D09	*dvd, §sf, #en/se
+B22	Matrix D10	*dvd, §sf, #en/se
+B23	Populärmusik från Vittula	*dvd, #se/?, §sverige
+B24	Chicken Little	*dvd, #?/?
+B25	Brokeback Mountain	*dvd, #en/?
+B26	Alla älskar Alice	*xvid, #se/?, §sverige
+B26	Into the Blue	*xvid, #?/?
+B26	Saw 2	*xvid, #en/?, &ms
+B26	Stockholm Boogie	*xvid, #?/?, §sverige
+B26	Where the truth lies	*xvid, #en/?
+B26	Heffa Halloweeen (?)	*xvid, #?/?
+B27	River King, The	§???japan???, #?/?
+B28	Polarexpressen	§jul, #?/?
+B29	Dirty Dancing 2	*dvd, #en/?
+B30	Getaway in Stockholm 6	*xvid, #se/?, §sverige
+B30	Getto fight 2	*xvid, #en/?
+B30	Exorcist, The	*xvid, #en/?
+B30	Underworld Evolution	*xvid, #en/?, &ms
+B30	Spetnaz	*xvid, #?/?
+B30	Moon landings	*xvid, #?/?
+B31	Derailed	*dvd, #en/?
+B32	Pulp Fiction	*dvd, #en/?
+B33	Serenity	*dvd, §sf?, #en/?
+B34	Alien vs. Predator	*dvd, §sf, #en/?
+B35	Commando	*dvd, #en/?
+B36	Terminator 3 - Rise of the machines	*dvd, §sf, #en/?, &ms
+B37	V 1/7	   *vcd, §sf, #en/?
+B38	V 2/7	   *vcd, §sf, #en/?
+B39	V 3/7	   *vcd, §sf, #en/?
+B40	V 4/7	   *vcd, §sf, #en/?
+B41	V 5/7	   *vcd, §sf, #en/?
+B42	V 6/7	   *vcd, §sf, #en/?
+B43	V 7/7	   *vcd, §sf, #en/?
+#B44	---
+B45	Det nya landet 1/2	*dvd, #se/?, §sverige
+B46	Det nya landet 2/2	*dvd, #se/?, §sverige
+B47	Eraserhead	*xvid, #en/?
+B47	Saw 1	*xvid, #en/?, &ms
+B47	Saw 2	*xvid, #en/?, &ms
+B47	Tetsuo 1 - The Iron Man	*xvid, §japan, #jp/?, &ms
+B47	Tetsuo 2 - Body Hammer	*xvid, §japan, #jp/?, &ms
+B48	Saw 2	*dvd, #en/se, &ms
+B49	Mordet på Mathew Shepherd	*dvd, #en/?
+B50	Jalla Jalla	 *dvd, #se/?, §sverige
+B51	Monster	*dvd, #en/?
+B52	Tillfällig fru sökes	*dvd, #?/?, §sverige?
+B53	Interrogation of Michael Crow	*dvd, #en/?
+B54	Eraserhead	*xvid, #en/?
+B54	Tetsuo 1 - The Iron Man	*xvid, §japan, #jp/?, &ms
+B54	Tetsuo 2 - Body Hammer	*xvid, §japan, #jp/?, &ms
+B55	Little Manhattan	*dvd, #en/en
+B56	An unfinished life	*dvd, #en/se
+B57	Shining, The	*dvd, #en/se:4
+B58	A life in pictures	*dvd, #en/se
+B59	Eyes wide shut	*dvd, #en/se:3
+B60	Full Metal Jacket	*dvd, #en/se:5, §krig
+B61	American Pie	*dvd, #en/se
+#B62	---
+B63	American Wedding	*dvd, #en/se
+B64	American Pie band Camp	*dvd, #en/se
+B65	Vi hade i alla fall tur med vädret	*dvd, #se/?, §sverige
+B66	Att göra en pudel	*dvd, #se/?, §sverige
+B67	Rain man 1/2	*dvd, #en/?
+B68	Rain man 2/2	*dvd, #en/?
+B69	Star Trek 1 - The Movie	*dvd, §sf, #en/se
+B70	Star Trek 2 - The Wrath of Khan	*dvd, §sf, #en/se
+B71	Star Trek 3 - The search for Spock	*dvd, §sf, #en/se
+B72	Star Trek 4 - The Voyage Home	*dvd, §sf, #en/se
+B73	Star Trek 5 - The Final Frontier	*dvd, §sf, #en/se
+B74	Star Trek 6 - The Undiscovered Country	*dvd, §sf, #en/se
+B75	Star Trek 7 - Generations	*dvd, §sf, #en/se
+B76	Star Trek 8 - First Contact	*dvd, §sf, #en/se
+B77	Star Trek 9 - Insurrection	*dvd, §sf, #en/se
+B78	Hur man blir av med en kille på 10 dagar	*dvd, #en/?
+B79	Rederiet S02 1/2	*xvid, #se/?, §sverige
+B80	Rederiet S02 2/2	*xvid, #se/?, §sverige
+B81	Tusenbröder - Återkomsten	*dvd, #se/?, §sverige
+B82	Tarzan och Jane	*dvd, §animerat, #?/?
+B83	Missing, The 1/2	*dvd, #en/se
+B84	Missing, The 2/2	*dvd, #en/se
+B85	Harry Potter och hemligheternas kammare 1/2	*dvd, #en/se, §fantasy
+B86	Harry Potter och hemligheternas kammare 2/2	*dvd, #en/se, §fantasy
+B87	Frostbiten	*dvd, #se/?, §sverige
+B88	Getaway in Stockholm 5	*dvd, #se/?, §sverige
+B89	Getaway in Stockholm 6	*dvd, #se/?, §sverige
+B90	Jimi Hendrix - Learn to play	*?, §?, #?/?
+B91	Caligula 1/2	*dvd, #en/se
+B92	Caligula 2/2	*dvd, #en/se
+B93	Alien	*dvd, #en/?, §sf, &ms		
+B94	Aliens	*dvd, #en/?, §sf, &ms
+B95	Alien 3	*dvd, #en/?, §sf, &ms
+B94	Alien - Resurrection	*dvd, #en/?, §sf, &ms
+B97	Mission Impossible 3 (2006)	*dvd, #en/se
+B98	Exorcism of Emily Rose, The	*dvd, #en/se
+B99	American Psycho (2000)	*dvd, #en/se
+B100	Supersize me	*dvd, #en/se
+B101	Fredag 13:e 1	*dvd, #en/en
+B102	Fredag 13:e 2	*dvd, #en/en
+B103	Fredag 13:e 3	*dvd, #en/en
+B104	Fredag 13:e 4	*dvd, #en/en
+B105	Fredag 13:e 5	*dvd, #en/en
+B106	Fredag 13:e 6	*dvd, #en/en
+B107	Fredag 13:e 7	*dvd, #en/en
+B108	Fredag 13:e 8	*dvd, #en/en
+B109	Fredag 13:e - The final friday	*dvd, #en/en
+B110	Land of the dead	*dvd, §zoombie, #en/se
+B111	I'll always know what you did last summer	*dvd, #en/se, /(*)
+B112	Mamma pappa barn	*dvd, #se/?, §sverige
+B113	Svensson, Svensson S01	*xvid, #se/?, §sverige
+B114	Svensson, Svensson S02	*xvid, #se/?, §sverige
+B115	Svensson, Svensson - filmen	*dvd, #se/?, §sverige
+#
+#------------------------
+#
+B116	Hellraiser	§zoombie
+B117	Monsters Inc.	#en/se
+B118	Monsters Inc. extra	#en
+B119	Gothika	#en/se
+B120	Flickan med pärlörhänge	*dvd
+B121	Rederiet S02 1/2	*xvid, #se, §sverige
+B122	Rederiet S02 2/2	*xvid, #se, §sverige
+B123	Harry Potter och den vises sten 1/2	*dvd, §fantasy
+B124	Harry Potter och den vises sten 2/2	*dvd, §fantasy
+B125	TOS S01 1/3	*xvid, §sf
+B126	TOS S01 2/3	*xvid, §sf
+B127	TOS S01 3/3	*xvid, §sf
+B128	TOS S02 1/3	*xvid, §sf
+B129	TOS S02 2/3	*xvid, §sf
+B130	TOS S02 3/3	*xvid, §sf
+B131	TOS S03 1/2	*xvid, §sf
+B132	TOS S03 2/2	*xvid, §sf
+B133	Svensson, Svensson	§sverige, #se
+B134	Getaway in Stockholm 7	§sverige, #se
+B135	Davincikoden	#en
+B136	James Bond Themes	§bond
+B137	Twin Peaks S01	*xvid, &ms
+B138	Twin Peaks S02 1/2	*xvid, &ms
+B139	Twin Peaks S02 2/2	*xvid, &ms
+B140	Musses jul i Ankeborg (2004)	#?/se, §jul
+B141	TNG S01 1/3	§sf, &ms, #en
+B142	TNG S01 2/3	§sf, &ms, #en
+B143	TNG S01 3/3	§sf, &ms, #en
+B144	TNG S02 1/2	§sf, #en
+B145	TNG S02 2/2	§sf, #en
+B146	TNG S03 1/3	§sf, #en
+B147	TNG S03 2/3	§sf, #en
+B148	TNG S03 3/3	§sf, #en
+B149	TNG S04 1/3	§sf, #en
+B150	TNG S04 2/3	§sf, #en
+B151	TNG S04 3/3	§sf, #en
+B152	TNG S05 1/3	§sf, #en
+B153	TNG S05 2/3	§sf, #en
+B154	TNG S05 3/3	§sf, #en
+B155	TNG S06 1/3	§sf, #en
+B156	TNG S06 2/3	§sf, #en
+B157	TNG S06 3/3	§sf, #en
+B158	Nightmare before Christmas	#en/en, §animerat, §jul
+B159	Gremlins	#en/se, §jul
+B160	Grinch	#en/se
+#
+C1	Karlsson på taket	#se/se, *dvd-köp, §astrid
+C2	Rasmus på luffen	#se/se, *dvd-köp, §astrid
+C3	Ronja Rövardotter	#se/se, *dvd-köp, §astrid
+C4	Bröderna Lejonhjärta	#se/se, *dvd-köp, §astrid
+C5	Alla vi barn i Bullerbyn	#se/se, *dvd-köp, §astrid
+C6	Mer om oss barn i bullerbyn	#se/se, *dvd-köp, §astrid
+C7	Lotta på Bråkmargatan	#se/se, *dvd-köp, §astrid
+C8	Lotta flyttar hemifrån	#se/se, *dvd-köp, §astrid
+C9	Madicken på Junibacken	#se/se, *dvd-köp, §astrid
+C10	Du är inte klok Madicken	#se/se, *dvd-köp, §astrid
+C11	Pippi Långstrump på de sju haven	#se/se, *dvd-köp, §astrid
+C12	På rymmen med Pippi Långstrump	#se/se, *dvd-köp, §astrid
+C13	Tjorven och Skrållan	#se/se, *dvd-köp, §astrid
+C14	Tjorven, Båtsman och Moses	#se/se, *dvd-köp, §astrid
+C15	Tjorven och Mysak	#se/se, *dvd-köp, §astrid
+C16	Skrållan, Ruskprick och Knorrhane	#se/se, *dvd-köp, §astrid
+C17	Emil i Lönneberga	#se/se, *dvd-köp, §astrid
+C18	Nya hyss av Emil i Lönneberga	#se/se, *dvd-köp, §astrid
+C19	Emil och Griseknoen	#se/se, §astrid
+C20	Star Trek Nemesis (2002)	§sf, #en
+C21	Kulla-Gulla	*dvd, §sverige, #se
+C22	Snapphanar 1/3	*dvd, §sverige, #se
+C23	Snapphanar 2/3	*dvd, §sverige, #se
+C24	Snapphanar 3/3	*dvd, §sverige, #se
+C25	Elina - som om jag inte fanns	*dvd
+C26	Gladiator 1/2	*dvd, #en
+C27	Gladiator 2/2	*dvd, #en
+C28	Albert och Herbert julkalender 1-24	*xvid, §jul, §sverige, #se
+C29	Miami Vice S01D01	#en/se
+C30	Miami Vice S01D02	#en/se
+C31	Miami Vice S01D03	#en/se
+C32	Miami Vice S01D04	#en/se
+C33	Miami Vice S01D05	#en/se
+C34	Miami Vice S01D06	#en/se
+C35	Miami Vice S01D07	#en/se
+C36	Miami Vice S01D08	#en/se
+C37	Miami Vice (2006)	#en/se
+C38	Borat	*TC
+C39	Flykten från New York	#en
+C40	There's something about Mary	#en
+C41	Trolltider 1/2	§sverige, #se
+C42	Trolltider 2/2	§sverige, #se
+C43	Teskedsgumman 1/2	§sverige, #se
+C44	Teskedsgummen 2/2	§sverige, #se
+C45	Match Point	#en
+C46	Talladega Nights	#en
+C47	After Shave Galenskaparna "Jul jul"	§jul?, §sverige, #se
+C48	Elf	§japan???, §jul???
+C49	Disney - Countdown to Christmas (2001)	§jul
+C50	Göta Kanal	§sverige, #se
+C51	Love Actually	#en
+C52	Nils Holgerssons underbara resa genom Sverige	*dvd, §sverige, #se
+C53	Evita 1/2	*dvd
+C54	Evita 2/2	*dvd
+C55	Purpurfärgen 1/2	*dvd
+C56	Purpurfärgen 2/2	*dvd
+C57	Disneydags	§animerat
+C58	Ordförande Persson 1-4	*dvd, §sverige, #se
+C59	Den Osynlige	*dvd
+C60	Göta Kanal 2	§sverige, #se
+C61	Titanic 1/2	#en/se
+C62	Titanic 2/2	#en/se
+C63	Pojken med guldbyxorna 1/2	*xvid, §sverige, #se
+C64	Pojken med guldbyxorna 2/2	*xvid, §sverige, #se
+C65	Titanic 1/4	#en/se
+C66	Titanic 2/4	#en/se
+C67	Titanic 3/4	#en/se
+C68	Titanic 4/4	#en/se
+C69	Bond 01 - Dr No	#en/se, §bond, &ms, /(*)
+C70	Bond 02 - From Russia with Love	#en/se, §bond, &ms, /(*)
+C71	Bond 04 - Åskbollen	#en/se, §bond, /(*), &ms
+C72	Bond 08 - Live and let die	#en/se, §bond, /(*), &ms
+C73	Bond 09 - Gyllene pistolen	#en/se, §bond, /(*), &ms
+C74	Bond 10 - Älskade spion	#en/se, §bond, /(*), &ms
+C75	Bond 11 - Moonraker	#en/se, §bond, /(*), &ms
+C76	Bond 12 - Ur dödlig synvinkel	#en/se, §bond, /(*), &ms
+C77	Bond 14 - A view to a kill	#en/se, §bond, /(*), &ms
+C78	Bond 15 - The Living daylights	#en/se, §bond, /(*), &ms
+C79	Bond 16 - License to kill	#en/se, §bond, /(*), &ms
+C80	Snapphanar	§sverige, #se
+C81	Bond 21 - Casino Royal	#en/se, §bond
+C82	Melodifestivalen 2006	*?, #se
+C83	Leende guldbruna ögon 1-3 + dokumentär	§dokumentär, §sverige, #se
+C84	Surviving Christmas	#en/se, §jul
+C85	Saw 3	#en/se, &ms
+C86	Ant Bully, The	#en/se
+C87	Saw 3	#en/se, &ms
+C88	Motorsågsmassakern - The Beginning	*dvd, #en/se, &ms, /(*)
+C89	Ronny och Ragge 1/2	§sverige, #se
+C90	Ronny och Ragge 2/2	§sverige, #se
+C91	Crouching Tiger Hidden Dragon	#en/se, §japan
+C92	Hero	#en/se, §japan
+C93	Moreno och tystnaden	#se
+C94	Ghostship	*dvd
+C95	Fröken Sverige	*dvd, §sverige, #se
+C96	Dunderklumpen	#se, §sverige
+C97	Jag är Dina	*dvd
+C98	Motorsågsmassakern (1974)	*dvd, #en/se, &ms, /(*)
+C99	Rätt upp i 90-talet	*dvd
+C100	Huriko	*xvid, §japan
+C100	Linas kvällsbok	*xvid, §sverige
+C100	Tetsuo 1 - The Iron Man	*xvid, §japan, &ms
+C100	Tetsuo 2 -  Body Hammer	*xvid, §japan, &ms
+C100	Container	*xvid, §sverige
+C101	Moreno och tystnaden	#?se
+C102	Thelma and Louise	#en/se
+C103	Jurassic park 2 - The Lost World 1/2	*dvd
+C104	Masjävlar	*dvd, §sverige, #se
+C104	Jurassic park 2 - The Lost World 2/2	*dvd
+C105	Jurassic park	*dvd
+C106	Tjenare Kungen	#se, §sverige
+C107	Sista dansen	§sverige, #se
+C108	Vinnare och förlorare	*dvd
+C109	Eragon	*xvid, #en/se
+C109	Hata Göteborg	*xvid, §sverige, #se
+C109	Descent, The	*xvid, #en/se
+C109	Förortsungar	*xvid, §sverige, #se
+C109	Night at the Museum	*xvid, #en/se
+C109	Underbara Älskade	*xvid
+C110	Simpsons, The	#en/se
+C111	Hiruku the Goblin	*xvid, §???japan???
+C111	Tetsuo 1 - The Iron Man	*xvid, §japan, &ms
+C111	Tetsuo 2 - Body Hammer	*xvid, §japan, &ms
+C112	One missed call	se
+C113	Simpsons, The	#en
+C114	Mulholland Drive 1/2	*dvd
+C115	Mulholland Drive 2/2	*dvd
+C116	Shrek 2	#en/se
+C117	Hidalgo 1/2	*dvd
+C118	Hidalgo 2/2	*dvd
+C119	Zorro 1/2	*dvd
+C120	Zorro 2/2	*dvd
+C121	Harry Potter och fången från Azakaban 1/2	*dvd, §fantasy
+C122	Harry Potter och fången från Azakaban 2/2	*dvd, §fantasy
+C123	Harry Potter och hemligheternas kammare 1/2	*dvd, §fantasy
+C124	Harry Potter och hemligheternas kammare 2/2	*dvd, §fantasy
+C125	Indiana Jones och jakten på den försvunna skatten	*dvd
+C126	Indiana Jones och de fördömdas tempel	*dvd
+C127	Indiana Jones och det sista korståget	*dvd
+C128	Sova med fienden	*dvd
+C129	Matte söker husse	*dvd
+C130	Slapshot	*xvid, #en/se
+C130	Swordfish	*xvid
+C131	Happiness 1-34	#dk/se, *wmv
+C132	Happiness 35-47	#dk/se, *wmv
+C133	Village, The	#en
+C134	Natasha Kampuch	*dvd, §dokumentär
+C135	Stolthet och fördom 1/2	*dvd
+C136	Stolthet och fördom 2/2	*dvd
+C137	Formel 1 Brasilien 2008 1/2	*dvd
+C138	Formel 1 Brasilien 2008 2/2	*dvd
+C139	Robin Hood - Prince of thieves 1/2	*dvd
+C140	Robin Hood - Prince of thieves 1/2	*dvd
+C141	De tre musketörerna	*dvd, #en/se
+C142	Transamerica	#en
+C143	Åter till Cold Mountain 1/2	*dvd
+C144	Åter till Cold Mountain 2/2	*dvd
+C145	Miffo	§sverige, #se
+C146	Se upp för dårarna	*dvd, §sverige, #se
+#C147	---
+#C148	---
+C149	Maria Wern - Främmande fågel 1/4	§sverige, #se
+C150	Maria Wern - Främmande fågel 2/4	§sverige, #se
+C151	Maria Wern - Främmande fågel 3/4	§sverige, #se
+C152	Maria Wern - Främmande fågel 4/4	§sverige, #se
+C153	Sommaren med Monika	*dvd, §sverige, #se
+C154	Sommaren med Monika	*dvd, §sverige, #se
+C155	Mamma Mia	*xvid, scr
+C156	Doors, The	#en/se-4
+C157	Christer Fuglesang i rymden	*dvd, §sverige, #se
+C157	ELVIS	*dvd, §sverige, #se
+C158	Sexmissbrukare	*dvd
+C158	Dagar i ett anorektiskt liv	*dvd
+C159	Madagaskar	*dvd, §animerat
+C160	Wallander 10 - Luftslottet	*dvd, §wallander
+C161	Elizabethtown	*dvd
+C162	Tristan och Isolde	*dvd
+C163	Resident Evil 1	*xvid, #en/se, §zoombie, &ms
+C163	Resident Evil 2 - Apocalypse	*xvid, #en/se, §zoombie, &ms
+C164	Human Trafficking	#en
+C165	Bad Santa	#en/se, §jul
+C166	Kalle Anka och hans vänner firar jul	*dvd, #se/se, §jul, §animerat
+C167	Ett päron till farsa firar jul	*dvd, #en/se, §jul
+C168	Hunden som log	§sverige, #se
+C169	Santa Clause, The	#en/se, §jul
+C170	Santa Clause 2, The	#en/se, §jul
+C171	Santa Clause 3, The	#en/se, §jul
+C172	Akira	vcd, #en
+C173	Rosa The Movie	*xvid
+C173	Tomtens verkstad i Kina	§dokumentär, *xvid
+C173	Den perfekta rumpan	§dokumentär, *xvid
+C174	Wallander 11 - Blodsband	*dvd, §wallander
+C175	Black Christmas	(1974)	#en/se, §jul
+C176	Jeff Dunham's very special Christmas Special (2008)	#en/se, §jul
+C177	Home Alone (1990)	#en/se, §jul, /(*)
+C178	Home Alone 2 - Lost in New York (1992)	#en/se, §jul?, /(*)
+C179	Home Alone 3 (1997)	#en/se, §jul?, /(*)
+C180	Family Stone, The (2005)	#en/se, §jul
+C181	This Christmas (2007)	#en/se, §jul
+C182	Tomten är far till alla barnen (1999)	#en/se, §jul, §sverige
+C183	A town without Christmas (2005)	*xvid, #en/se, §jul
+C183	Karl Bertil Jonssons julafton	*xvid, §jul, §sverige, #se
+C183	Sunes Jul (1991)	*xvid, §jul, §sverige, #se
+C183	Sicko	*xvid, #en/se, §dokumentär
+C184	Christmas at the riviera (2007)	#en/se, §jul
+C185	Christmas with the Simpssons (2003)	#en/se, §jul
+C186	Deck the halls (2006)	#en/se, §jul?
+C187	Itzhaks julevangelium (2006)	#se?, §jul, §sverige
+C188	Kim Novak badade aldrig i Genesarets sjö (2005)	§sverige
+C189	Murder Party (2007)	#en/se, §halloween
+C190	Stalking Santa (2006)	#en/se, §jul
+C191	Scrooged (1988)	#en/se, §jul
+C192	It's a wonderful life	#en/se, §jul
+C193	Harry Potter och den flammande bägaren 1/2	*dvd, §fantasy
+C194	Harry Potter och den flammande bägaren 2/2	*dvd, §fantasy
+C195	Juryn 1/2	*dvd
+C196	Juryn 2/2	*dvd
+C197	Flashdance	*dvd
+C198	Inte utan min dotter	*dvd
+C199	Oskyldigt dömd 1-2	*dvd, §sverige
+C200	Oskyldigt dömd 3-4	*dvd, §sverige
+C201	Oskyldigt dömd 5-6	*dvd, §sverige
+C202	Oskyldigt dömd 7-8	*dvd, §sverige
+C203	Oskyldigt dömd 9-10	*dvd, §sverige
+C204	Lassie	*dvd
+C205	Terminator 2 - Domedagen 1/2	*dvd, §sf, #en/se, &ms
+C206	Terminator 2 - Domedagen 2/2	*dvd, §sf, #en/se, &ms
+C207	Saw 5	*dvd,#en/se,&ms,/Starta med "chapter 1"
+C208	Saw 6 (2007)	*dvd, #en/se,&ms
+C209	Terminator 1 (1984)	*dvd, §sf, #en/se, &ms
+C210	Macken	*dvd, #se/?, §sverige, #se
+C211	Rambo 2 - First Blood 2 (1985)	*dvd, #en/se, §stallone
+C212	Rambo 3 (1988)	*dvd, #en/se, §stallone
+C213	Rambo 4 - Rambo (2008)	*dvd, #en/se, §stallone
+C214	Rhapsody in Rock	*dvd, #se/?, §sverige
+C215	Ivanhoe 1/2	*dvd, #en/se
+C216	Ivanhoe 2/2	*dvd, #en/se
+C217	Carola Häggkvist - 25 år som artist	*dvd, #se/?, §dokumentär
+C217	Reunion - LHS	*dvd, #se/-, §eget
+C218	Lara Croft - Tomb Raider	*dvd, #en/se
+C219	Scarface 1/2	*dvd, #en/se, &ms
+C220	Scarface 2/2	*dvd, #en/se, &ms
+C221	Bladerunner	*dvd, #en/se, §sf, &ms
+C222	Hans och hennes	*dvd, #se/??
+C223	Millenium - Män som hatar kvinnor 1/2	*dvd, #se/??
+C224	Millenium - Män som hatar kvinnor 2/2	*dvd, #se/??
+C225	Millenium - Flickan som lekte med elden 1/2	*dvd, #se/??
+#C226	---
+#C227	---
+#C228	---
+C229	Hotell Rwanda	*dvd, #??/se
+C230	1984   	*dvd, #en/se, §sf
+C231	Flammen og citronen	*dvd, #dk/se
+C232	Shoah (1985)	*dvd, #??/en
+C233	Films to keep you awake - The Christmas tale (2005)	*xvid, #en/??
+C233	Kalla Fakta S37E01 	*xvid, #se/se
+C233	Kalla Fakta S37E02 	*xvid, #se/se
+C233	Sep 11th What we saw	*xvid, #en/??
+C234	Poseidon	*dvd, #en/se
+C235	Men in black	*dvd, #en/se, &ms
+C236	Men in black II	*dvd, #en/se, &ms
+C237	Rocky Balboa	*dvd, #en/se, §stallone, &ms
+C238	Rocky 4	*dvd, #en/se, §stallone, &ms
+C239	King Kong 1/2 (2005)	*dvd, #en/se, &ms
+C240	King Kong 2/2 (2005)	*dvd, #en/se, &ms
+C241	Rocky 5	*dvd, #en/se, §stallone, &ms
+C242	Twilight Saga 1 - Twilight	*dvd, #en/se, &ms
+C243	Transformers 1 1/2	*dvd, #en/se
+C244	Transformers 2 2/2	*dvd, #en/se
+C245	Bröderna Lejonhjärta	*dvd-egen, #se/-, §astrid
+C246	Systrar i jeans	*dvd, #en/se
+C247	Maria Larsons eviga ögonblick 1/2	*dvd, #se/??
+C248	Maria Larsons eviga ögonblick 2/2	*dvd, #se/??
+C249	Cove, The	*dvd, #en/se
+C250	Dödligt vapen	*dvd, #en/se
+C251	Tillbaka till framtiden 1	*dvd, #en/se
+C252	Tillbaka till framtiden 2	*dvd, #en/se
+C253	Tillbaka till framtiden 3	*dvd, #en/se
+C254	Den illustrerade mannen	*dvd, #en/se
+C255	Outpost	*dvd, #en/se
+C256	Supersugen	*dvd, #en/se
+C257	Twilight Saga 2 - New Moon 1/2	*dvd, #en/se
+C258	Twilight Saga 2 - New Moon 2/2	*dvd, #en/se
+C259	Upp	*dvd, #en/se
+C260	Avatar	*dvd, #en/se
+C261	It's a wonderful life	*dvd, #en/se
+#C262	---
+C263	Miami Vice S01E01-11	*xvid, #en, &ms
+C264	Miami Vice S01E12-22	*xvid, #en, &ms
+C265	Miami Vice S02E01-11	*xvid, #en, &ms
+C266	Miami Vice S02E12-22	*xvid, #en, &ms
+C267	Miami Vice S03E01-12	*xvid, #en, &ms
+C268	Miami Vice S03E13-24	*xvid, #en, &ms
+C269	Miami Vice S04E01-11	*xvid, #en, &ms
+C270	Miami Vice S04E12-22	*xvid, #en, &ms
+C271	Starship Troopers 3	*dvd,#en/se,ps3=zoom,&ms
+C272	När lammen tystnar	*dvd,#en/se
+C273	Flickan från ovan 1/2	*dvd,#en/se
+C274	Flickan från ovan 2/2	*dvd,#en/se
+C275	Under ytan	*dvd, #se/se
+C276	Poltergeist	*dvd,#en
+C277	City of Ember	*dvd, #en/se, &ms
+C278	Wall, The	*dvd, #en/se
+C279	Gunsmoke S1E101-125	*xvid,#en, &ms
+C280	Gunsmoke S1E126-139	*xvid,#en, &ms
+C281	Jakten på Röd Oktober 1/2	*dvd, #en/se, &ms
+C282	Jakten på Röd Oktober 2/2	*dvd, #en/se, &ms
+C283	Maffiabröder 1/2	*dvd, #en/se
+C284	Maffiabröder 2/2	*dvd, #en/se
+C285	Mammut 1/2	*dvd, #en/se, &ms
+C286	Mammut 2/2	*dvd, #en/se, &ms
+C287	Deliverance	*dvd, #en/se
+C288	Poltergeist	*dvd, #en
+C289	Maria Larssons eviga ögonblick 1/2	*dvd, #se/??
+C290	Maria Larssons eviga ögonblick 2/2	*dvd, #se/??
+C291	2001 1/2	*dvd, #en/se
+C292	2001 2/2	*dvd, #en/se
+C293	1984	*dvd, #en/se
+C294	Sin City	*dvd, #en/se
+C295	Apollo 13 1/2	*dvd, #en/se, &ms
+C296	Apollo 13 2/2	*dvd, #en/se, &ms
+C297	Se min kjole	*dvd, #dk/se
+C298	Zombieland	*dvd, #en/se, &ms
+C299	The men who stare at goats	*dvd, #en/se
+C300	Allsång på skansen	*dvd, #se/se, &ms
+C301	Kontakt 1/2	*dvd, #en/se
+C302	Kontakt 2/2	*dvd, #en/se
+C303	Mannen som kunde tala med hästar 1/2	*dvd, #en/se
+C304	Mannen som kunde tala med hästar 2/2	*dvd, #en/se
+C305	Mumien - Drakkejsarens grav	 *dvd, #en/se
+C306	Helen	*dvd, #en/se, &ms
+C307	Shutter Island 1/2	*dvd,#en/se
+C308	Shutter Island 2/2	*dvd, #en/se
+C309	Ultimate Survival - Everglades	*dvd, #en/se
+C310	Rec 2	 *dvd, #sp/se, §zoombie, &ms
+C311	Stenhuggaren	*dvd, #se/se
+C312	Linas kvällsbok	*dvd, #se/se
+C313	Den gröna milen 1/2	*dvd, #en/se
+C314	Den gröna milen 2/2	*dvd, #en/se
+C315	Bröderna Karlsson	*dvd, #se/se
+C316	Och himlen är oskyldigt blå	*dvd, #se/se
+C317	Flickan	*dvd, #se/se
+C318	Hur många lingon finns det i världen	*dvd, #se/se
+C319	Cocaine Cowboys 1/2	 *dvd, #en/se, &ms, §dokumentär
+C320	Cocaine Cowboys 2/2	 *dvd, #en/se, &ms, §dokumentär
+C321	Virtual Revolutiont, The - Frihetens pris 3/4	*dvd, #en/se
+C322	Virtual Revolution, The 1-4	*xvid, #en/-, &ms, §dokumentär
+C323	127 timmar	*dvd, #en/se
+C324	iGenius	*dvd, #en/se, §dokumentär
+C325	Top Gear - Miami -> Key West	*dvd, #en/se
+C326	Kalla fakta - Hur säker är förskolan?	*dvd, #se/se, §dokumentär
+C327	Smalfilm Morfar 1/2	*dvd, §egen
+C328	Smalfilm Morfar 2/2	*dvd, §egen
+C329	30 days of night	*dvd, #en/se
+C330	Buried	*dvd, #en/se, &ms
+C331	Search for Santa Paws	*dvd, #en/se, §jul
+C332	Doom	*dvd, #en/se, §zoombie
+C333	Rec 2  	     *dvd, #sp/se, §zoombie, &ms
+C334	Saw 7 - The final chapter	   *dvd, #en/se, &ms
+C335	Resident Evil 4 - Afterlife	*dvd, #en/se, §zoombie, &ms
+C336	Världens Bilar 1-4	 *dvd, #en/se
+C337	Brazil 1/2	#en/se
+C338	Brazil 2/2	#en/se
+C339	Paranormal Activity 2	*dvd, #en/se
+C340	Rocky 3	*dvd, #en/se, &ms
+C341	Basic Instinct 1/2	*dvd, #en/se, &ms
+C342	Basic Instinct 2/2	*dvd, #en/se, &ms
+C343	Sällskapsresan 1	*dvd, #se/-
+C344	Sällskapsresan 2	*dvd, #se/-
+C345	Sällskapsresan 3	*dvd, #se/-
+C346	Sällskapsresan 4	*dvd, #se/-
+C347	Sällskapsresan 5	*dvd, #se/-
+C348	Doors, The	*dvd, #en/se, &ms
+C349	Black Rain 1/2	*dvd, #en/se, &ms
+C350	Black Rain 2/2	*dvd, #en/se, &ms
+C351	Beck 01 - Lockpojken	*dvd, #se/?, &ms
+C352	Solaris (2002)	*dvd, #en/se, &ms
+C353	Spirit - Stallion of the Cimarron	*dvd, #en/se, &ms
+C354	USA 2007	*dvd, §eget
+C355	Human Centipede, The	*xvid, #en/-, &ms
+C356	Tron	*dvd, #en/se, &ms
+C357	I rymden finns inga känslor	      *dvd, #se/-
+C358	Cornelis	*dvd, #se/-
+C359	Täcknamn Coq Rogue	*dvd, #se/?
+C360	Kommisarie Späck	*dvd, #se/?
+C361	Häxjakten 1/2	*dvd, #en/se
+C362	Häxjakten 2/2	*dvd, #en/se
+C363	Tron Legacy 1/2	*dvd, #en/se, &ms
+C364	Tron Legacy 2/2	*dvd, #en/se, &ms
+C366	30 days of night 2	*dvd, #en/se, &ms
+C367	Tvillingsystrar 1/2	*dvd, #en/se
+C368	Tvillingsystrar 2/2	*dvd, #en/se
+C369	Spiderman 1 1/2	*dvd, #en/se
+C370	Spiderman 1 2/2	*dvd, #en/se
+C371	I am legend	*dvd, #en/se
+C372	Änglagård - Tredje gången gilt	    *dvd, #se/?
+#C373	---
+#C374	---
+C375	Straight story, The	*dvd, #en/se
+C376	Blair witch project, The	*dvd, #en/se
+C377	Sista natten med gänget	*dvd, #en/se, &ms
+C378	Bortom alla ord	*dvd, #en/se
+C379	Blåsningen 1/2	*dvd, #en/se
+C380	Blåsningen 2/2	*dvd, #en/se
+C381	Steve Jobs - Mannen som förändrade världen	*dvd, #en/se, &msy
+C382	Flykten från New York	*dvd, #en/se
+C383	Point Break 1/2	*dvd, #en/se
+C384	Point Break 2/2	*dvd, #en/se
+C385	Social Network 1/2	*dvd, #en/se
+C386	Social Network 2/2	*dvd, #en/se
+C387	Pirates of the Caribbean - I främmande farvatten 1/2	*dvd, #en/se
+C388	Pirates of the Caribbean - I främmande farvatten 2/2	*dvd, #en/se
+C389	Prince of Persia	   *dvd, #en/se
+C390	Prinsessan of grodan	   *dvd, #se/-
+C391	Fahrenheit 9/11 1/2	   *dvd, #en/se
+C392	Fahrenheit 9/11 2/2	   *dvd, #en/se
+C393	Avatar 1/3	*dvd, #en/se
+C394	Avatar 2/3	*dvd, #en/se
+C395	Avatar 3/3	*dvd, #en/se
+C396	SAAB:s sista strid	*dvd, #se, §dokumentär
+C397	Spiderman 2 1/2	*dvd, #en/se
+C398	Spiderman 2 2/2	*dvd, #en/se
+C399	60 dagar under snö	*dvd, #se, §dokumentär
+#
+#
+#
+Hserie	Nord och syd - Bok 1-3	*dvd, #en/se
+Hserie	Rötter	*dvd, #en/se
+Hserie	Dallas - Säsong 1	*dvd, #en/se
+#
+Hserie	How the west was won - Box 1	*dvd, #en/se
+Hserie	How the west was won - Box 2	*dvd, #en/se
+Hserie	How the west was won - Box 3	*dvd, #en/se
+Hserie	How the west was won - Box 4	*dvd, #en/se
+Hserie	How the west was won - Box 5	*dvd, #en/se
+#
+Hserie	Beck 01 - ???	§beck, &ms, *dvd, #se
+Hserie	Beck 02 - Mannen med ikonerna	§beck, &ms, *dvd, #se
+Hserie	Beck 03 - Vita nätter	§beck, &ms, *dvd, #se
+Hserie	Beck 04 - Öga för öga	§beck, &ms, *dvd, #se
+Hserie	Beck 05 - Pensionat pärlan	§beck, &ms, *dvd, #se
+Hserie	Beck 06 - Monstret	§beck, &ms, *dvd, #se
+Hserie	Beck 07 - The money man	§beck, &ms, *dvd, #se
+Hserie	Beck 08 - Spår i mörker	§beck, &ms, *dvd, #se
+Hserie	Beck 09 - Hämndens pris	§beck, &ms, *dvd, #se
+Hserie	Beck 10 - Mannen utan ansikte	§beck, &ms, *dvd, #se
+Hserie	Beck 11 - Kartellen	§beck, &ms, *dvd, #se
+Hserie	Beck 12 - Enslingen	§beck, &ms, *dvd, #se
+Hserie	Beck 13 - Okänd avsändare	§beck, &ms, *dvd, #se
+Hserie	Beck 14 - Annonsmannen	§beck, &ms, *dvd, #se
+Hserie	Beck 15 - Pojken i glaskulan	§beck, &ms, *dvd, #se
+Hserie	Beck 16 - Sista vittnet	§beck, &ms, *dvd, #se
+Hserie	Beck 17 - Skarpt läge	§beck, &ms, *dvd, #se
+Hserie	Beck 18 - Flickan i jordkällaren	§beck, &ms, *dvd, #se
+Hserie	Beck 19 - Gamen	§beck, &ms, *dvd, #se
+Hserie	Beck 20 - Advokaten	§beck, &ms, *dvd, #se
+Hserie	Beck 21 - Den japanska shungamåningen	§beck, &ms, *dvd, #se
+Hserie	Beck 22 - Den svaga länken	§beck, &ms, *dvd, #se
+Hserie	Beck 23 - Det tysta skriket	§beck, &ms, *dvd, #se
+Hserie	Beck 24 - I guds namn	§beck, &ms, *dvd, #se
+Hserie	Beck 25 - I stormens öga	§beck, &ms, *dvd, #se
+Hserie	Beck 26 - Levande begravd	§beck, &ms, *dvd, #se
+Hserie	Beck 27 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 28 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 29 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 30 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 31 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 32 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 33 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 34 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 35 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 35 - Ditt eget blod	§beck, *br, #en/se
+Hserie	Beck 36 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 37 - ...	§beck, &ms, *dvd, #se
+Hserie	Beck 38 - ...	§beck, &ms, *dvd, #se
+#
+Hserie	Bond 03 - Goldfinger	*dvd, #en/se, §bond, &ms
+Hserie	Bond 05 - Man lever bara två gånger	*dvd, #en/se, §bond, &ms
+Hserie	Bond 06 - I Hennes Majestäts Hemliga Tjänst	*dvd, #en/se, §bond
+Hserie	Bond 07 - Diamantfeber	*dvd, #en/se, §bond, &ms
+Hserie	Bond 13 - Octopussy	*dvd, #en/se, §bond, &ms
+Hserie	Bond 17 - Goldeneye	*dvd, #en/se, §bond, &ms
+Hserie	Bond 18 - Tomorrow never dies	*dvd, #en/se, §bond, &ms
+Hserie	Bond 19 - The world is not enough	*dvd, #en/se, §bond, &ms
+Hserie	Bond xx - Never say never again	*dvd, #en/se, §bond, &ms
+Hserie	Bond 20 - Die another day	*dvd, #en/se, §bond, &ms
+Hserie	Bond 22 - Quantum of Solace	*dvd, #en/se, §bond, &ms
+#
+#
+#
+Hserie	Wallander 01 - Innan frosten	*dvd, #se/?, §wallander
+Hserie	Wallander 02 - Byfånen	*dvd, #se/?, §wallander
+Hserie	Wallander 03 - Bröderna	*dvd, #se/?, §wallander
+Hserie	Wallander 04 - Mörkret	*dvd, #se/?, §wallander
+Hserie	Wallander 05 - Afrikanen	*dvd, #se/?, §wallander
+Hserie	Wallander 06 - Den svaga punkten	*dvd, #se/?, §wallander
+Hserie	Wallander 07 - Mastermind	*dvd, #se/?, §wallander
+Hserie	Wallander 08 - Fotografen	*dvd, #se/?, §wallander
+Hserie	Wallander nn - Jokern	*dvd, #se/?, §wallander
+Hserie	Wallander nn - Hemligheten	*dvd, #se/?, §wallander
+Hserie	Wallander 14 - Hämnden	*dvd, #se/?, §wallander
+Hserie	Wallander 15 - Skulden	*dvd, #se/?, §wallander
+Hserie	Wallander 16 - Kuriren	*dvd, #se/?, §wallander
+Hserie	Wallander 17 - Tjuven	*dvd, #se/?, §wallander
+Hserie	Wallander 19 - Prästen	*dvd, #se/?, §wallander
+Hserie	Wallander 20 - Läckan	*dvd, #se/?, §wallander
+Hserie	Wallander 21 - Skytten	*dvd, #se/?, §wallander
+Hserie	Wallander 22 - Dödsängeln	*dvd, #se/?, §wallander
+Hserie	Wallander 23 - Vålnaden	*dvd, #se/?, §wallander
+Hserie	Wallander 24 - Arvet	*dvd, #se/?, §wallander
+Hserie	Wallander 26 - Vittnet	*dvd, #se/?, §wallander
+Hserie	Wallander 27 - Den orolige mannen	*dvd, #se/?, §wallander
+Hserie	Wallander 28 - Försvunnen	*dvd, #se/?, §wallander
+Hserie	Wallander 29 - Sveket	*dvd, #se/?, §wallander
+Hserie	Wallander 31 - Mordbrännaren	*dvd, #se/?, §wallander
+Hserie	Wallander 32 - Sorgfågeln	*dvd, #se/?, §wallander
+#
+Hserie	Hamilton 1	*dvd, #en/se
+Hserie	Hamilton 2	*dvd, #en/se
+#
+Hserie	Pirates of the Caribbean - Svarta pärlans förbannelse	*dvd, #en/se, &ms
+Hserie	Pirates of the Caribbean - Vid världens ände	*dvd, #en/se, &ms
+Hserie	Pirates of the Caribbean - Död mans kista	*dvd, #en/se, &ms
+Hserie	Pirates of the Caribbean - Främmande farvatten	*dvd, #en/se
+Hserie	Pirates of the Caribbean - Salazar	*dvd, #en/se
+#
+Hserie	Sons of Anarchy S01	*dvd, #en/se
+Hserie	Sons of Anarchy S02	*dvd, #en/se
+Hserie	Sons of Anarchy S03	*dvd, #en/se
+#
+Hserie	Härskarringen - Sagan om ringen - Special extended dvd edition	*dvd, #en/se
+Hserie	Härskarringen - Sagan om de två tornen - Special extended dvd edition	*dvd, #en/se
+Hserie	Härskarringen - Sagan om konungens återkomst - Special extended dvd edition	*dvd, #en/se
+#
+Hserie	Hobbit - En oväntad resa	*br, #en/se
+Hserie	Hobbit - Femhäraslaget	*br, #en/se
+Hserie	Hobbit - Smaugs ödemark	*br, #en/se
+#
+Hserie	Twilight Saga 1 - Twilight	*dvd, #en/se, &ms
+Hserie	Twilight Saga 2 - New Moon	*dvd, #en/se, &ms
+Hserie	Twilight Saga 3 - Eclipse	*dvd, #en/se, &ms
+Hserie	Twilight Saga 4 - Breaking Dawn 1	*dvd, #en/se, &ms
+Hserie	Twilight Saga 5 - Breaking Dawn 2	*dvd, #en/se, &ms
+#
+Hserie	Millenium - Män som hatar kvinnor	*dvd, #se/?
+Hserie	Millenium - Flickan som lekte med elden	*dvd, #se/?
+Hserie	Millenium - Luftslottet som sprängdes	*dvd, #se/?
+#
+Hserie	Oskyldigt dömd - Första säsongen	*dvd, #se/?
+Hserie	Oskyldigt dömd - Andra säsongen	*dvd, #se/?
+#
+Hserie	Alien - Directors Cut	*dvd,#en/se
+Hserie	Aliens - Återkomsten - Special edition	*dvd,#en/se
+Hserie	Alien Covenant	*br, #en/se
+Hserie	Alien Prometheus	*br, #en/se
+#
+Hserie	Star Wars 1	*dvd, #en/se, &ms
+Hserie	Star Wars 2	*dvd, #en/se, &ms
+Hserie	Star Wars 3	*dvd, #en/se, &ms
+Hserie	Star Wars 4	*dvd, #en/se, &ms
+Hserie	Star Wars 7 - The Force awakens	*br, #en/se
+#
+#
+#
+Hanim	Aladdin	§animerat, *dvd, #?/?
+Hanim	Anastasia	§animerat, *dvd, #?/?
+Hanim	Askungen	§animerat, *dvd, #?/?
+Hanim	Björnbröder	§animerat, *dvd, #?/?
+Hanim	Bortspolad	§animerat, *dvd, #?/?
+Hanim	Den lilla sjöjungfrun	§animerat, *dvd, #?/?
+Hanim	Djungelboken	§animerat, *dvd, #?/?
+Hanim	Dumbo (2019)	§animerat, *br, #en/se
+Hanim	Gustaf	§animerat, *dvd, #?/?
+Hanim	Gustaf 2	§animerat, *dvd, #?/?
+Hanim	Happy Feet	§animerat, *dvd
+Hanim	Hajar som hajar 	§animerat, *dvd, #?/?
+Hanim	Happy feet	§animerat, *dvd, #?/?
+Hanim	Hitta Doris	§animerat, *br, #en/se
+Hanim	Hitta Nemo	§animerat, *dvd, #?/?
+Hanim	Härliga vintertid	§animerat, *dvd, #?/?
+Hanim	I väntan på julen	§animerat, *dvd, #?/?
+Hanim	Ice Age	§animerat, *dvd, #?/?
+Hanim	Ice Age 2	§animerat, *dvd, #?/?
+Hanim	Ice Age 3	§animerat, *dvd, #?/?
+Hanim	Kalle Ankas önskejul	§animerat, *dvd, #?/?
+Hanim	Lady och Lufsen	§animerat, *dvd, #?/?
+Hanim	Lejonkungen	§animerat, *dvd, #?/?
+Hanim	Lejonkungen (2019)	§animerat, *br, #en/se
+Hanim	Micke och Molle	§animerat, *dvd, #?/?
+Hanim	Musse räddar jultomten	§animerat, *dvd, #?/?
+Hanim	Peabody & Sherman, Herr	§animerat, *dvd, #en/se
+Hanim	Pongo och de 101 dalmatinerna	§animerat, *dvd, #?/?
+Hanim	Prinsen av Egypten	§animerat, *dvd, #?/?
+Hanim	Råttatouille	§animerat, *dvd, #?/?
+Hanim	Rudolf och den röda mulen	§animerat, *dvd, #?/?
+Hanim	Tingeling	§animerat, *dvd, #?/?
+Hanim	Törnrosa	§animerat, *dvd, #?/?
+Hanim	Äntligen jullov	§animerat, *dvd, #?/?
+#
+#
+#
+# Hsaknas	Oskyldigt dömd - Jakten på rättvisa	*dvd, #en/se
+#
+#
+#
+Hsorterat	10,000 BC	*dvd, #en/se
+Hsorterat	13:e våningen	*dvd, #en/se
+Hsorterat	1408	*dvd, #en/se
+Hsorterat	19 Years a slave	*br, #en/se
+Hsorterat	Alice i underlandet (1999)	*dvd, #en/se, /ej animerad
+Hsorterat	All quiet on the Western Front	*dvd, #en/se
+Hsorterat	American History X	*dvd, #en/se
+Hsorterat	Apocalypse Now - Redux	§krig, #en/se, &ms
+Hsorterat	Armageddon	*dvd, #en/se
+Hsorterat	Arn - Riket vid vägens slut	*dvd, #se/?
+Hsorterat	Arn - Tempelriddaren	*dvd, #se/?
+Hsorterat	A star is born	*br, #en/se
+Hsorterat	A Street cat named Bob	*dvd, #en/se
+Hsorterat	Allt för min syster	*dvd
+Hsorterat	Astrid Lindgrens Jul	*dvd, #se/?
+Hsorterat	Assasination of Jesse James, The	*dvd, #en/se
+#
+Hsorterat	Bangkok Hilton	*dvd, #en/se
+Hsorterat	Barnhemmet	*dvd, #en/se
+Hsorterat	Beppes godnattstund	§animerat, *dvd, #se
+Hsorterat	Berättelsen om Pi	*dvd, #en/se
+Hsorterat	Black Beauty	*dvd, #en/se
+Hsorterat	Blue Juice	*dvd, #en/se
+Hsorterat	Bonnie and Clyde (1967)	*dvd, #en/se
+Hsorterat	Bridget Jones dagbok	*dvd, #en/se
+Hsorterat	Bring it on	*dvd, #en/se
+#
+Hsorterat	Ciao Bella	*dvd
+Hsorterat	Coyote Ugly	*dvd, #en/se, &ms
+Hsorterat	Creepshow	*dvd, #en/se, &ms
+Hsorterat	Creepshow 2	*dvd, #en/se, &ms
+Hsorterat	Cujo	§stephenking,*dvd, #en/se
+Hsorterat	Charlottes Web	*dvd, #en
+Hsorterat	Countess, The	*dvd, #en/se
+#
+Hsorterat	Dag och natt	*dvd, #en/se
+Hsorterat	Dansar med varger - Special edition	*dvd, #en/se
+Hsorterat	Dark Water	*dvd, #en/se
+Hsorterat	Dawn of the Dead	*dvd, #en/se
+Hsorterat	Dead Zone, The	*dvd, #en/se
+Hsorterat	Deer Hunter, The	*dvd, #en/se
+Hsorterat	Den bästa av mödrar	#se
+Hsorterat	Den vita massajen	*dvd, #en/se
+Hsorterat	Diary of Anne Frank, The	*dvd, #en/se
+Hsorterat	Die Hard	*dvd, #en/?
+Hsorterat	Dirty Dancing	*dvd, #en/en
+Hsorterat	Dirty Dancing	*dvd, #en/se, &ms
+Hsorterat	Dirty Dancing	*br
+Hsorterat	District 9	*dvd, #en/se
+Hsorterat	Doktor Zjivago (2002)	*dvd, #en/se
+Hsorterat	Dreamer	*dvd, #en/se
+Hsorterat	Dallas Buyers Club	*br
+Hsorterat	Djävulen bär prada	*dvd, #en/se
+Hsorterat	Dolphin Swim	*dvd
+Hsorterat	Dagboken	*dvd
+#
+Hsorterat	E.T.	§sf, *dvd, #en/se
+Hsorterat	Eight Below - An Antarctic adventure	*dvd, #en
+Hsorterat	Elizabeth - The Golden Age	*dvd, #en/se
+Hsorterat	En shopaholics bekännelser	*dvd, #en/se
+Hsorterat	Exorcisten	*dvd, #en/se
+Hsorterat	En man som heter Ove	#se
+Hsorterat	En plats i solen	*dvd, #en/se
+Hsorterat	Exodus	*dvd, #en/se
+Hsaknas	En ung Jane Austen	*dvd
+#
+Hsorterat	Flyga drake	*dvd, #en/se
+Hsorterat	För en handfull dollar	§western
+Hsorterat	Forever Lulu	*dvd, #en/se
+Hsorterat	Forrest Gump	*dvd, #en/se
+Hsorterat	Freaky Friday	*dvd, #en/se
+Hsorterat	Fifty Shades of grey	*br, #en/se
+Hsorterat	Fifty shades darker	*br, #en/se
+#
+Hsorterat	Gettysburg	#en/?, §krig, §western, &ms
+Hsorterat	Ghostbusters	*dvd, #en/se
+Hsorterat	Gilbert Grape	*dvd, #en
+Hsorterat	Girls just want to have fun	*dvd, #en/se, &ms
+Hsorterat	Grand Prix	*dvd, #en/?
+Hsorterat	Grease	*dvd, #en/se
+Hsorterat	Grease	*dvd, #en/se
+Hsorterat	Grottbjörnens folk	*dvd, #en/se
+#
+Hsorterat	Hajen	*dvd, #en/se
+Hsorterat	Halloween (1978)	*dvd, #en/se
+Hsorterat	Hannibal - Limited edition	*dvd, #en/se
+Hsorterat	Heartbreak Kid, The	*dvd, #en/?
+Hsorterat	Hip Hip Hora	*dvd, #se/?
+Hsorterat	Hook	*dvd, #?/?
+Hsorterat	Hopplös & Hatad av alla	*dvd, #en/se
+Hsorterat	Höstlegender	*dvd, #en/se
+#
+Hsorterat	I hennes skor	*dvd, #en/se
+Hsorterat	I taket lyser stjärnorna	*dvd, #en/se
+Hsorterat	Independence Day	*dvd, #en/se, &ms
+Hsorterat	Indiana Jones - Kristalldödskallens rike	*dvd, #en/se
+Hsorterat	Ingen kan älska som vi	*dvd, #se
+Hsorterat	Irene Huss - Eldsdansen	*dvd, #se/?
+Hsorterat	It	*br, #en/se
+Hsorterat	It chapter two	*br, #en/se
+#
+Hsorterat	Jägarna	*dvd, #se/se
+Hsorterat	Jägarna 2	*dvd, #se/se
+Hsorterat	Jesus of Nazareth	*dvd, #en/se
+Hsorterat	Kill Bill	*dvd, #en/se
+Hsorterat	Kill Bill Vol. 2	*dvd, #en/se
+Hsorterat	King Arthur	*dvd, #en/?
+Hsorterat	King Arthur	*br, #en/se
+Hsorterat	King Kong (1933)	*dvd, #en/se, &ms
+Hsorterat	Julkalendern 2013 - Barna Hedenhös	*dvd, #se
+Hsorterat	Julbrasan	*dvd
+#
+Hsorterat	Lassies hjältedåd	*dvd, #en/se
+Hsorterat	Linbanan Forsby-Köping del 1	*dvd
+Hsorterat	Love Actually	*dvd, #en/se
+Hsorterat	Love Actually	*dvd, #en
+Hsorterat	Låt den rätte komma in	*dvd, #se
+#
+Hsorterat	Mamma Mia	*dvd, #en/se, &ms
+Hsorterat	Mannen som kunde tala med hästar	*dvd, #en/se
+Hsorterat	Marley och jag	*dvd, #en/se
+Hsorterat	Material Girls	*dvd, #en/se
+Hsorterat	Matrix	*dvd, #en/se, &ms
+Hsorterat	Mean girls	*dvd, #en/se
+Hsorterat	Medicinmannen	*dvd, #en/se
+Hsorterat	Merlin	*dvd, #en/se
+Hsorterat	Möbelhandlarens dotter	*dvd
+Hsorterat	Monty Python - Life of Brian	*dvd, #en/se, &ms
+Hsorterat	Monty Python - Meningen med livet	*dvd, #en/se, &ms
+Hsorterat	Monty Python - Meningen med livet	*dvd, #en/se, &ms
+Hsorterat	Monty Python - The Holy Grail	*dvd, #en/se, &ms
+Hsorterat	Mumien - Återkomsten	*dvd, #en/se
+Hsorterat	Mumien - Drakkejsarens grav	*dvd, #en/se
+Hsorterat	Massakern i Katyn	*dvd, #en/se
+Hsorterat	Mig äger ingen	*br, #en/se
+#
+Hsorterat	Napoleon Bonaparte (2003)	*dvd, #en/se
+Hsorterat	Narnia - Häxan och odjuret	§fantasy, *dvd, #en/se
+Hsorterat	Nina Frisk	*dvd, #se/?
+Hsorterat	Nobels testamente	*br, #en/se
+#
+Hsorterat	Olycksfågeln	*dvd, #se/?
+Hsorterat	Om en pojke	*dvd
+Hsorterat	Omen, The	*dvd, #en/se
+Hsorterat	Ondskan	§sverige, *dvd, #se/?
+Hsorterat	Paradiset	*dvd, #se/?
+Hsorterat	Paranormal Activity	*dvd, #en/se
+Hsorterat	Passion of the Christ, The	*blu-ray, #en/se
+Hsorterat	Pet Sematary	*dvd, #en/se
+Hsorterat	Pretty Woman	*dvd, #en/se, &ms
+Hsorterat	Pearl Harbour	*br, #en/se
+Hsorterat	Pyramidernas land	§dokumentär
+#
+Hsorterat	Queen, The	*dvd, #en/se
+Hsorterat	Rallybrudar	*dvd, #se
+Hsorterat	Rambo 4 - Rambo	*dvd, #en/se
+Hsorterat	Rännstensungar	*dvd, #se
+Hsorterat	Rec 1	*dvd, #en/se, &ms
+Hsorterat	Rederiet - Jubileumsutgåva 1992-2002	*dvd, #se/?
+Hsorterat	Reservoir Dogs	*dvd, #en/se
+Hsorterat	Ring - 0	*dvd, #jp/se
+Hsorterat	Ring 2	*dvd, #jp/se
+Hsorterat	Ring, The	*dvd, #jp/se
+Hsorterat	Robin Hood - Karlar i trikåer	§mel brooks
+Hsorterat	Rose	*dvd, #en/se
+Hsorterat	Roseanna	*dvd, #en/se
+Hsorterat	Röda draken	*dvd, #en/se
+#
+Hsorterat	Sameblod	*dvd
+Hsorterat	Saw 1	*dvd, #en/se, &ms
+Hsorterat	Saw 6	*dvd, #en/se, &ms
+Hsorterat	Schindler's List	*dvd, #en/se
+Hsorterat	Snabba Cash	*dvd, #se
+Hsorterat	Snabba Cash II	*br, #se
+Hsorterat	Snabba Cash - Livet Deluxe	*dvd, #se
+Hsorterat	Solstorm	*dvd, #en/se
+Hsorterat	Soraya M.	*dvd, #en/se
+Hsorterat	Starship Troopers	*dvd, #en/se, &ms
+Hsorterat	Studio 54	*dvd, #en/se, &ms
+Hsorterat	Snowman, The	*br, #en/se
+Hsorterat	Superswede	*br, #en/se
+Hsorterat	Scorpion King, The - The Rock	*dvd, #en/se
+Hsorterat	Se till vänster där går en svensk	*dvd
+Hsorterat	Seven	*dvd, #en/se
+Hsorterat	Sex and the city	*dvd, #en/se
+Hsorterat	Shakespeare in love	*dvd, #en/se
+Hsorterat	Smala Sussie	*dvd, #se
+Hsorterat	Snygg, Sexig & Singel	*dvd, #en/se
+Hsorterat	Svinalängorna	*dvd, #se/se
+#
+Hsorterat	Talismanen	*dvd, #en/se
+Hsorterat	Terminator 4 - Salvation	*dvd, #en/se, &ms
+Hsorterat	Texas Chainsaw Massacre (2003)	*dvd, #en/se, &ms
+Hsorterat	Titta hon snackar också!	*dvd, #en/se
+Hsorterat	Tomie - Re-Birth	*dvd, #jp/se
+Hsorterat	Tomie - Replay	*dvd, #jp/se
+Hsorterat	Tomie - The final chapter	*dvd, #jp/se
+Hsorterat	Tomie - Tomie	*dvd, #jp/se
+Hsorterat	Too tired to die	*dvd, #en/se
+Hsorterat	Top Gun	*dvd, #en/se, &ms
+Hsorterat	The legend of Tarzan	*br, #en/se
+Hsorterat	The man in the Iron Mask	*dvd, #en/se
+Hsorterat	Tigerns rike	§dokumentär
+Hsorterat	Tårtgeneralen	*dvd, #se/se
+Hsorterat	Torka aldrig tårar utan handskar	*dvd, #se/se
+#
+Hsorterat	Underworld	*dvd, #en/se, &ms
+Hsorterat	Valkyria	*dvd, #en/se
+Hsorterat	Wyatt Earp (1994)	*dvd, #en/se
+Hsorterat	Zozo	*dvd, #en/se
+Hsorterat	Why him?	*dvd, #en/se
+#
+#
+#
+Hspel-ps	Buzz!	*ps3
+Hspel-ps	Grand Theft Auto IV	*ps3
+Hspel-ps	Heavy Rain	*ps3
+Hspel-ps	Madagaskar 3	*ps3
+Hspel-ps	Racedriver Grid	*ps3
+Hspel-ps	Singstar ABBA	*ps3
+Hspel-ps	SingStar Pop Hits	*ps2
+Hspel-ps	Sims 3 Pets	*ps3
+Hspel-ps	The Last of Us	*ps3
+Hspel-ps	Beyond: Two Souls	*ps3
+Hspel-ps	Lego Pirates of the Caribbean	*ps3
+#
+Hspel-nintendo	Harvest Moon DS	*nintendods
+Hspel-nintendo	Mariokart DS	*nintendods
+Hspel-nintendo	Sims	*nintendods
+Hspel-nintendo	Sims 2 - Castaway	*nintendods
