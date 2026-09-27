@@ -98,7 +98,7 @@ Ignore everything and let through only what the build and runtime stages use. Th
 - [x] 0. Copy this plan to `docs/azure-migration-plan.md` in the repo, with the steps below as checkboxes, so work can continue from it later.
 - [x] 1. Write the files above.
 - [x] 2. Run `infra/azure-setup.sh`. **I'll confirm with you before running it.** It creates Azure resources, although none of them have a fixed fee.
-- [ ] 3. I set up GitHub with `gh`, confirming with you first:
+- [x] 3. I set up GitHub with `gh`, confirming with you first:
    - create the environments with `gh api -X PUT repos/perekskog/movielist/environments/production`, and the same for `feature`
    - `gh variable set AZURE_CLIENT_ID|AZURE_TENANT_ID|AZURE_SUBSCRIPTION_ID`, using the values from the setup script's output
 - [ ] 4. Commit on branch `move-to-azure` and push, after confirming with you. The first run pushes the ghcr.io package. The GCP feature deploy also runs, through Cloud Build, as usual. I follow the run with `gh run watch`, and use `gh run view --log-failed` if it fails.
