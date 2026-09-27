@@ -97,7 +97,7 @@ Ignore everything and let through only what the build and runtime stages use. Th
 
 - [x] 0. Copy this plan to `docs/azure-migration-plan.md` in the repo, with the steps below as checkboxes, so work can continue from it later.
 - [x] 1. Write the files above.
-- [ ] 2. Run `infra/azure-setup.sh`. **I'll confirm with you before running it.** It creates Azure resources, although none of them have a fixed fee.
+- [x] 2. Run `infra/azure-setup.sh`. **I'll confirm with you before running it.** It creates Azure resources, although none of them have a fixed fee.
 - [ ] 3. I set up GitHub with `gh`, confirming with you first:
    - create the environments with `gh api -X PUT repos/perekskog/movielist/environments/production`, and the same for `feature`
    - `gh variable set AZURE_CLIENT_ID|AZURE_TENANT_ID|AZURE_SUBSCRIPTION_ID`, using the values from the setup script's output
@@ -114,9 +114,11 @@ Values and findings recorded as the steps are carried out.
 - Branch: `move-to-azure`
 - Azure subscription: `per-sandbox` (`7135eab0-be2a-4b5e-ac74-9c3c8d9c5ea6`)
 - Step 1: `npm test` passes (7/7). The local `docker build` succeeds and the image is **264 MB** (previously over 1 GB). In `docker run`, `/` returns 200 and `/data.json` returns 200 with 1611 movies, and the process runs as the `node` user.
-- Entra app (client) ID: _not created yet_
-- `movielist-feature` URL: _not deployed yet_
-- `movielist` URL: _not deployed yet_
+- Step 2: `infra/azure-setup.sh` has run, and re-running it takes about 23 seconds and changes nothing, so it's safe to re-run. Both apps are set to min 0, max 1 replica, 0.25 CPU, 0.5Gi and port 8080. Federated credentials exist for `environment:production` and `environment:feature`. The az CLI default is still `per-archive`. Until the first deploy, the apps run the placeholder image, which listens on port 80, so the URLs don't respond yet.
+- Entra app `github-movielist-deploy`, client ID: `44503085-12b1-487e-882d-3c2d62068b23`
+- Tenant ID: `027846eb-5ca5-40cf-bd4d-b4d8c50712ea`
+- `movielist-feature` URL: https://movielist-feature.bluewater-c73d6fbb.swedencentral.azurecontainerapps.io
+- `movielist` URL: https://movielist.bluewater-c73d6fbb.swedencentral.azurecontainerapps.io
 
 ## Verification
 - `npm test` passes locally.

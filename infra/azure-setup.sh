@@ -20,7 +20,7 @@ AD_APP_NAME="github-movielist-deploy"
 # Placeholder until the first deploy from GitHub Actions.
 PLACEHOLDER_IMAGE="mcr.microsoft.com/k8se/quickstart:latest"
 
-sub=(--subscription "$SUBSCRIPTION")
+sub=(--subscription "$SUBSCRIPTION" --only-show-errors)
 SUBSCRIPTION_ID=$(az account show "${sub[@]}" --query id -o tsv)
 TENANT_ID=$(az account show "${sub[@]}" --query tenantId -o tsv)
 echo "Subscription: $SUBSCRIPTION ($SUBSCRIPTION_ID)"
