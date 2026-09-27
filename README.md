@@ -89,33 +89,21 @@ cp allmovies.json ../src/server/
 
 ## Deployment
 
-The app is built into a Docker image (`Dockerfile`, a multi-stage build on
-`node:24-slim`). `.dockerignore` is an allowlist, so any new file the build
-needs (e.g. a Vite `public/` directory) must be added there.
-
-### Azure Container Apps
-
 GitHub Actions (`.github/workflows/deploy.yml`) runs `npm test`, pushes the
-image to `ghcr.io/perekskog/movielist` and deploys it to Azure Container Apps
-in `swedencentral` (subscription `per-sandbox`, resource group
-`rg-movielist`):
+Docker image to `ghcr.io/perekskog/movielist` and deploys it to Azure
+Container Apps (subscription `per-sandbox`, resource group `rg-movielist`):
 
 | Push to        | Container App       | GitHub environment |
 | -------------- | ------------------- | ------------------ |
 | `main`         | `movielist`         | `production`       |
 | other branches | `movielist-feature` | `feature`          |
 
-The apps scale to zero (max one replica), and there is no container registry
-or Log Analytics workspace, so there is no fixed monthly cost. Logs:
-`az containerapp logs show -n movielist -g rg-movielist --subscription per-sandbox --follow`.
+The login to Azure uses OIDC, so no secrets are stored. The apps scale to
+zero, so there is no fixed monthly cost. `infra/azure-setup.sh` creates all
+the Azure and GitHub configuration and is safe to re-run.
 
-The Azure resources and the GitHub OIDC login are created by
-`infra/azure-setup.sh`, which is safe to re-run. The workflow reads
-`AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` from the repo
-variables. No secrets are stored.
-
-The move from Google Cloud Run to Azure is described in
-`docs/azure-migration-plan.md`.
+**See [docs/deployment.md](docs/deployment.md)** for how it works, setting it
+up from scratch, logs, troubleshooting, costs and teardown.
 
 
 
@@ -201,6 +189,33 @@ Om inget språk angetts ska film visas samma som om språk angetts som ? både f
 > saknas (t.ex. `se/`). Filer från mediaservern får redan `?` som standard, så
 > problemet gäller bara skivlistan.
 
+
+## Under consideration
+
+
+### A. Make the repo generic by moving the movie data out of it
+- The data files are `scripts/movielist.txt`, `src/server/allmovies.json` and `src/server/data.json`.
+- Store `allmovies.json` in a **private Azure Blob container**. Either create a new storage account in `per-sandbox`, or reuse the existing one in `rg-storage` (subscription `per-archive`). Reuse works across subscriptions in the same tenant through a role assignment, but a separate account in `per-sandbox` keeps things cleaner.
+- The server reads it using the Container App's **managed identity**, so there are no keys or tokens to expire.
+- Updating the data becomes: run `allmovies.sh`, then `az storage blob upload`, with no redeploy.
+- Locally and in tests, an env var gives the data file path, with `scripts/sample_data/` as the fallback.
+- Keep `movielist.txt` in a private `movielist-data` repo, iCloud/OneDrive or locally.
+- Cost is about $0, with no fixed fee.
+- Rejected alternatives:
+  - baking the data into the image from a private repo, because the ghcr image is public
+  - storing the JSON as a Container App secret, because of size limits and awkward updates
+- **Git history:** the data stays in the public history unless you (a) accept that, (b) run `git filter-repo` and force-push (existing clones keep it), or (c) start a fresh repo.
+
+### B. Restrict who can use the site
+Today anyone with the URL can read `/data.json`. The option is **Container Apps built-in auth (Easy Auth)** with Entra ID, applied to both `movielist` and `movielist-feature`:
+- Per signs in with a Microsoft account. Per's wife is invited as an **Entra guest using the email one-time passcode**, which works with any email address and needs no Microsoft or Google account.
+- Turn on **"assignment required"** on the app registration and assign only those two users.
+- No code changes; it's free (Entra free tier).
+- Set Easy Auth's session cookie lifetime to about 30 days so new codes are rarely needed. The exact behavior for guest users needs to be verified during setup.
+- Side effect: this also solves the "Förhindra hög användning" todo.
+- Alternatives considered:
+  - Google or Apple login: lets any account in, so it needs an email allowlist in middleware
+  - a shared password (basic auth): simplest, but no per-person access control
 
 
 

@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
-# Creates the Azure resources for movielist and lets GitHub Actions deploy
-# to them via OIDC. Safe to re-run: existing resources are reused.
+# Creates the Azure resources for movielist, lets GitHub Actions deploy to
+# them via OIDC, and configures the GitHub environments and variables (with
+# gh, if logged in). Safe to re-run: existing resources are reused.
+# See docs/deployment.md.
 #
-# To move to another subscription: change SUBSCRIPTION, run this script,
-# update the GitHub variable AZURE_SUBSCRIPTION_ID, redeploy, and delete the
-# old resource group. The app URLs change with a new environment.
+# Requires: az (logged in, access to SUBSCRIPTION) and optionally gh.
+#
+# To move to another subscription: SUBSCRIPTION=<name> ./infra/azure-setup.sh,
+# redeploy, then delete the old resource group. The app URLs change.
 #
 # Every az command gets --subscription; the CLI default is left unchanged.
 set -euo pipefail
@@ -87,11 +90,24 @@ if [[ -z "$existing" ]]; then
     --role Contributor --scope "$RG_ID" --output none
 fi
 
+echo "== GitHub environments and variables ($GITHUB_REPO)"
+if command -v gh &>/dev/null && gh auth status &>/dev/null; then
+  for env in "${GITHUB_ENVIRONMENTS[@]}"; do
+    gh api -X PUT "repos/$GITHUB_REPO/environments/$env" --silent
+  done
+  gh variable set AZURE_CLIENT_ID -R "$GITHUB_REPO" -b "$APP_ID"
+  gh variable set AZURE_TENANT_ID -R "$GITHUB_REPO" -b "$TENANT_ID"
+  gh variable set AZURE_SUBSCRIPTION_ID -R "$GITHUB_REPO" -b "$SUBSCRIPTION_ID"
+else
+  echo "gh is not installed or not logged in. Create the environments"
+  echo "(${GITHUB_ENVIRONMENTS[*]}) and set these repo variables by hand:"
+  echo "  AZURE_CLIENT_ID=$APP_ID"
+  echo "  AZURE_TENANT_ID=$TENANT_ID"
+  echo "  AZURE_SUBSCRIPTION_ID=$SUBSCRIPTION_ID"
+fi
+
 echo
-echo "Done. GitHub repo variables:"
-echo "  AZURE_CLIENT_ID=$APP_ID"
-echo "  AZURE_TENANT_ID=$TENANT_ID"
-echo "  AZURE_SUBSCRIPTION_ID=$SUBSCRIPTION_ID"
+echo "Done."
 echo
 echo "App URLs:"
 for app in "${APPS[@]}"; do

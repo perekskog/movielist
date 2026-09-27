@@ -122,7 +122,8 @@ Values and findings recorded as the steps are carried out.
 - Step 4: pushed on 2026-09-27. Workflow run 36326217077 is green (test, then deploy). The revision `movielist-feature--0000001` runs `ghcr.io/perekskog/movielist:d6a2bbe…` and is Healthy. `/` and `/data.json` return 200. The same push updated GCP Cloud Run `movielist-feature` through Cloud Build (14:33 UTC), so the parallel deploy works.
 - GCP URLs for comparison: https://movielist-feature-hzfavhlsoq-lz.a.run.app and https://movielist-hzfavhlsoq-lz.a.run.app
 - The Cloud Build triggers are in **europe-west1**: `movielist-main` (`^main$`) and `movielist-feature` (`^main$`, presumably inverted). To disable them before step 7: `gcloud builds triggers update <name> --region europe-west1 --project playground-341718 --disabled`, or use the console.
-- Step 7 (in progress, branch `remove-gcp-support`): Per disabled both Cloud Build triggers. `cloudbuild-*.yaml` are deleted and the GCP section is removed from the README. **Remaining:** delete the Cloud Run services `movielist` and `movielist-feature` (europe-north1), the Artifact Registry repo `movielist` (europe-north1) and the disabled triggers (europe-west1) in project `playground-341718`.
+- Step 7 (in progress): Per disabled both Cloud Build triggers. `cloudbuild-*.yaml` are deleted and the GCP section is removed from the README (PR #13). Per is deleting the GCP resources. **Remaining (Per):** delete the Cloud Run services `movielist` and `movielist-feature` (europe-north1), the Artifact Registry repo `movielist` (europe-north1) and the disabled triggers (europe-west1) in project `playground-341718`.
+- After the migration: the setup is documented in `docs/deployment.md`, and `infra/azure-setup.sh` now also creates the GitHub environments and variables with `gh`.
 - Step 6: PR #12 was squash-merged on 2026-09-27 as `2cca631`. Workflow run 36327575069 is green. The revision `movielist--0000001` is Healthy, and `/` and `/data.json` return 200. GCP `movielist` also updated (revision `movielist-00034`, 14:56 UTC).
 - The workflow's actions were bumped to their latest major versions (checkout v7, setup-node v7, buildx v4, login v4, build-push v7, azure/login v3) to get rid of the Node 20 deprecation warnings.
 
@@ -135,31 +136,4 @@ Values and findings recorded as the steps are carried out.
 - `az containerapp show … --query properties.template.scale` shows min 0 and max 1.
 - A few days later, Cost Management for `rg-movielist` shows about $0.
 
----
 
-## Under consideration (NOT part of this implementation)
-Per is still deciding. The data isn't sensitive and is already visible on GitHub, so there's no urgency. The ideas below are recorded for later. Nothing in them blocks or changes the migration above.
-
-### A. Make the repo generic by moving the movie data out of it
-- The data files are `scripts/movielist.txt`, `src/server/allmovies.json` and `src/server/data.json`.
-- Store `allmovies.json` in a **private Azure Blob container**. Either create a new storage account in `per-sandbox`, or reuse the existing one in `rg-storage` (subscription `per-archive`). Reuse works across subscriptions in the same tenant through a role assignment, but a separate account in `per-sandbox` keeps things cleaner.
-- The server reads it using the Container App's **managed identity**, so there are no keys or tokens to expire.
-- Updating the data becomes: run `allmovies.sh`, then `az storage blob upload`, with no redeploy.
-- Locally and in tests, an env var gives the data file path, with `scripts/sample_data/` as the fallback.
-- Keep `movielist.txt` in a private `movielist-data` repo, iCloud/OneDrive or locally.
-- Cost is about $0, with no fixed fee.
-- Rejected alternatives:
-  - baking the data into the image from a private repo, because the ghcr image is public
-  - storing the JSON as a Container App secret, because of size limits and awkward updates
-- **Git history:** the data stays in the public history unless you (a) accept that, (b) run `git filter-repo` and force-push (existing clones keep it), or (c) start a fresh repo.
-
-### B. Restrict who can use the site
-Today anyone with the URL can read `/data.json`. The option is **Container Apps built-in auth (Easy Auth)** with Entra ID, applied to both `movielist` and `movielist-feature`:
-- Per signs in with a Microsoft account. Per's wife is invited as an **Entra guest using the email one-time passcode**, which works with any email address and needs no Microsoft or Google account.
-- Turn on **"assignment required"** on the app registration and assign only those two users.
-- No code changes; it's free (Entra free tier).
-- Set Easy Auth's session cookie lifetime to about 30 days so new codes are rarely needed. The exact behavior for guest users needs to be verified during setup.
-- Side effect: this also solves the "Förhindra hög användning" todo.
-- Alternatives considered:
-  - Google or Apple login: lets any account in, so it needs an email allowlist in middleware
-  - a shared password (basic auth): simplest, but no per-person access control
