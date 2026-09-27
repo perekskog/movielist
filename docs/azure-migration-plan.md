@@ -101,8 +101,8 @@ Ignore everything and let through only what the build and runtime stages use. Th
 - [x] 3. I set up GitHub with `gh`, confirming with you first:
    - create the environments with `gh api -X PUT repos/perekskog/movielist/environments/production`, and the same for `feature`
    - `gh variable set AZURE_CLIENT_ID|AZURE_TENANT_ID|AZURE_SUBSCRIPTION_ID`, using the values from the setup script's output
-- [ ] 4. Commit on branch `move-to-azure` and push, after confirming with you. The first run pushes the ghcr.io package. The GCP feature deploy also runs, through Cloud Build, as usual. I follow the run with `gh run watch`, and use `gh run view --log-failed` if it fails.
-- [ ] 5. You: if the package `movielist` shows as private, set it to **Public** once, under GitHub → Packages → Package settings, because Container Apps pulls anonymously. GitHub's API can't change package visibility, so this step is manual. Then I re-run the workflow with `gh run rerun`, which deploys `movielist-feature`. Test it on the phone next to the GCP feature URL.
+- [x] 4. Commit on branch `move-to-azure` and push, after confirming with you. The first run pushes the ghcr.io package. The GCP feature deploy also runs, through Cloud Build, as usual. I follow the run with `gh run watch`, and use `gh run view --log-failed` if it fails.
+- [x] 5. ~~You: if the package `movielist` shows as private, set it to **Public** once, under GitHub → Packages → Package settings, because Container Apps pulls anonymously. GitHub's API can't change package visibility, so this step is manual. Then I re-run the workflow with `gh run rerun`, which deploys `movielist-feature`. Test it on the phone next to the GCP feature URL.~~ **Not needed:** the package was already pullable anonymously and the first deploy succeeded. What remains is for Per to test it on the phone.
 - [ ] 6. Once it's verified, merge to `main`, which deploys `movielist` on Azure. GCP prod updates as well, since both run in parallel.
 
 ### Final stage: remove GCP (only after Per has tried out Azure and is happy with it)
@@ -119,6 +119,10 @@ Values and findings recorded as the steps are carried out.
 - Tenant ID: `027846eb-5ca5-40cf-bd4d-b4d8c50712ea`
 - `movielist-feature` URL: https://movielist-feature.bluewater-c73d6fbb.swedencentral.azurecontainerapps.io
 - `movielist` URL: https://movielist.bluewater-c73d6fbb.swedencentral.azurecontainerapps.io
+- Step 4: pushed on 2026-09-27. Workflow run 36326217077 is green (test, then deploy). The revision `movielist-feature--0000001` runs `ghcr.io/perekskog/movielist:d6a2bbe…` and is Healthy. `/` and `/data.json` return 200. The same push updated GCP Cloud Run `movielist-feature` through Cloud Build (14:33 UTC), so the parallel deploy works.
+- GCP URLs for comparison: https://movielist-feature-hzfavhlsoq-lz.a.run.app and https://movielist-hzfavhlsoq-lz.a.run.app
+- The Cloud Build triggers aren't in the `global` or `europe-north1` region of `playground-341718`, which is where `gcloud builds triggers list` looked. Find them before the final stage, since they need to be disabled.
+- The workflow's actions were bumped to their latest major versions (checkout v7, setup-node v7, buildx v4, login v4, build-push v7, azure/login v3) to get rid of the Node 20 deprecation warnings.
 
 ## Verification
 - `npm test` passes locally.
