@@ -72,11 +72,49 @@ The workflow logs in without any password or secret:
   are rejected.
 - A **role assignment** gives it `Contributor` on `rg-movielist` only.
 
-On each run, GitHub issues a short-lived signed token (the job has
-`id-token: write`). `azure/login` exchanges it with Entra for an Azure access
-token that is valid for about an hour. The three repo variables
-`AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` are IDs, not
-secrets. Nothing needs to be rotated.
+On each run:
+
+1. GitHub's OIDC provider issues a signed token (a JWT) for the job. It is
+   valid for that job only and expires after at most an hour. The job needs
+   `permissions: id-token: write`, which only allows fetching the token and
+   grants no other write access.
+2. `azure/login` sends the token to Entra with the audience
+   `api://AzureADTokenExchange`, the default for Azure's public cloud.
+3. Entra checks GitHub's signature and compares the token's `sub` (subject)
+   claim with the federated credentials, for example
+   `repo:perekskog/movielist:environment:production`. If they match, it
+   returns a short-lived Azure access token.
+
+Nothing long-lived is stored, so there is nothing to rotate or expire.
+
+**Variables, not secrets.** Microsoft's guide suggests storing
+`AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` as GitHub
+secrets. Here they are plain repo variables, because they are identifiers,
+not credentials: a login only works with a GitHub token that matches the
+federated credentials. Switching to secrets only means changing `vars.` to
+`secrets.` in the workflow.
+
+**Renaming or transferring the repo breaks the login.** GitHub changed the
+subject format on 15 July 2026. Repositories created after that date, and
+any repository that is **renamed or transferred** after it, get an immutable
+format with numeric IDs, for example
+`repo:perekskog@<owner-id>/movielist@<repo-id>:environment:production`. This
+repo still uses the old format, which is why the script creates
+`repo:perekskog/movielist:environment:…`. After a rename or transfer, update
+`GITHUB_REPO` and the subjects in `infra/azure-setup.sh` to the new format
+(shown in the repo's OIDC settings), delete the old federated credentials
+and re-run the script.
+
+**An alternative identity.** Instead of an Entra app registration, a
+user-assigned managed identity with federated credentials can be used. That
+is an ordinary Azure resource in the resource group and doesn't need
+permission to create app registrations. This setup uses the app
+registration.
+
+Sources:
+- [OpenID Connect (GitHub concepts)](https://docs.github.com/en/actions/concepts/security/openid-connect)
+- [OIDC reference, subject claim formats (GitHub)](https://docs.github.com/en/actions/reference/security/oidc)
+- [Authenticate to Azure from GitHub Actions by OpenID Connect (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/developer/github/connect-from-azure-openid-connect)
 
 The image is pushed with the workflow's built-in `GITHUB_TOKEN`. The ghcr.io
 package is public, so Azure pulls it without credentials.
@@ -132,7 +170,7 @@ gets `--subscription`.
 | Symptom | Likely cause | What to do |
 | --- | --- | --- |
 | `test` job fails | A failing test | Run `npm test` locally |
-| `azure/login` fails with "no matching federated identity record" | The job's environment doesn't match a federated credential | Check that the environment is `production` or `feature`: `az ad app federated-credential list --id <AZURE_CLIENT_ID>` |
+| `azure/login` fails with "no matching federated identity record" | The token's subject doesn't match a federated credential: wrong environment, or the repo was renamed or transferred (new subject format) | Compare the subject in the error with `az ad app federated-credential list --id <AZURE_CLIENT_ID>`. See "Renaming or transferring the repo" above |
 | `az containerapp update` fails with `AuthorizationFailed` | Role assignment missing | Re-run `infra/azure-setup.sh` |
 | Workflow green but the app doesn't respond | New revision is unhealthy, or the image can't be pulled | `az containerapp revision list -n <app> -g rg-movielist --subscription per-sandbox -o table`, then check the logs |
 | First request is slow | Cold start after scale to zero | Expected; it takes a few seconds |

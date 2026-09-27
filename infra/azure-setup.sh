@@ -17,6 +17,9 @@ LOCATION="${LOCATION:-swedencentral}"
 RG="${RG:-rg-movielist}"
 CONTAINERAPP_ENV="${CONTAINERAPP_ENV:-movielist-env}"
 APPS=(movielist movielist-feature)
+# The federated credential subjects use GitHub's old subject format
+# (repo:owner/name:...). After a repo rename or transfer, GitHub switches to
+# repo:owner@<id>/name@<id>:... — see docs/deployment.md.
 GITHUB_REPO="perekskog/movielist"
 GITHUB_ENVIRONMENTS=(production feature)
 AD_APP_NAME="github-movielist-deploy"
