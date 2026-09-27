@@ -1,8 +1,8 @@
-node_modules
-coverage
-dist
-build
-.git
-.idea
-*.log
-.vite
+# Allowlist: ignore everything, then let through only what the build needs.
+# If a public/ directory is added for Vite, allow it here too.
+*
+!package.json
+!package-lock.json
+!index.html
+!vite.config.js
+!src/

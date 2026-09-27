@@ -89,8 +89,35 @@ cp allmovies.json ../src/server/
 
 ## Deployment
 
-The app is built into a Docker image (`Dockerfile`, Node 24) and deployed to
-Google Cloud Run in `europe-north1` by Cloud Build:
+The app is built into a Docker image (`Dockerfile`, a multi-stage build on
+`node:24-slim`). `.dockerignore` is an allowlist, so any new file the build
+needs (e.g. a Vite `public/` directory) must be added there.
+
+### Azure Container Apps
+
+GitHub Actions (`.github/workflows/deploy.yml`) runs `npm test`, pushes the
+image to `ghcr.io/perekskog/movielist` and deploys it to Azure Container Apps
+in `swedencentral` (subscription `per-sandbox`, resource group
+`rg-movielist`):
+
+| Push to        | Container App       | GitHub environment |
+| -------------- | ------------------- | ------------------ |
+| `main`         | `movielist`         | `production`       |
+| other branches | `movielist-feature` | `feature`          |
+
+The apps scale to zero (max one replica), and there is no container registry
+or Log Analytics workspace, so there is no fixed monthly cost. Logs:
+`az containerapp logs show -n movielist -g rg-movielist --subscription per-sandbox --follow`.
+
+The Azure resources and the GitHub OIDC login are created by
+`infra/azure-setup.sh`, which is safe to re-run. The workflow reads
+`AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` from the repo
+variables. No secrets are stored.
+
+### Google Cloud Run (being phased out)
+
+Until the move to Azure is complete (see `docs/azure-migration-plan.md`),
+Cloud Build still deploys in parallel to Cloud Run in `europe-north1`:
 
 - `cloudbuild-main.yaml` deploys the `movielist` service.
 - `cloudbuild-feature.yaml` deploys the `movielist-feature` service.
