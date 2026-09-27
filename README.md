@@ -114,15 +114,8 @@ The Azure resources and the GitHub OIDC login are created by
 `AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` from the repo
 variables. No secrets are stored.
 
-### Google Cloud Run (being phased out)
-
-Until the move to Azure is complete (see `docs/azure-migration-plan.md`),
-Cloud Build still deploys in parallel to Cloud Run in `europe-north1`:
-
-- `cloudbuild-main.yaml` deploys the `movielist` service.
-- `cloudbuild-feature.yaml` deploys the `movielist-feature` service.
-
-Both run `npm test` before building the image.
+The move from Google Cloud Run to Azure is described in
+`docs/azure-migration-plan.md`.
 
 
 
@@ -193,7 +186,10 @@ Vilka notationer har använts och vilka ska användas? Har en notering angående
 Tjänsten är öppen och den som får tag på URIn kan skicka obegränsat antal anrop.
 
 > **Kommentar:** Ersätter den gamla punkten om API-nyckel som URI-parameter.
-> Enklast är max antal instanser i Cloud Run, eller rate limiting i Express.
+> Container Apps är begränsad till max en replika, vilket sätter ett tak för kostnaden
+> men inte stoppar anropen. Nästa steg är inloggning (Easy Auth), se
+> "Under consideration" i `docs/azure-migration-plan.md`, eller rate limiting i
+> Express.
 
 
 ### Inget språk angivet ska ge ?/?
