@@ -37,7 +37,8 @@ whether it has Swedish or English audio or subtitles.
    The dropdown lists every category in the data, sorted alphabetically.
    Raw audio and subtitle codes are shown alongside the language badges.
 
-   Checkboxes filter on location group, which is derived from `media-location`:
+   A row of toggle buttons, each with the group's icon, filters on location
+   group, which is derived from `media-location`:
 
    | Group     | Icon | `media-location`              | Default |
    | --------- | ---- | ----------------------------- | ------- |
@@ -47,9 +48,8 @@ whether it has Swedish or English audio or subtitles.
    | Spel      | 🎮   | starts with `Hspel`           | off     |
    | Saknas    | ❓   | `Hsaknas`                     | off     |
 
-   Several groups can be checked at once. No group checked is the same as all
-   groups checked. A location matching no group gets no icon and is never
-   shown.
+   Several groups can be on at once. No group on is the same as all groups
+   on. A location matching no group gets no icon and is never shown.
 
 ## Disc list format (`scripts/movielist.txt`)
 

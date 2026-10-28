@@ -175,15 +175,18 @@ const App = (props) => {
           </select>
           <div className="location-groups">
             {Object.entries(locationGroups).map(([group, { icon, label }]) => (
-              <label key={group} className="form-check form-check-inline">
-                <input
-                  className="form-check-input"
-                  type="checkbox"
-                  checked={selectedGroups.includes(group)}
-                  onChange={() => toggleGroup(group)}
-                />
-                {icon} {label}
-              </label>
+              <button
+                key={group}
+                type="button"
+                className={`btn btn-outline-secondary location-group${
+                  selectedGroups.includes(group) ? " active" : ""
+                }`}
+                aria-pressed={selectedGroups.includes(group)}
+                onClick={() => toggleGroup(group)}
+              >
+                <span className="location-group-icon">{icon}</span>
+                <span className="location-group-label">{label}</span>
+              </button>
             ))}
           </div>
         </form>

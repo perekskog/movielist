@@ -19,3 +19,31 @@
 
 .flag {
 }
+
+.location-groups {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.location-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25rem 0;
+  line-height: 1.2;
+}
+
+.location-group-icon {
+  font-size: 2rem;
+}
+
+.location-group-label {
+  font-size: 0.8rem;
+}
+
+/* Keep the emoji in full colour when the button is not pressed, but dim it. */
+.location-group:not(.active) .location-group-icon {
+  opacity: 0.5;
+}

@@ -176,11 +176,11 @@ describe("App", () => {
   it("shows server and shelf movies by default", async () => {
     render(<App />);
     await screen.findByText(/Matrix/);
-    expect(screen.getByRole("checkbox", { name: /Server/ })).toBeChecked();
-    expect(screen.getByRole("checkbox", { name: /Hylla/ })).toBeChecked();
-    expect(screen.getByRole("checkbox", { name: /Låda/ })).not.toBeChecked();
-    expect(screen.getByRole("checkbox", { name: /Spel/ })).not.toBeChecked();
-    expect(screen.getByRole("checkbox", { name: /Saknas/ })).not.toBeChecked();
+    expect(screen.getByRole("button", { name: /Server/ })).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("button", { name: /Hylla/ })).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("button", { name: /Låda/ })).toHaveAttribute("aria-pressed", "false");
+    expect(screen.getByRole("button", { name: /Spel/ })).toHaveAttribute("aria-pressed", "false");
+    expect(screen.getByRole("button", { name: /Saknas/ })).toHaveAttribute("aria-pressed", "false");
     expect(titles()).toHaveLength(4);
   });
 
@@ -188,18 +188,18 @@ describe("App", () => {
     const user = userEvent.setup();
     render(<App />);
     await screen.findByText(/Matrix/);
-    await user.click(screen.getByRole("checkbox", { name: /Server/ }));
+    await user.click(screen.getByRole("button", { name: /Server/ }));
     expect(titles()).toHaveLength(1);
     expect(titles()[0]).toMatch(/^Zulu/);
-    await user.click(screen.getByRole("checkbox", { name: /Hylla/ }));
-    await user.click(screen.getByRole("checkbox", { name: /Låda/ }));
-    await user.click(screen.getByRole("checkbox", { name: /Spel/ }));
+    await user.click(screen.getByRole("button", { name: /Hylla/ }));
+    await user.click(screen.getByRole("button", { name: /Låda/ }));
+    await user.click(screen.getByRole("button", { name: /Spel/ }));
     expect(titles()).toHaveLength(2);
     expect(titles()[0]).toMatch(/^Brazil/);
     expect(titles()[1]).toMatch(/^Halo/);
-    await user.click(screen.getByRole("checkbox", { name: /Låda/ }));
-    await user.click(screen.getByRole("checkbox", { name: /Spel/ }));
-    await user.click(screen.getByRole("checkbox", { name: /Saknas/ }));
+    await user.click(screen.getByRole("button", { name: /Låda/ }));
+    await user.click(screen.getByRole("button", { name: /Spel/ }));
+    await user.click(screen.getByRole("button", { name: /Saknas/ }));
     expect(titles()).toHaveLength(1);
     expect(titles()[0]).toMatch(/^Heat/);
   });
@@ -208,8 +208,8 @@ describe("App", () => {
     const user = userEvent.setup();
     render(<App />);
     await screen.findByText(/Matrix/);
-    await user.click(screen.getByRole("checkbox", { name: /Server/ }));
-    await user.click(screen.getByRole("checkbox", { name: /Hylla/ }));
+    await user.click(screen.getByRole("button", { name: /Server/ }));
+    await user.click(screen.getByRole("button", { name: /Hylla/ }));
     expect(titles()).toHaveLength(7);
   });
 });
