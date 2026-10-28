@@ -13209,17 +13209,6 @@
         "comments": ""
     },
     {
-        "title": "Thumbs",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "db",
-        "audio": "?",
-        "subtitle": "?",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Fifth Element",
         "media-location": "ms",
         "media-type": "file",
@@ -15684,28 +15673,6 @@
         "comments": ""
     },
     {
-        "title": "28 Days Later",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "srt",
-        "audio": "en",
-        "subtitle": "en",
-        "production-year": 2002,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "28 Weeks Later",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "srt",
-        "audio": "en",
-        "subtitle": "en",
-        "production-year": 2007,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Tetsuo 3 - The Bullet Man",
         "media-location": "ms",
         "media-type": "file",
@@ -15933,6 +15900,116 @@
         "audio": "en",
         "subtitle": "se",
         "production-year": 1990,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Deer Hunter",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1978,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Deliverance",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1972,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Den illustrerade mannen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1969,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Jesus from Nasareth 1-2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1977,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Jesus from Nasareth 2-2",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1977,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Karlsson på taket",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "?",
+        "production-year": 1974,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Monster",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 2003,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Mumien",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "se",
+        "production-year": 1999,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Poltergeist",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "en",
+        "subtitle": "?",
+        "production-year": 1982,
+        "category": [],
+        "comments": ""
+    },
+    {
+        "title": "Rasmus på luffen",
+        "media-location": "ms",
+        "media-type": "file",
+        "media-format": "mp4",
+        "audio": "se",
+        "subtitle": "?",
+        "production-year": 1981,
         "category": [],
         "comments": ""
     },
@@ -16784,17 +16861,6 @@
         "comments": ""
     },
     {
-        "title": "Thumbs",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "db",
-        "audio": "?",
-        "subtitle": "?",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Motorsågsmassakern - The Beginning",
         "media-location": "ms",
         "media-type": "file",
@@ -17499,17 +17565,6 @@
         "comments": ""
     },
     {
-        "title": "JP 3",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "srt",
-        "audio": "en",
-        "subtitle": "?",
-        "production-year": 2001,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "JP 5 - Jurassic World Fallen Kingdom",
         "media-location": "ms",
         "media-type": "file",
@@ -17961,17 +18016,6 @@
         "comments": ""
     },
     {
-        "title": "Thumbs",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "db",
-        "audio": "?",
-        "subtitle": "?",
-        "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Flickan Som Lekte Med Elden 02",
         "media-location": "ms",
         "media-type": "file",
@@ -18214,32 +18258,10 @@
         "comments": ""
     },
     {
-        "title": "Nybyggarna",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "srt",
-        "audio": "se",
-        "subtitle": "en",
-        "production-year": 1971,
-        "category": [],
-        "comments": ""
-    },
-    {
         "title": "Utvandrarna",
         "media-location": "ms",
         "media-type": "file",
         "media-format": "avi",
-        "audio": "se",
-        "subtitle": "en",
-        "production-year": 1971,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Utvandrarna",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "srt",
         "audio": "se",
         "subtitle": "en",
         "production-year": 1971,
@@ -18518,116 +18540,6 @@
         "audio": "?",
         "subtitle": "?",
         "production-year": 0,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Den illustrerade mannen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1969,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Deliverance",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1972,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Mumien",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1999,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Deer Hunter",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1978,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Jesus from Nasareth 2-2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1977,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Poltergeist",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "?",
-        "production-year": 1982,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Monster",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 2003,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Jesus from Nasareth 1-2",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "en",
-        "subtitle": "se",
-        "production-year": 1977,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Karlsson på taket",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "se",
-        "subtitle": "?",
-        "production-year": 1974,
-        "category": [],
-        "comments": ""
-    },
-    {
-        "title": "Rasmus på luffen",
-        "media-location": "ms",
-        "media-type": "file",
-        "media-format": "mp4",
-        "audio": "se",
-        "subtitle": "?",
-        "production-year": 1981,
         "category": [],
         "comments": ""
     }

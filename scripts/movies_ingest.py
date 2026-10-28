@@ -20,6 +20,8 @@ import json
 import unicodedata
 import os
 
+VIDEO_EXTENSIONS = ("mp4", "avi", "m4v", "mkv")
+
 
 def fetch_items_movielist(filein):
     """Fetch movie items from a specially formatted text file.
@@ -132,7 +134,7 @@ def get_movie_from_row(row):
     audio = STRING
     copy = copy # Item is copied from disc
     extension = container
-    container = mp4 | avi
+    container = mp4 | avi | m4v | mkv    # anything else is skipped
 
     Args:
         row:    The line of text to convert.
@@ -155,11 +157,11 @@ def get_movie_from_row(row):
     if len(filecomps) != 2:
         raise ValueError("ERROR: filename not a file.extension: {}".format(row))
 
-    # Skip subtitles
+    # Skip everything that is not a video file (subtitles, Thumbs.db, ...)
     basename = filecomps[0]
     filetype = filecomps[1]
-    if filetype == "sub" or filetype == "idx":
-        raise ValueError("SKIP subtitle: {}".format(row))
+    if filetype.lower() not in VIDEO_EXTENSIONS:
+        raise ValueError("SKIP not a video file: {}".format(row))
 
     # Default values
     title = ""
