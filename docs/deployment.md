@@ -16,8 +16,8 @@ monthly cost.
 
 | Push to        | Container App       | GitHub environment | URL |
 | -------------- | ------------------- | ------------------ | --- |
-| `main`         | `movielist`         | `production`       | https://movielist.bluewater-c73d6fbb.swedencentral.azurecontainerapps.io |
-| other branches | `movielist-feature` | `feature`          | https://movielist-feature.bluewater-c73d6fbb.swedencentral.azurecontainerapps.io |
+| `main`         | `movielist`         | `production`       | https://movielist.yellowmoss-d5a3e316.swedencentral.azurecontainerapps.io |
+| other branches | `movielist-feature` | `feature`          | https://movielist-feature.yellowmoss-d5a3e316.swedencentral.azurecontainerapps.io |
 
 All feature branches share `movielist-feature`, so the latest push wins.
 
@@ -53,12 +53,17 @@ All in subscription `per-sandbox`, region `swedencentral`, resource group
 
 | Resource | Name | Notes |
 | --- | --- | --- |
-| Container Apps environment | `movielist-env` | Consumption plan. No Log Analytics (`--logs-destination none`). |
+| Container Apps environment | `movielist-express-env` | Express mode (`--environment-mode express`), consumption billing. No Log Analytics (`--logs-destination none`). |
 | Container App | `movielist`, `movielist-feature` | Port 8080, external HTTPS ingress, 0–1 replicas, 0.25 CPU, 0.5 GiB |
 
 The apps **scale to zero** when unused. The first request after a quiet
-period starts a replica, which takes about 20 seconds. **At most one replica**
-limits both cost and load.
+period starts a replica, which takes about 2 seconds in Express mode (about
+20 seconds in the standard mode used before 2026-10-28). Every request takes
+about 0.5 s even when warm. **At most one replica** limits both cost and load.
+
+Express doesn't support Easy Auth, custom KEDA scale rules, custom domains or
+traffic splitting. See the
+[feature list](https://learn.microsoft.com/en-us/azure/container-apps/express-overview#supported-features).
 
 ### How GitHub logs in to Azure (OIDC)
 
@@ -173,7 +178,7 @@ gets `--subscription`.
 | `azure/login` fails with "no matching federated identity record" | The token's subject doesn't match a federated credential: wrong environment, or the repo was renamed or transferred (new subject format) | Compare the subject in the error with `az ad app federated-credential list --id <AZURE_CLIENT_ID>`. See "Renaming or transferring the repo" above |
 | `az containerapp update` fails with `AuthorizationFailed` | Role assignment missing | Re-run `infra/azure-setup.sh` |
 | Workflow green but the app doesn't respond | New revision is unhealthy, or the image can't be pulled | `az containerapp revision list -n <app> -g rg-movielist --subscription per-sandbox -o table`, then check the logs |
-| First request is slow | Cold start after scale to zero | Expected; measured at about 20 s. See "Faster first load" in the README |
+| First request is slow | Cold start after scale to zero | Expected; measured at about 2 s in Express mode. See "Faster first load" in the README |
 
 ## Costs
 

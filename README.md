@@ -206,6 +206,11 @@ Om inget språk angetts ska film visas samma som om språk angetts som ? både f
 - **Git history:** the data stays in the public history unless you (a) accept that, (b) run `git filter-repo` and force-push (existing clones keep it), or (c) start a fresh repo.
 
 ### B. Restrict who can use the site
+> **Note:** Express mode (see C) doesn't support Easy Auth. Since the apps
+> moved to Express on 2026-10-28, this needs another solution, e.g. sign-in in
+> the Express server or IP restrictions, or moving back to a standard
+> environment.
+
 Today anyone with the URL can read `/data.json`. The option is **Container Apps built-in auth (Easy Auth)** with Entra ID, applied to both `movielist` and `movielist-feature`:
 - Per signs in with a Microsoft account. Per's wife is invited as an **Entra guest using the email one-time passcode**, which works with any email address and needs no Microsoft or Google account.
 - Turn on **"assignment required"** on the app registration and assign only those two users.
@@ -231,9 +236,10 @@ Measured with `curl` from home on 2026-10-28:
 | `movielist-feature` | 0.25 vCPU / 0.5 GiB | 39.8 s         | 0.037 s  |
 | `movielist-feature` | 0.5 vCPU / 1 GiB    | 22.6 s         | 0.051 s  |
 | `movielist-feature` | 1.0 vCPU / 2 GiB    | 18.9 s         | 0.038 s  |
+| `movielist-express` (Express mode) | 0.25 vCPU / 0.5 GiB | 1.87 s, 1.74 s, 1.70 s | 0.59–0.69 s |
 
 `/data.json` (453 KB) takes 0.08 s when warm. A replica scales to zero after
-about 6 minutes without requests.
+about 6 minutes without requests, in both modes.
 
 More CPU barely helps: 4× the CPU saves about 2 s, and with one measurement
 per size that is within the variation (39.8 s vs 20.9 s at the same size).
@@ -242,12 +248,26 @@ time goes: about 2 s to prepare, 4 s to pull the 85 MB image from ghcr.io,
 and 10 s to create the container. The rest is Node starting, the default
 health probes passing and ingress starting to route traffic.
 
-Address this if it becomes a problem in daily use on our phones. Options, in
-suggested order:
-1. **Warm-up step in `deploy.yml`.** Request the site until it answers after
+Option 1 is in use. The others are kept for reference, in case the cold start
+becomes a problem again in daily use on our phones. Options, in suggested
+order:
+1. **Express mode** ([overview](https://learn.microsoft.com/en-us/azure/container-apps/express-overview)).
+   **In use since 2026-10-28:** both apps run in `movielist-express-env`.
+   An environment created with `--environment-mode express` starts apps from
+   prewarmed capacity. Tested with a test app with the same image and size as
+   `movielist`: cold start about 1.8 s instead of about 21 s. Same consumption pricing and free grant,
+   supported in Sweden Central, pulls from ghcr.io. Trade-offs:
+   - Every request takes about 0.55 s even when warm (0.035 s today), so a
+     page load (`/` plus `data.json`) is about 1 s.
+   - **No Easy Auth**, so option B would need another sign-in solution.
+   - No custom KEDA rules (so no cron schedule, option 3), no traffic
+     splitting, only user-assigned managed identities.
+   - New in 2026 (public preview at launch). Microsoft may also migrate
+     eligible environments to Express automatically, with 25–30 days' notice.
+2. **Warm-up step in `deploy.yml`.** Request the site until it answers after
    each deploy. Free, and it also checks that the deploy works. It doesn't
    help after the app has scaled to zero again.
-2. **Keep a replica running on a schedule** that fits within the free grant.
+3. **Keep a replica running on a schedule** that fits within the free grant.
    A `cron` scale rule keeps one replica during set hours; outside them the
    app scales to zero as today. The free grant covers about 200 hours/month
    at 0.25 vCPU / 0.5 GiB (about 6.5 h/day), so e.g. 17–23 every day (about
@@ -261,16 +281,16 @@ suggested order:
    Untested: adding a custom rule probably replaces the default HTTP rule, so
    an explicit HTTP rule may be needed for the app to start on a request
    outside the schedule. Try it on `movielist-feature` first.
-3. **Explicit startup probe** that checks often, instead of the default
+4. **Explicit startup probe** that checks often, instead of the default
    probes. Untested; it can at best save a few seconds, since the system log
    accounts for about 16 of the 21 s before the container starts.
-4. **Compress responses.** `data.json` is sent uncompressed (453 KB). Gzip
+5. **Compress responses.** `data.json` is sent uncompressed (453 KB). Gzip
    would make it a fraction of that, which matters on a phone. It doesn't
    affect the cold start itself.
-5. Not worth it, per the measurements above:
+6. Not worth it, per the measurements above:
    - More CPU, e.g. `--cpu 0.5 --memory 1Gi`.
    - A smaller image, since the pull takes only about 4 s.
-6. Rejected, because they add a fixed monthly cost:
+7. Rejected, because they add a fixed monthly cost:
    - `--min-replicas 1`, which keeps one replica always running. Estimated
      **about $4/month** for `movielist` at 0.25 vCPU / 0.5 GiB, about $10/month
      at 0.5 vCPU / 1 GiB. A running replica is billed at the idle rate almost

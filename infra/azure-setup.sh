@@ -15,7 +15,7 @@ set -euo pipefail
 SUBSCRIPTION="${SUBSCRIPTION:-per-sandbox}"
 LOCATION="${LOCATION:-swedencentral}"
 RG="${RG:-rg-movielist}"
-CONTAINERAPP_ENV="${CONTAINERAPP_ENV:-movielist-env}"
+CONTAINERAPP_ENV="${CONTAINERAPP_ENV:-movielist-express-env}"
 APPS=(movielist movielist-feature)
 # The federated credential subjects use GitHub's old subject format
 # (repo:owner/name:...). After a repo rename or transfer, GitHub switches to
@@ -40,8 +40,10 @@ az group create -n "$RG" -l "$LOCATION" "${sub[@]}" --output none
 
 echo "== Container Apps environment $CONTAINERAPP_ENV"
 if ! az containerapp env show -n "$CONTAINERAPP_ENV" -g "$RG" "${sub[@]}" &>/dev/null; then
+  # Express mode: cold start about 2 s instead of about 20 s (see README).
   # No Log Analytics: avoids ingestion costs. Use 'az containerapp logs show --follow'.
   az containerapp env create -n "$CONTAINERAPP_ENV" -g "$RG" -l "$LOCATION" \
+    --environment-mode express \
     --logs-destination none "${sub[@]}" --output none
 fi
 
