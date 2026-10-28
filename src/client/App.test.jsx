@@ -97,9 +97,10 @@ describe("locationIcon", () => {
   });
 
   it("is a bookshelf for H locations", () => {
-    expect(locationIcon("Hsorterat")).toBe("📚");
-    expect(locationIcon("Hserie")).toBe("📚");
-    expect(locationIcon("Hanim")).toBe("📚");
+    for (const location of ["Hsorterat", "Hserie", "Hanim"]) {
+      render(<>{locationIcon(location)}</>);
+    }
+    expect(screen.getAllByRole("img", { name: "Bokhylla" })).toHaveLength(3);
   });
 
   it("is a game for Hspel locations", () => {

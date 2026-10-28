@@ -43,7 +43,7 @@ whether it has Swedish or English audio or subtitles.
    | Group     | Icon | `media-location`              | Default |
    | --------- | ---- | ----------------------------- | ------- |
    | Server    | 🖥️   | `ms`                          | on      |
-   | Hylla     | 📚   | starts with `H` (other below) | on      |
+   | Hylla     | bookshelf (SVG) | starts with `H` (other below) | on      |
    | Låda      | 📦   | starts with `A`, `B` or `C`   | off     |
    | Spel      | 🎮   | starts with `Hspel`           | off     |
    | Saknas    | ❓   | `Hsaknas`                     | off     |

@@ -34,9 +34,34 @@ const LanguageBadges = (props) => {
   );
 };
 
+// There is no bookshelf emoji, so the shelf group gets a small SVG. It is
+// sized in em so it scales with the text like the emoji icons.
+const BookshelfIcon = () => (
+  <svg
+    className="bookshelf-icon"
+    viewBox="0 0 24 24"
+    width="1em"
+    height="1em"
+    role="img"
+    aria-label="Bokhylla"
+  >
+    <rect x="2" y="1" width="20" height="22" rx="1" fill="#8b5a2b" />
+    <rect x="4" y="3" width="16" height="8" fill="#f3e3c6" />
+    <rect x="4" y="13" width="16" height="8" fill="#f3e3c6" />
+    <rect x="5" y="4" width="2.5" height="7" fill="#c0392b" />
+    <rect x="8" y="5" width="2" height="6" fill="#2e86c1" />
+    <rect x="10.5" y="4" width="2.5" height="7" fill="#27ae60" />
+    <rect x="14.2" y="5.2" width="2" height="6" fill="#f1c40f" transform="rotate(-15 15.2 11)" />
+    <rect x="5" y="15" width="2" height="6" fill="#8e44ad" />
+    <rect x="7.5" y="14" width="2.5" height="7" fill="#e67e22" />
+    <rect x="10.5" y="15" width="2" height="6" fill="#16a085" />
+    <rect x="13" y="14" width="2.5" height="7" fill="#c0392b" />
+  </svg>
+);
+
 const locationGroups = {
   server: { icon: "🖥️", label: "Server" },
-  shelf: { icon: "📚", label: "Hylla" },
+  shelf: { icon: <BookshelfIcon />, label: "Hylla" },
   box: { icon: "📦", label: "Låda" },
   game: { icon: "🎮", label: "Spel" },
   missing: { icon: "❓", label: "Saknas" },

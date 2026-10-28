@@ -39,6 +39,11 @@
   font-size: 2rem;
 }
 
+/* Sit on the text baseline like an emoji. */
+.bookshelf-icon {
+  vertical-align: -0.125em;
+}
+
 .location-group-label {
   font-size: 0.8rem;
 }
