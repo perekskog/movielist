@@ -27,13 +27,29 @@ whether it has Swedish or English audio or subtitles.
    `/data.json`.
 3. **Client (`src/client/App.jsx`)**. A React app that loads `data.json`,
    sorts it by title and lists each movie with:
-   - its storage location, media type and format (e.g. `A2 [disc/dvd]`)
+   - an icon for its location group, then its storage location, media type and
+     format (e.g. `📦 A2 [disc/dvd]`)
    - its categories
    - 🇸🇪 / 🇬🇧 badges: no mark if that language is available as audio or
      subtitles, `X` if it isn't, `?` if unknown.
 
    The text box filters on title, and the category dropdown filters on category.
+   The dropdown lists every category in the data, sorted alphabetically.
    Raw audio and subtitle codes are shown alongside the language badges.
+
+   Checkboxes filter on location group, which is derived from `media-location`:
+
+   | Group     | Icon | `media-location`              | Default |
+   | --------- | ---- | ----------------------------- | ------- |
+   | Server    | 🖥️   | `ms`                          | on      |
+   | Hylla     | 📚   | starts with `H` (other below) | on      |
+   | Låda      | 📦   | starts with `A`, `B` or `C`   | off     |
+   | Spel      | 🎮   | starts with `Hspel`           | off     |
+   | Saknas    | ❓   | `Hsaknas`                     | off     |
+
+   Several groups can be checked at once. No group checked is the same as all
+   groups checked. A location matching no group gets no icon and is never
+   shown.
 
 ## Disc list format (`scripts/movielist.txt`)
 
@@ -41,7 +57,7 @@ The file has one movie per line, with tab-separated fields:
 
 ```
 <location>	<title>	<attributes>
-A3	Attack Of The Schoolgirl Zombies	*xvid, §japan, §zoombie, #jp/se, &ms
+A3	Attack Of The Schoolgirl Zombies	*xvid, §japan, §zoombie, #jp/se
 ```
 
 | Prefix | Meaning                         |
@@ -49,9 +65,10 @@ A3	Attack Of The Schoolgirl Zombies	*xvid, §japan, §zoombie, #jp/se, &ms
 | `*`    | media format (dvd, xvid, …)     |
 | `§`    | category (can repeat)           |
 | `#`    | language as `audio/subtitle`    |
-| `&ms`  | also available on media server  |
 
-Lines starting with `#` are comments.
+Lines starting with `#` are comments. The list only holds what has been
+checked by hand on the discs. What is on the media server comes from scanning
+it, not from this file.
 
 ## Movie record (`allmovies.json`)
 
@@ -108,24 +125,6 @@ up from scratch, logs, troubleshooting, costs and teardown.
 
 
 ## Önskade funktioner
-
-### Delmängder av filmer/spel
-
-Välj mellan: 
-- Server (anges med ms)
-- Hyllor (börjar med H)
-- Lådor (börjar med A B eller C)
-
-Mediaserver + hyllor i vardagsrum = default
-
-Checkboxar för att slå av/på respektive kategori.
-
-> **Kommentar:** Indelningen finns redan i `media-location`: 550 `ms`, 362 `H…`
-> och 699 `A…`/`B…`/`C…`. Däremot läses `&ms` av `movies_ingest.py` men sparas
-> inte i posten, så UI:t vet inte vilka skivor som också finns på servern (206
-> rader i `movielist.txt`). Det behöver in i JSON, t.ex. `"on-mediaserver": true`,
-> innan checkboxarna kan fungera. Det finns inga spel i datan.
-
 
 ### Red ut och beskriv logik bakom språkflaggor.
 

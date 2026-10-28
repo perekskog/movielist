@@ -2,14 +2,14 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import axios from "axios";
-import { App, badge } from "./App.jsx";
+import { App, badge, locationIcon } from "./App.jsx";
 
 vi.mock("axios");
 
 const movies = () => [
   {
     title: "zorro",
-    "media-location": "Hylla 1",
+    "media-location": "ms",
     "media-type": "DVD",
     "media-format": "PAL",
     category: ["action"],
@@ -18,7 +18,7 @@ const movies = () => [
   },
   {
     title: "Amelie",
-    "media-location": "Hylla 2",
+    "media-location": "ms",
     "media-type": "Blu-ray",
     "media-format": "1080p",
     category: ["drama"],
@@ -27,12 +27,48 @@ const movies = () => [
   },
   {
     title: "Matrix",
-    "media-location": "Hylla 1",
+    "media-location": "ms",
     "media-type": "DVD",
     "media-format": "PAL",
     category: ["action", "scifi"],
     audio: "en",
     subtitle: "en",
+  },
+  {
+    title: "Zulu",
+    "media-location": "Hsorterat",
+    "media-type": "DVD",
+    "media-format": "PAL",
+    category: ["scifi"],
+    audio: "en",
+    subtitle: "se",
+  },
+  {
+    title: "Brazil",
+    "media-location": "B30",
+    "media-type": "DVD",
+    "media-format": "PAL",
+    category: ["drama"],
+    audio: "en",
+    subtitle: "se",
+  },
+  {
+    title: "Halo",
+    "media-location": "Hspel-ps",
+    "media-type": "disc",
+    "media-format": "ps",
+    category: [],
+    audio: "en",
+    subtitle: "se",
+  },
+  {
+    title: "Heat",
+    "media-location": "Hsaknas",
+    "media-type": "disc",
+    "media-format": "dvd",
+    category: [],
+    audio: "en",
+    subtitle: "se",
   },
 ];
 
@@ -55,6 +91,37 @@ describe("badge", () => {
   });
 });
 
+describe("locationIcon", () => {
+  it("is a server for ms", () => {
+    expect(locationIcon("ms")).toBe("🖥️");
+  });
+
+  it("is a bookshelf for H locations", () => {
+    expect(locationIcon("Hsorterat")).toBe("📚");
+    expect(locationIcon("Hserie")).toBe("📚");
+    expect(locationIcon("Hanim")).toBe("📚");
+  });
+
+  it("is a game for Hspel locations", () => {
+    expect(locationIcon("Hspel-ps")).toBe("🎮");
+    expect(locationIcon("Hspel-nintendo")).toBe("🎮");
+  });
+
+  it("is missing for Hsaknas", () => {
+    expect(locationIcon("Hsaknas")).toBe("❓");
+  });
+
+  it("is a storage box for A, B and C locations", () => {
+    expect(locationIcon("A3")).toBe("📦");
+    expect(locationIcon("B30")).toBe("📦");
+    expect(locationIcon("C109")).toBe("📦");
+  });
+
+  it("is empty for other locations", () => {
+    expect(locationIcon("D1")).toBe("");
+  });
+});
+
 describe("App", () => {
   beforeEach(() => {
     axios.get.mockResolvedValue({ data: movies() });
@@ -67,6 +134,7 @@ describe("App", () => {
     expect(t[0]).toMatch(/^Amelie/);
     expect(t[1]).toMatch(/^Matrix/);
     expect(t[2]).toMatch(/^zorro/);
+    expect(t[3]).toMatch(/^Zulu/);
   });
 
   it("filters movies by title", async () => {
@@ -85,6 +153,15 @@ describe("App", () => {
     expect(screen.getByText(/fr\/\?/)).toBeInTheDocument();
   });
 
+  it("lists categories sorted", async () => {
+    render(<App />);
+    await screen.findByText(/Matrix/);
+    const options = screen
+      .getAllByRole("option")
+      .map((o) => o.textContent);
+    expect(options).toEqual(["Alla kategorier", "action", "drama", "scifi"]);
+  });
+
   it("filters movies by category", async () => {
     const user = userEvent.setup();
     render(<App />);
@@ -94,5 +171,45 @@ describe("App", () => {
     expect(t).toHaveLength(2);
     expect(t[0]).toMatch(/^Matrix/);
     expect(t[1]).toMatch(/^zorro/);
+  });
+
+  it("shows server and shelf movies by default", async () => {
+    render(<App />);
+    await screen.findByText(/Matrix/);
+    expect(screen.getByRole("checkbox", { name: /Server/ })).toBeChecked();
+    expect(screen.getByRole("checkbox", { name: /Hylla/ })).toBeChecked();
+    expect(screen.getByRole("checkbox", { name: /Låda/ })).not.toBeChecked();
+    expect(screen.getByRole("checkbox", { name: /Spel/ })).not.toBeChecked();
+    expect(screen.getByRole("checkbox", { name: /Saknas/ })).not.toBeChecked();
+    expect(titles()).toHaveLength(4);
+  });
+
+  it("filters movies by location groups", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await screen.findByText(/Matrix/);
+    await user.click(screen.getByRole("checkbox", { name: /Server/ }));
+    expect(titles()).toHaveLength(1);
+    expect(titles()[0]).toMatch(/^Zulu/);
+    await user.click(screen.getByRole("checkbox", { name: /Hylla/ }));
+    await user.click(screen.getByRole("checkbox", { name: /Låda/ }));
+    await user.click(screen.getByRole("checkbox", { name: /Spel/ }));
+    expect(titles()).toHaveLength(2);
+    expect(titles()[0]).toMatch(/^Brazil/);
+    expect(titles()[1]).toMatch(/^Halo/);
+    await user.click(screen.getByRole("checkbox", { name: /Låda/ }));
+    await user.click(screen.getByRole("checkbox", { name: /Spel/ }));
+    await user.click(screen.getByRole("checkbox", { name: /Saknas/ }));
+    expect(titles()).toHaveLength(1);
+    expect(titles()[0]).toMatch(/^Heat/);
+  });
+
+  it("shows all movies when no location group is selected", async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await screen.findByText(/Matrix/);
+    await user.click(screen.getByRole("checkbox", { name: /Server/ }));
+    await user.click(screen.getByRole("checkbox", { name: /Hylla/ }));
+    expect(titles()).toHaveLength(7);
   });
 });

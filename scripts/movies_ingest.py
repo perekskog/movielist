@@ -28,10 +28,9 @@ def fetch_items_movielist(filein):
     comment = # string
     movie = media_location TAB title_with_attributes
     title_with_attributes =  title TAB attributes
-    attributes = *format | COMMA § category | COMMA # language | COMMA & on_mediaserver
+    attributes = *format | COMMA § category | COMMA # language
     title = string [string SPACE]*
     language = audio SLASH subtitle
-    on_mediaserver = & ms
 
     Args:
         filein: Input file
@@ -91,7 +90,6 @@ def fetch_items_movielist(filein):
             language_spoken = ""
             language_subtitle = ""
             category = []
-            onmediaserver = False
             comment = ""
             for i in attr:
                 # print("<<{}>>".format(i))
@@ -107,13 +105,11 @@ def fetch_items_movielist(filein):
                         language_subtitle = languages[1]
                 if i.find("§") == 0:
                     category.append(i.strip("§"))
-                if i.find("&ms") == 0:
-                    onmediaserver = True
                 if i.find("/") == 0:
                     comment = i.strip("/")
 
-            print("\tmedia=[{}], spoken=[{}], subtitle=[{}], cat={}, ms=[{}], comment=[{}]".format(
-                media, language_spoken, language_subtitle, category, onmediaserver, comment))
+            print("\tmedia=[{}], spoken=[{}], subtitle=[{}], cat={}, comment=[{}]".format(
+                media, language_spoken, language_subtitle, category, comment))
 
             movie = {"title": title, "media-location": media_location,
                      "media-type": media_type, "media-format": media,

@@ -34,6 +34,26 @@ const LanguageBadges = (props) => {
   );
 };
 
+const locationGroups = {
+  server: { icon: "🖥️", label: "Server" },
+  shelf: { icon: "📚", label: "Hylla" },
+  box: { icon: "📦", label: "Låda" },
+  game: { icon: "🎮", label: "Spel" },
+  missing: { icon: "❓", label: "Saknas" },
+};
+
+const locationGroup = (location) => {
+  if (location === "ms") return "server";
+  if (location === "Hsaknas") return "missing";
+  if (/^Hspel/.test(location)) return "game";
+  if (/^H/.test(location)) return "shelf";
+  if (/^[ABC]/.test(location)) return "box";
+  return "";
+};
+
+const locationIcon = (location) =>
+  locationGroups[locationGroup(location)]?.icon ?? "";
+
 // Display a single movie.
 const MovieItem = (item) => {
   return (
@@ -44,7 +64,7 @@ const MovieItem = (item) => {
         <LanguageBadges audio={item.audio} subtitle={item.subtitle} />
       </h5>
       <p className="movie-details">
-        {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
+        {locationIcon(item["media-location"])} {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
         &nbsp;
         {item.category.length > 0 && (
           <> (kategori: {item.category.join(", ")}) </>
@@ -71,6 +91,14 @@ const App = (props) => {
   const [filteredData, setFilteredData] = useState([]);
   const [filter, setFilter] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedGroups, setSelectedGroups] = useState(["server", "shelf"]);
+
+  const toggleGroup = (group) =>
+    setSelectedGroups((groups) =>
+      groups.includes(group)
+        ? groups.filter((g) => g !== group)
+        : [...groups, group]
+    );
 
   // Load movie data once when started.
   useEffect(() => {
@@ -92,27 +120,30 @@ const App = (props) => {
         obj.index = index;
       });
       setData(res.data);
-      setFilteredData(res.data);
     });
   }, []);
 
-  // Update filtered data when data, filter or selected tag changes.
+  // Update filtered data when data, filter, selected tag or location groups change.
+  // No location group selected means the same as all selected.
   useEffect(() => {
+    const groups =
+      selectedGroups.length > 0 ? selectedGroups : Object.keys(locationGroups);
     setFilteredData(
       data.filter(
         (item) =>
           item.title.toLowerCase().includes(filter.toLowerCase()) &&
-          (!selectedCategory || item.category.includes(selectedCategory))
+          (!selectedCategory || item.category.includes(selectedCategory)) &&
+          groups.includes(locationGroup(item["media-location"]))
       )
     );
-  }, [filter, selectedCategory, data]);
+  }, [filter, selectedCategory, selectedGroups, data]);
 
   const uniqueCategories = (data) => {
     const c = data.reduce(
       (allCategories, item) => [...allCategories, ...item.category],
       []
     );
-    return [...new Set(c)];
+    return [...new Set(c)].sort((a, b) => a.localeCompare(b, "sv"));
   };
 
   const handleSubmit = (event) => {
@@ -142,6 +173,19 @@ const App = (props) => {
               </option>
             ))}
           </select>
+          <div className="location-groups">
+            {Object.entries(locationGroups).map(([group, { icon, label }]) => (
+              <label key={group} className="form-check form-check-inline">
+                <input
+                  className="form-check-input"
+                  type="checkbox"
+                  checked={selectedGroups.includes(group)}
+                  onChange={() => toggleGroup(group)}
+                />
+                {icon} {label}
+              </label>
+            ))}
+          </div>
         </form>
         <MovieList filteredData={filteredData} />
       </div>
@@ -149,4 +193,4 @@ const App = (props) => {
   );
 };
 
-export { App, badge };
+export { App, badge, locationIcon };
