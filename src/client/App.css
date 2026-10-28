@@ -19,3 +19,52 @@
 
 .flag {
 }
+
+.location-groups {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.location-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25rem 0;
+  line-height: 1.2;
+}
+
+.location-group-icon {
+  font-size: 2rem;
+}
+
+.location-group-label {
+  font-size: 0.8rem;
+}
+
+/* Only the selected state is grey. Bootstrap also fills the button on hover,
+   focus and while pressed, and on phones hover sticks after a tap. */
+.location-group:not(.active),
+.location-group:not(.active):hover,
+.location-group:not(.active):focus,
+.location-group:not(.active):active {
+  background-color: transparent;
+  color: #6c757d;
+}
+
+/* Keep the focus ring for keyboard use, not after a tap or click. */
+.location-group:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+@media (hover: hover) {
+  .location-group:not(.active):hover {
+    background-color: #f1f3f5;
+  }
+}
+
+/* Keep the emoji in full colour when the button is not pressed, but dim it. */
+.location-group:not(.active) .location-group-icon {
+  opacity: 0.5;
+}

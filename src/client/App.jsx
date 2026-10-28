@@ -34,6 +34,26 @@ const LanguageBadges = (props) => {
   );
 };
 
+const locationGroups = {
+  server: { icon: "🖥️", label: "Server" },
+  shelf: { icon: "📚", label: "Hylla" },
+  box: { icon: "📦", label: "Låda" },
+  game: { icon: "🎮", label: "Spel" },
+  missing: { icon: "❓", label: "Saknas" },
+};
+
+const locationGroup = (location) => {
+  if (location === "ms") return "server";
+  if (location === "Hsaknas") return "missing";
+  if (/^Hspel/.test(location)) return "game";
+  if (/^H/.test(location)) return "shelf";
+  if (/^[ABC]/.test(location)) return "box";
+  return "";
+};
+
+const locationIcon = (location) =>
+  locationGroups[locationGroup(location)]?.icon ?? "";
+
 // Display a single movie.
 const MovieItem = (item) => {
   return (
@@ -44,18 +64,14 @@ const MovieItem = (item) => {
         <LanguageBadges audio={item.audio} subtitle={item.subtitle} />
       </h5>
       <p className="movie-details">
-        {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
+        {locationIcon(item["media-location"])} {item["media-location"]} [{item["media-type"]}/{item["media-format"]}]
         &nbsp;
         {item.category.length > 0 && (
           <> (kategori: {item.category.join(", ")}) </>
         )}
         &nbsp;
-        {item.latest === "true" && (
-          <>
-            {" "}
-            {item.audio} {item.subtitle}
-          </>
-        )}
+        {" "}
+        {item.audio}/{item.subtitle}
       </p>
     </div>
   );
@@ -64,7 +80,7 @@ const MovieItem = (item) => {
 // Display a list of movies.
 const MovieList = (props) => {
   return props.filteredData.map((item) => (
-    <MovieItem latest={props.latest} key={item.index} {...item} />
+    <MovieItem key={item.index} {...item} />
   ));
 };
 
@@ -75,6 +91,14 @@ const App = (props) => {
   const [filteredData, setFilteredData] = useState([]);
   const [filter, setFilter] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedGroups, setSelectedGroups] = useState(["server", "shelf"]);
+
+  const toggleGroup = (group) =>
+    setSelectedGroups((groups) =>
+      groups.includes(group)
+        ? groups.filter((g) => g !== group)
+        : [...groups, group]
+    );
 
   // Load movie data once when started.
   useEffect(() => {
@@ -96,27 +120,30 @@ const App = (props) => {
         obj.index = index;
       });
       setData(res.data);
-      setFilteredData(res.data);
     });
   }, []);
 
-  // Update filtered data when data, filter or selected tag changes.
+  // Update filtered data when data, filter, selected tag or location groups change.
+  // No location group selected means the same as all selected.
   useEffect(() => {
+    const groups =
+      selectedGroups.length > 0 ? selectedGroups : Object.keys(locationGroups);
     setFilteredData(
       data.filter(
         (item) =>
           item.title.toLowerCase().includes(filter.toLowerCase()) &&
-          (!selectedCategory || item.category.includes(selectedCategory))
+          (!selectedCategory || item.category.includes(selectedCategory)) &&
+          groups.includes(locationGroup(item["media-location"]))
       )
     );
-  }, [filter, selectedCategory, data]);
+  }, [filter, selectedCategory, selectedGroups, data]);
 
   const uniqueCategories = (data) => {
     const c = data.reduce(
       (allCategories, item) => [...allCategories, ...item.category],
       []
     );
-    return [...new Set(c)];
+    return [...new Set(c)].sort((a, b) => a.localeCompare(b, "sv"));
   };
 
   const handleSubmit = (event) => {
@@ -134,25 +161,39 @@ const App = (props) => {
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
           />
-          {props.latest === "true" && (
-            <select
-              className="form-select"
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-            >
-              <option value="">Alla kategorier</option>
-              {uniqueCategories(data).map((tag) => (
-                <option key={tag} value={tag}>
-                  {tag}
-                </option>
-              ))}
-            </select>
-          )}
+          <select
+            className="form-select"
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+          >
+            <option value="">Alla kategorier</option>
+            {uniqueCategories(data).map((tag) => (
+              <option key={tag} value={tag}>
+                {tag}
+              </option>
+            ))}
+          </select>
+          <div className="location-groups">
+            {Object.entries(locationGroups).map(([group, { icon, label }]) => (
+              <button
+                key={group}
+                type="button"
+                className={`btn btn-outline-secondary location-group${
+                  selectedGroups.includes(group) ? " active" : ""
+                }`}
+                aria-pressed={selectedGroups.includes(group)}
+                onClick={() => toggleGroup(group)}
+              >
+                <span className="location-group-icon">{icon}</span>
+                <span className="location-group-label">{label}</span>
+              </button>
+            ))}
+          </div>
         </form>
-        <MovieList filteredData={filteredData} latest={props.latest} />
+        <MovieList filteredData={filteredData} />
       </div>
     </>
   );
 };
 
-export { App, badge };
+export { App, badge, locationIcon };
