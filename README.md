@@ -32,8 +32,8 @@ whether it has Swedish or English audio or subtitles.
    - 🇸🇪 / 🇬🇧 badges: no mark if that language is available as audio or
      subtitles, `X` if it isn't, `?` if unknown.
 
-   A text box filters on title. Adding `?latest=true` to the URL also shows a
-   category dropdown and the raw audio and subtitle codes.
+   The text box filters on title, and the category dropdown filters on category.
+   Raw audio and subtitle codes are shown alongside the language badges.
 
 ## Disc list format (`scripts/movielist.txt`)
 

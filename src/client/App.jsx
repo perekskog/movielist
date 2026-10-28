@@ -50,12 +50,8 @@ const MovieItem = (item) => {
           <> (kategori: {item.category.join(", ")}) </>
         )}
         &nbsp;
-        {item.latest === "true" && (
-          <>
-            {" "}
-            {item.audio} {item.subtitle}
-          </>
-        )}
+        {" "}
+        {item.audio}/{item.subtitle}
       </p>
     </div>
   );
@@ -64,7 +60,7 @@ const MovieItem = (item) => {
 // Display a list of movies.
 const MovieList = (props) => {
   return props.filteredData.map((item) => (
-    <MovieItem latest={props.latest} key={item.index} {...item} />
+    <MovieItem key={item.index} {...item} />
   ));
 };
 
@@ -134,22 +130,20 @@ const App = (props) => {
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
           />
-          {props.latest === "true" && (
-            <select
-              className="form-select"
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-            >
-              <option value="">Alla kategorier</option>
-              {uniqueCategories(data).map((tag) => (
-                <option key={tag} value={tag}>
-                  {tag}
-                </option>
-              ))}
-            </select>
-          )}
+          <select
+            className="form-select"
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+          >
+            <option value="">Alla kategorier</option>
+            {uniqueCategories(data).map((tag) => (
+              <option key={tag} value={tag}>
+                {tag}
+              </option>
+            ))}
+          </select>
         </form>
-        <MovieList filteredData={filteredData} latest={props.latest} />
+        <MovieList filteredData={filteredData} />
       </div>
     </>
   );

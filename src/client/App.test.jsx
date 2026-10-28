@@ -61,7 +61,7 @@ describe("App", () => {
   });
 
   it("lists movies sorted by title, ignoring case", async () => {
-    render(<App latest="false" />);
+    render(<App />);
     await screen.findByText(/Matrix/);
     const t = titles();
     expect(t[0]).toMatch(/^Amelie/);
@@ -71,22 +71,23 @@ describe("App", () => {
 
   it("filters movies by title", async () => {
     const user = userEvent.setup();
-    render(<App latest="false" />);
+    render(<App />);
     await screen.findByText(/Matrix/);
     await user.type(screen.getByPlaceholderText("Filtrera på filmnamn"), "ma");
     expect(titles()).toHaveLength(1);
     expect(titles()[0]).toMatch(/^Matrix/);
   });
 
-  it("hides the category select unless latest is true", async () => {
-    render(<App latest="false" />);
+  it("shows category filtering by default", async () => {
+    render(<App />);
     await screen.findByText(/Matrix/);
-    expect(screen.queryByRole("combobox")).not.toBeInTheDocument();
+    expect(screen.getByRole("combobox")).toBeInTheDocument();
+    expect(screen.getByText(/fr\/\?/)).toBeInTheDocument();
   });
 
-  it("filters movies by category when latest is true", async () => {
+  it("filters movies by category", async () => {
     const user = userEvent.setup();
-    render(<App latest="true" />);
+    render(<App />);
     await screen.findByText(/Matrix/);
     await user.selectOptions(screen.getByRole("combobox"), "action");
     const t = titles();
