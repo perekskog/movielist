@@ -65,6 +65,29 @@ Express doesn't support Easy Auth, custom KEDA scale rules, custom domains or
 traffic splitting. See the
 [feature list](https://learn.microsoft.com/en-us/azure/container-apps/express-overview#supported-features).
 
+### Cold start: why Express mode
+
+Express starts apps from prewarmed capacity. Measured with `curl` on
+2026-10-28, same image, 0.25 vCPU / 0.5 GiB unless noted:
+
+| Environment mode | `/` cold | `/` warm |
+| --- | --- | --- |
+| Standard (WorkloadProfiles) | 20.8 s, 20.9 s (one run 39.8 s) | 0.035 s |
+| Standard, 0.5 vCPU / 1 GiB | 22.6 s | 0.051 s |
+| Standard, 1.0 vCPU / 2 GiB | 18.9 s | 0.038 s |
+| **Express** | **1.87 s, 1.74 s, 1.70 s** | 0.59–0.69 s |
+
+- In standard mode, the system log showed about 2 s to prepare, 4 s to pull
+  the 85 MB image from ghcr.io and 10 s to create the container, before Node
+  started. More CPU and a smaller image barely help.
+- A replica scales to zero after about 6 minutes without requests in both
+  modes.
+- Rejected because of fixed monthly costs: `--min-replicas 1` (about $4/month
+  at this size, billed at the idle rate minus the free grant) and Azure
+  Container Registry (about $5/month).
+- If the apps ever move back to a standard environment: a cron scale rule
+  keeping one replica for about 6 hours a day stays within the free grant.
+
 ### How GitHub logs in to Azure (OIDC)
 
 The workflow logs in without any password or secret:
