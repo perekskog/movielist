@@ -223,26 +223,62 @@ and start Node on 0.25 vCPU. Cloud Run didn't show this as much: its image was
 in Artifact Registry in the same region, it used 1 vCPU, and a deploy left the
 new instance running for a while.
 
-Measured on `movielist` with `curl` from home on 2026-10-28:
+Measured with `curl` from home on 2026-10-28:
 
-| Request                   | Time to first byte |
-| ------------------------- | ------------------ |
-| `/`, cold (no replica)    | 20.8 s             |
-| `/`, warm                 | 0.035 s            |
-| `/data.json` (453 KB), warm | 0.04 s (0.08 s total) |
+| App                 | Size                | `/` cold       | `/` warm |
+| ------------------- | ------------------- | -------------- | -------- |
+| `movielist`         | 0.25 vCPU / 0.5 GiB | 20.8 s, 20.9 s | 0.035 s  |
+| `movielist-feature` | 0.25 vCPU / 0.5 GiB | 39.8 s         | 0.037 s  |
+| `movielist-feature` | 0.5 vCPU / 1 GiB    | 22.6 s         | 0.051 s  |
+| `movielist-feature` | 1.0 vCPU / 2 GiB    | 18.9 s         | 0.038 s  |
+
+`/data.json` (453 KB) takes 0.08 s when warm. A replica scales to zero after
+about 6 minutes without requests.
+
+More CPU barely helps: 4× the CPU saves about 2 s, and with one measurement
+per size that is within the variation (39.8 s vs 20.9 s at the same size).
+The system log (`az containerapp logs show --type system`) shows where the
+time goes: about 2 s to prepare, 4 s to pull the 85 MB image from ghcr.io,
+and 10 s to create the container. The rest is Node starting, the default
+health probes passing and ingress starting to route traffic.
 
 Address this if it becomes a problem in daily use on our phones. Options, in
 suggested order:
 1. **Warm-up step in `deploy.yml`.** Request the site until it answers after
    each deploy. Free, and it also checks that the deploy works. It doesn't
    help after the app has scaled to zero again.
-2. **More CPU,** e.g. `--cpu 0.5 --memory 1Gi`. Node starts faster. Still
-   within the free grant at this usage.
-3. **Compress responses.** `data.json` is sent uncompressed (453 KB). Gzip
+2. **Keep a replica running on a schedule** that fits within the free grant.
+   A `cron` scale rule keeps one replica during set hours; outside them the
+   app scales to zero as today. The free grant covers about 200 hours/month
+   at 0.25 vCPU / 0.5 GiB (about 6.5 h/day), so e.g. 17–23 every day (about
+   180 h) costs about $0 and leaves some margin for `movielist-feature`:
+   ```sh
+   az containerapp update -n movielist -g rg-movielist --subscription per-sandbox \
+     --scale-rule-name evening --scale-rule-type cron \
+     --scale-rule-metadata timezone=Europe/Stockholm \
+       start="0 17 * * *" end="0 23 * * *" desiredReplicas=1
+   ```
+   Untested: adding a custom rule probably replaces the default HTTP rule, so
+   an explicit HTTP rule may be needed for the app to start on a request
+   outside the schedule. Try it on `movielist-feature` first.
+3. **Explicit startup probe** that checks often, instead of the default
+   probes. Untested; it can at best save a few seconds, since the system log
+   accounts for about 16 of the 21 s before the container starts.
+4. **Compress responses.** `data.json` is sent uncompressed (453 KB). Gzip
    would make it a fraction of that, which matters on a phone. It doesn't
    affect the cold start itself.
-4. Rejected, because they add a fixed monthly cost:
-   - `--min-replicas 1`, which keeps one replica always running.
+5. Not worth it, per the measurements above:
+   - More CPU, e.g. `--cpu 0.5 --memory 1Gi`.
+   - A smaller image, since the pull takes only about 4 s.
+6. Rejected, because they add a fixed monthly cost:
+   - `--min-replicas 1`, which keeps one replica always running. Estimated
+     **about $4/month** for `movielist` at 0.25 vCPU / 0.5 GiB, about $10/month
+     at 0.5 vCPU / 1 GiB. A running replica is billed at the idle rate almost
+     all the time (Sweden Central, 2026-10-28: $0.000003 per vCPU-second and per
+     GiB-second), minus the subscription's monthly free grant of 180,000
+     vCPU-seconds and 360,000 GiB-seconds, which `movielist-feature` shares.
+     A schedule beyond the free grant also costs money, e.g. 07–23 every day
+     (about 480 h/month) is about $2.30/month.
    - Azure Container Registry, to keep the image close to the app (about $5/month).
 
 
