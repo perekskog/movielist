@@ -141,14 +141,58 @@ Berör
 > `badge()` i `App.jsx` att skriva.
 
 
-### Koda in kategori i filnamn
+### Kategorier för filer på servern
 
-Nu kan man bara skriva in kategori i allmovies.txt men samma information ska kunna anges inkodat i filnamnet.
-
-
-### Allt i en mapp ska ha mapp som kategori
+Nu kan man bara skriva in kategori i movielist.txt men samma information ska kunna anges inkodat i filnamnet.
+En film kan ha flera kategorier.
 
 När movies_ingest hittar en undermapp ska allt i den undermappen automatiskt taggas med mappens namn.
+
+> **Kommentar:** Förslag:
+> - **Filer:** kategorier inom hakparentes, kommaseparerade, sist i namnet:
+>   `Tetsuo 1 (1989) (jp,swesub) [japan, sf].mp4`. Parenteser är fakta om
+>   filen (år, språk, copy), hakparenteser är kategorier. Komma eftersom vissa
+>   kategorier har mellanslag (`mel brooks`). Samma namn som i
+>   `movielist.txt`, men utan `§`.
+> - **Mappar:** en fil `categories.txt` i mappen, en kategori per rad, `#` för
+>   kommentarer. Gäller allt i mappen och dess undermappar. Mappnamnen behöver
+>   inte ändras (påverkar inte mediaspelare), och mappar utan filen ger inga
+>   kategorier, så `arkiverat`, `nytt` och `Film` blir inte kategorier av
+>   misstag.
+> - Kategorierna läggs ihop från alla mappar ovanför plus filens egna,
+>   dubbletter tas bort. Exempel: `Jul/categories.txt` = `jul`,
+>   `Jul/Barn/categories.txt` = `barn`, `Jul/Barn/Tomtar (2001) [disney].mp4`
+>   → `jul, barn, disney`.
+> - `categories.txt` syns i Finder och är lätt att redigera. Den blir inte en
+>   film i listan, eftersom movies_ingest bara läser videofiler.
+> - Fungerar fullt ut för `recursive` (som `allmovies.sh` använder), där hela
+>   sökvägen finns. `directory` och `filelist` ser bara filnamnen.
+> - Bortvalt: hakparenteser i mappnamn (`Japan [japan]/`, kräver omdöpta
+>   mappar och citattecken i terminalen), Finder-taggar (följer inte med över
+>   SMB/NAS), en `.nfo`/`.json` per film (många små filer), en central
+>   kategorilista per titel (måste matcha titlar exakt och hållas aktuell,
+>   samma problem som `&ms`).
+
+
+### Städa bort oanvända lägen i movies_ingest
+
+Bara `recursive` och `movielist` används (i `allmovies.sh`). Ta bort de
+andra två, så att kategorilogiken bara behöver finnas på ett ställe.
+
+> **Kommentar:** Alla fyra lägen kom in i samma commit (`e32ccf3`), så
+> historiken bakom dem finns inte här. Inget i repot använder `directory`
+> eller `filelist`.
+> - `directory` läser bara en mapp, utan undermappar, och skickar bara
+>   filnamnet vidare. Troligen en föregångare till `recursive`, som gör samma
+>   sak plus undermappar. Kan tas bort.
+> - `filelist` läser en textfil med en sökväg per rad. Användbart för att
+>   skanna utan att ha utdelningen monterad, t.ex.
+>   `find /volume1/video -type f > files.txt` direkt på NAS:en. Behövs det
+>   inte kan den också tas bort. Den skulle bara få kategorier från `[...]` i
+>   sökvägen, inte från `categories.txt`. Till tester räcker `recursive` mot
+>   en liten testmapp.
+> - Uppdatera docstringen överst i `movies_ingest.py` och "Kategorier för
+>   filer på servern" när lägena tas bort.
 
 
 ### Städa kategori
