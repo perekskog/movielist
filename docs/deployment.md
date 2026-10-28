@@ -57,7 +57,7 @@ All in subscription `per-sandbox`, region `swedencentral`, resource group
 | Container App | `movielist`, `movielist-feature` | Port 8080, external HTTPS ingress, 0–1 replicas, 0.25 CPU, 0.5 GiB |
 
 The apps **scale to zero** when unused. The first request after a quiet
-period starts a replica, which takes a few seconds. **At most one replica**
+period starts a replica, which takes about 20 seconds. **At most one replica**
 limits both cost and load.
 
 ### How GitHub logs in to Azure (OIDC)
@@ -173,7 +173,7 @@ gets `--subscription`.
 | `azure/login` fails with "no matching federated identity record" | The token's subject doesn't match a federated credential: wrong environment, or the repo was renamed or transferred (new subject format) | Compare the subject in the error with `az ad app federated-credential list --id <AZURE_CLIENT_ID>`. See "Renaming or transferring the repo" above |
 | `az containerapp update` fails with `AuthorizationFailed` | Role assignment missing | Re-run `infra/azure-setup.sh` |
 | Workflow green but the app doesn't respond | New revision is unhealthy, or the image can't be pulled | `az containerapp revision list -n <app> -g rg-movielist --subscription per-sandbox -o table`, then check the logs |
-| First request is slow | Cold start after scale to zero | Expected; it takes a few seconds |
+| First request is slow | Cold start after scale to zero | Expected; measured at about 20 s. See "Faster first load" in the README |
 
 ## Costs
 

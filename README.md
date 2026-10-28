@@ -216,6 +216,35 @@ Today anyone with the URL can read `/data.json`. The option is **Container Apps 
   - Google or Apple login: lets any account in, so it needs an email allowlist in middleware
   - a shared password (basic auth): simplest, but no per-person access control
 
+### C. Faster first load (cold start)
+The apps scale to zero, so the first request after a quiet period, and always
+the first one after a deploy, waits for Azure to pull the image from ghcr.io
+and start Node on 0.25 vCPU. Cloud Run didn't show this as much: its image was
+in Artifact Registry in the same region, it used 1 vCPU, and a deploy left the
+new instance running for a while.
+
+Measured on `movielist` with `curl` from home on 2026-10-28:
+
+| Request                   | Time to first byte |
+| ------------------------- | ------------------ |
+| `/`, cold (no replica)    | 20.8 s             |
+| `/`, warm                 | 0.035 s            |
+| `/data.json` (453 KB), warm | 0.04 s (0.08 s total) |
+
+Address this if it becomes a problem in daily use on our phones. Options, in
+suggested order:
+1. **Warm-up step in `deploy.yml`.** Request the site until it answers after
+   each deploy. Free, and it also checks that the deploy works. It doesn't
+   help after the app has scaled to zero again.
+2. **More CPU,** e.g. `--cpu 0.5 --memory 1Gi`. Node starts faster. Still
+   within the free grant at this usage.
+3. **Compress responses.** `data.json` is sent uncompressed (453 KB). Gzip
+   would make it a fraction of that, which matters on a phone. It doesn't
+   affect the cold start itself.
+4. Rejected, because they add a fixed monthly cost:
+   - `--min-replicas 1`, which keeps one replica always running.
+   - Azure Container Registry, to keep the image close to the app (about $5/month).
+
 
 
 ## Ej aktuellt längre
