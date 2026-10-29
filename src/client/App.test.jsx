@@ -147,14 +147,20 @@ describe("App", () => {
     expect(titles()[0]).toMatch(/^Matrix/);
   });
 
-  it("shows category filtering by default", async () => {
+  it("shows raw language codes", async () => {
     render(<App />);
     await screen.findByText(/Matrix/);
-    expect(screen.getByRole("combobox")).toBeInTheDocument();
     expect(screen.getByText(/fr\/\?/)).toBeInTheDocument();
   });
 
-  it("lists categories sorted", async () => {
+  // The category dropdown is disabled in App.jsx. Re-enable these tests with it.
+  it.skip("shows category filtering by default", async () => {
+    render(<App />);
+    await screen.findByText(/Matrix/);
+    expect(screen.getByRole("combobox")).toBeInTheDocument();
+  });
+
+  it.skip("lists categories sorted", async () => {
     render(<App />);
     await screen.findByText(/Matrix/);
     const options = screen
@@ -163,7 +169,7 @@ describe("App", () => {
     expect(options).toEqual(["Alla kategorier", "action", "drama", "scifi"]);
   });
 
-  it("filters movies by category", async () => {
+  it.skip("filters movies by category", async () => {
     const user = userEvent.setup();
     render(<App />);
     await screen.findByText(/Matrix/);

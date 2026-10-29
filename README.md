@@ -35,6 +35,8 @@ whether it has Swedish or English audio or subtitles.
 
    The text box filters on title, and the category dropdown filters on category.
    The dropdown lists every category in the data, sorted alphabetically.
+   **The dropdown is currently commented out in `App.jsx`**, and its tests are
+   skipped.
    Raw audio and subtitle codes are shown alongside the language badges.
 
    A row of toggle buttons, each with the group's icon, filters on location
