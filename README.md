@@ -140,6 +140,44 @@ Berör
 > ?/?". När notationen är bestämd går både beskrivningen och testerna för
 > `badge()` i `App.jsx` att skriva.
 
+### Syntax i movielist.txt
+
+- Filmer i movielist.txt har en annan syntax än vad som kodas in i filnamn. Detta leder till missförstånd.
+- Användadet av tabulatortecken som fältavskiljare blir ofta fel om inte texteditorn är korrekt inställd.
+
+Syntaxen för filnamn behöver vara den som gäller eftersom filnamn måste följa vissa regler. De är också omständliga att uppdatera.
+
+> **Kommentar:** Förslag: skriv skivraden som ett filnamn med platsen först.
+>
+> ```
+> A3	Attack Of The Schoolgirl Zombies (jp,se) [japan, zoombie].xvid
+> C175 Black Christmas (1974) (en,se) [jul].dvd
+> ```
+>
+> - **Plats** är första ordet, följt av valfritt antal mellanslag eller tabbar.
+>   Platser (`A12`, `Hsorterat`, `Hspel-ps`) har aldrig mellanslag. Då spelar
+>   texteditorns inställning ingen roll.
+> - **Resten** tolkas av samma parser som filnamnen (`get_movie_from_row`).
+>   Format skrivs som filändelse, kategorier som `[...]` (se "Kategorier för
+>   filer på servern"). En syntax, en parser, ett ställe att testa.
+> - **Skillnader idag:** format `*dvd` mot `.mkv`, språk `#jp/se` mot
+>   `(jp,se)`/`(jp,swesub)`, kategori `§japan` mot inget, kommentar `/text`
+>   mot inget. `/` och `#` betyder olika saker i de två syntaxerna.
+> - **Tabbfel idag:** 14 rader har mellanslag efter tabben (t.ex. `Mumien`,
+>   `V 1/7`) och får formatet `AttributeError`. 3 rader har en extra tabb
+>   (`Wallace and Grommit`, `Alien`, `Black Christmas`), och allt efter
+>   tredje kolumnen försvinner tyst.
+> - **Att bestämma först:**
+>   - Punkter i titlar (`Monsters Inc.`, `S.O.S.`, `Beck 27 - ...`):
+>     filparsern måste dela vid sista punkten.
+>   - `-` för "inga undertexter" (13 gånger) saknas i filsyntaxen, se
+>     "Städa språk".
+>   - `swesub` bara som alias i filnamn, `se` i skivlistan.
+>   - Kommentarer (20 stycken, 19 är `/(*)`): `{...}` eller `#`-rader.
+>   - `§wanted`-rader saknar plats: kommentarsrader eller egen plats.
+> - **Byte:** ett engångsskript konverterar raderna. `allmovies.json` före och
+>   efter ska bli identisk, utom de rättade raderna. Jämförelsen blir även
+>   regressionstest för den gemensamma parsern.
 
 ### Kategorier för filer på servern
 

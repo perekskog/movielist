@@ -186,7 +186,7 @@ const App = (props) => {
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
           />
-          <select
+          {/* <select
             className="form-select"
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
@@ -197,7 +197,7 @@ const App = (props) => {
                 {tag}
               </option>
             ))}
-          </select>
+          </select> */}
           <div className="location-groups">
             {Object.entries(locationGroups).map(([group, { icon, label }]) => (
               <button
